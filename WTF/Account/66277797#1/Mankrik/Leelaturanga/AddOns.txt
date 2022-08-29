@@ -1,0 +1,8 @@
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+Auc-Advanced: enabled
+Auc-Filter-Basic: enabled
+aux-addon: disabled
+Auctionator: disabled
+DBM-GUI: enabled
+Dailies: enabled

@@ -1,0 +1,6 @@
+VER 3 0000000001000002 "dps group" "132560"
+/castsequence reset=10/target Seed of Corruption, Curse of Agony, Unstable Affliction
+END
+VER 3 0000000001000001 "farming low" "135805"
+/castsequence reset=10/target Corruption, Curse of Agony, Unstable Affliction
+END

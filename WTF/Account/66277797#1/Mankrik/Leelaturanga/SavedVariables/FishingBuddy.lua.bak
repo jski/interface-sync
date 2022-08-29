@@ -1,0 +1,52 @@
+
+FishingBuddy_Player = {
+	["MinimapData"] = {
+		["minimapPos"] = 105.6442349328428,
+		["hide"] = false,
+	},
+	["Settings"] = {
+		["TotalTimeFishing"] = 19105.39100000003,
+		["WatchCurrentZone"] = true,
+		["MinimapClickToSwitch"] = true,
+		["SpecialBobbers"] = -1,
+		["CaughtSoFar"] = 4,
+		["AutoOpen"] = true,
+		["EnhancePools"] = true,
+		["AutoLoot"] = true,
+		["CombatSwitch"] = true,
+		["OutfitManager"] = "OutfitDisplayFrame",
+		["EasyLures"] = true,
+		["TurnOffPVP"] = true,
+		["MountedCast"] = true,
+	},
+	["WasWearing"] = {
+	},
+	["WatcherLocation"] = {
+		["solo_scale"] = 1,
+		["grp_point"] = "CENTER",
+		["grp_y"] = -0.0001373291015625,
+		["solo_y"] = -24.98162841796875,
+		["grp_scale"] = 1,
+		["solo_x"] = 10.27227783203125,
+		["solo_point"] = "TOP",
+		["grp_x"] = 0.0001220703125,
+	},
+	["Version"] = 19500,
+}
+FBODF_PlayerInfo = {
+	["Outfit"] = {
+		["MainHandSlot"] = {
+			["used"] = true,
+			["slotid"] = 16,
+			["link"] = "|cff1eff00|Hitem:19022::::::::61:::::::::|h[Nat Pagle's Extreme Angler FC-5000]|h|r",
+			["color"] = "ff1eff00",
+			["item"] = "19022:0",
+			["name"] = "Nat Pagle's Extreme Angler FC-5000",
+			["texture"] = 132931,
+		},
+		["SecondaryHandSlot"] = {
+			["used"] = true,
+			["empty"] = true,
+		},
+	},
+}

@@ -1,0 +1,151 @@
+
+PallyPowerDB = {
+	["profileKeys"] = {
+		["Leelaturanga - Mankrik"] = "Other",
+		["Tiffpollard - Mankrik"] = "Default",
+	},
+	["profiles"] = {
+		["Other"] = {
+			["enable"] = true,
+			["minimap"] = {
+				["minimapPos"] = 121.4798769857185,
+			},
+		},
+		["Default"] = {
+			["layout"] = "Layout 6",
+			["seal"] = 6,
+			["display"] = {
+				["buffDuration"] = false,
+				["frameLocked"] = true,
+			},
+			["enable"] = true,
+			["minimap"] = {
+				["minimapPos"] = 181.9484905431984,
+			},
+			["mainTankSpellsDP"] = 1,
+			["mainTankGSpellsDP"] = 1,
+			["rf"] = true,
+		},
+	},
+}
+PallyPower_Assignments = {
+	["Blessnstuff"] = {
+		2, -- [1]
+		2, -- [2]
+		4, -- [3]
+		2, -- [4]
+		2, -- [5]
+		2, -- [6]
+		4, -- [7]
+		4, -- [8]
+		4, -- [9]
+	},
+	["Cha"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+	},
+	["Juturna"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+	},
+	["Slurrm"] = {
+		4, -- [1]
+		0, -- [2]
+		4, -- [3]
+		4, -- [4]
+		6, -- [5]
+		0, -- [6]
+		4, -- [7]
+		0, -- [8]
+		0, -- [9]
+	},
+	["Tiffpollard"] = {
+		2, -- [1]
+		2, -- [2]
+		1, -- [3]
+		2, -- [4]
+		1, -- [5]
+		1, -- [6]
+		4, -- [7]
+		1, -- [8]
+		1, -- [9]
+		2, -- [10]
+		2, -- [11]
+	},
+	["Tgcid"] = {
+		0, -- [1]
+		4, -- [2]
+		1, -- [3]
+		0, -- [4]
+		6, -- [5]
+		2, -- [6]
+		0, -- [7]
+		4, -- [8]
+		0, -- [9]
+	},
+}
+PallyPower_NormalAssignments = {
+}
+PallyPower_AuraAssignments = {
+	["Diggitydankz"] = 1,
+	["Tiffpollard"] = 7,
+	["Slurrm"] = 0,
+	["Blueagga-Grobbulus"] = 8,
+	["Lynaa-Windseeker"] = 7,
+	["Smellyblunt-Grobbulus"] = 0,
+	["Blessnstuff"] = 0,
+	["Pashtunwali-Whitemane"] = 0,
+	["Telthrandis-Faerlina"] = 1,
+	["Protorhot"] = 1,
+	["Lastard"] = 7,
+	["Holycoomer"] = 1,
+	["Bonetores-Faerlina"] = 8,
+	["Cuckpig"] = 3,
+	["Opb"] = 0,
+	["Sinjohns-Faerlina"] = 1,
+	["Aegolism"] = 3,
+	["Kilowan-Grobbulus"] = 0,
+	["Juturna"] = 7,
+	["Cha"] = 1,
+	["Miyke"] = 1,
+	["Priecharound-Atiesh"] = 2,
+	["Holeeschitte"] = 0,
+	["Saraypal-Grobbulus"] = 1,
+	["Razzekk-Faerlina"] = 0,
+	["Salvi"] = 2,
+	["Lunastus"] = 1,
+	["Dinaden"] = 1,
+	["Éxito-Whitemane"] = 3,
+	["Ascensionxo-Faerlina"] = 1,
+	["Syranne"] = 2,
+	["Tgcid"] = 0,
+}
+PallyPower_SavedPresets = {
+	["PallyPower_Assignments"] = {
+		[0] = {
+		},
+	},
+	["PallyPower_NormalAssignments"] = {
+		[0] = {
+		},
+	},
+}
+PallyPower_ChanNames = {
+	[0] = "None",
+}
+LCD_Data = nil
+LCD_GUIDAccess = nil

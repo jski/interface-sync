@@ -1,0 +1,14 @@
+## Interface: 90205
+## Title: |cffff0000Zygor Guide Viewer Classic TBC 8|r
+## Notes: Free multi-purpose leveling guide viewer.
+## Author: Zygor Guides
+## DefaultState: enabled
+## LoadOnDemand: 0
+## X-Category: 
+## X-Credits: 
+## X-eMail: zygor@zygorguides.com
+## X-Website: http://zygorguides.com/
+## X-License: GPL
+## Version: 8.1
+
+Flavour.lua

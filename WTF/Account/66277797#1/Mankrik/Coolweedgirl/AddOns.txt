@@ -1,0 +1,3 @@
+Auc-Advanced: disabled
+Auc-Filter-Basic: enabled
+aux-addon: disabled
