@@ -30,7 +30,8 @@ do
 	Lib.saved_tables = { }
 
 	Lib.IsClassic = WOW_PROJECT_ID == WOW_PROJECT_CLASSIC
-	Lib.IsClassicTBC = WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC
+	Lib.IsClassicTBC = (WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC) and (LE_EXPANSION_LEVEL_CURRENT == LE_EXPANSION_BURNING_CRUSADE)
+	Lib.IsClassicWOTLK = (WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC) and (LE_EXPANSION_LEVEL_CURRENT == LE_EXPANSION_WRATH_OF_THE_LICH_KING)
 	Lib.IsRetail = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
 
 
@@ -111,6 +112,18 @@ do
 		end
 	end
 
+	function Lib:GetMapContinent(mapID)
+		local cont = ZGV.GetCurrentMapContinent()
+		if cont==ZONE_ARGUS_KROKUUN or cont==ZONE_ARGUS_MACAREE or cont==ZONE_ARGUS_ANTORAN then cont=ZONE_ARGUS end  -- Argus zones need to have a common continent (not so much for ants!).
+		local cont_scan = cont
+		if cont==113 then cont_scan=988 end -- wotlk classic taxis are not findable via regular contient id
+		return cont,cont_scan
+	end		
+
+	function Lib:GetCurrentMapContinent()
+		return Lib:GetMapContinent(C_Map.GetBestMapForUnit("player"))
+	end
+
 	function Lib:GetTaxiTripTime(node1,node2)
 		local node1c,node2c
 		if Lib.IsClassic then
@@ -126,8 +139,8 @@ do
 
 		local node1n, node2n
 		if Lib.IsClassic then
-			node1n=Lib:FindTaxiByTag(ZGV.GetCurrentMapContinent(),node1)
-			node2n=Lib:FindTaxiByTag(ZGV.GetCurrentMapContinent(),node2)
+			node1n=Lib:FindTaxiByTag(Lib:GetCurrentMapContinent(),node1)
+			node2n=Lib:FindTaxiByTag(Lib:GetCurrentMapContinent(),node2)
 		else
 			node1n=Lib:FindTaxiByNodeID(node1)
 			node2n=Lib:FindTaxiByNodeID(node2)
@@ -190,7 +203,7 @@ do
 					if not Lib.traveltime_dep then ZGV:Print ("DEV: Still no idea where we departed from, but it took "..triptime.." s.") return end
 					local node_dep,node_arr = Lib.traveltime_dep,taxis[1][1]
 
-					local fc_array = Lib.IsClassic and Lib.fc_by_tag[ZGV:GetCurrentMapContinent()] or Lib.fc_by_nodeID
+					local fc_array = Lib.IsClassic and Lib.fc_by_tag[Lib:GetCurrentMapContinent()] or Lib.fc_by_nodeID
 					local dep_ident = Lib.IsClassic and node_dep.taxitag or node_dep.taxinodeID
 					local arr_ident = Lib.IsClassic and node_arr.taxitag or node_arr.taxinodeID
 
@@ -304,7 +317,7 @@ do
 					if node.faction~=enemyfac then
 						Lib.path2cont[node.name] = c
 						node.m = z
-						node.c = ZGV.GetMapContinent(z)
+						node.c = Lib:GetMapContinent(z)
 						node.localname = Lib.translation and Lib.translation[node.taxitag]
 						--node.level = LibRover and LibRover.data.ZoneContLev[z].level
 						n=n+1
@@ -401,14 +414,13 @@ do
 	end
 
 	function Lib:GetTaxiDataBySlot()
-		local cont = ZGV:GetCurrentMapContinent()
-		if cont==ZONE_ARGUS_KROKUUN or cont==ZONE_ARGUS_MACAREE or cont==ZONE_ARGUS_ANTORAN then cont=ZONE_ARGUS end  -- Argus zones need to have a common continent (not so much for ants!).
+		local _,cont = Lib:GetCurrentMapContinent()
 
 		local taxidata = C_TaxiMap.GetAllTaxiNodes(cont)
 		local taxidata_by_slot = {}
 		for i,taxi in ipairs(taxidata) do taxidata_by_slot[taxi.slotIndex]=taxi end
 		
-		if Lib.IsClassicTBC and cont==1945 then
+		if Lib.IsClassicTBC or Lib.IsClassicWOTLK and cont==1945 then
 			-- two faction specific nodes in SMV are not reported in GetAllTaxiNodes
 			-- we need to add them by hand, filling empty slots in values, since
 			-- taxidata_by_slot needs to be continous
@@ -431,7 +443,7 @@ do
 
 	if Lib.IsClassic then
 		function Lib:GetTaxiDataBySlot()
-			local continent = ZGV:GetCurrentMapContinent()
+			local continent = Lib:GetCurrentMapContinent()
 
 			local taxidata = {}
 			for i=1,NumTaxiNodes() do
@@ -455,8 +467,7 @@ do
 
 	-- return: is_known, is_suspicious
 	function Lib:IsContinentKnown(cont)
-		if not cont then cont=ZGV.GetCurrentMapContinent() end
-		if cont==ZONE_ARGUS_KROKUUN or cont==ZONE_ARGUS_MACAREE or cont==ZONE_ARGUS_ANTORAN then cont=ZONE_ARGUS end  -- Argus zones need to have a common continent (not so much for ants!).
+		if not cont then cont=Lib:GetCurrentMapContinent() end
 		if self.master[cont]~=nil then
 			return self.master[cont],false -- return whatever we know
 		else
@@ -465,8 +476,8 @@ do
 	end
 
 	function Lib:ClearContinentKnowledge(cont,operator,status)
-		if not cont then cont=ZGV.GetCurrentMapContinent() end
-		if cont==ZONE_ARGUS_KROKUUN or cont==ZONE_ARGUS_MACAREE or cont==ZONE_ARGUS_ANTORAN then cont=ZONE_ARGUS end  -- Argus zones need to have a common continent (not so much for ants!).
+		if not cont then cont=Lib:GetCurrentMapContinent() end
+
 		for z,zone in pairs(Lib.taxipoints[cont]) do
 			for n,node in ipairs(zone) do
 				if node.factionid~=FACTION_SHATARISKYGUARD
@@ -606,7 +617,7 @@ do
 				hooksecurefunc("TaxiNodeOnButtonEnter",function(button)
 					local taxidata,taxidata_by_slot = self:GetTaxiDataBySlot()
 					local slot=tonumber(button:GetID())
-					local cont=ZGV.GetCurrentMapContinent()
+					local cont=Lib:GetCurrentMapContinent()
 					local taxix,taxiy = TaxiNodePosition(slot)
 					local nodeID = taxidata_by_slot[slot] and taxidata_by_slot[slot].nodeID
 					local taxitag = ("%03d:%03d"):format(taxix*1000,taxiy*1000)
@@ -658,9 +669,7 @@ do
 
 		self:Debug_HookButtons()
 
-		local cont = ZGV.GetCurrentMapContinent()
-
-		if cont==830 or cont==882 or cont==885 then cont=994 end  -- Argus zones need to have a common continent (not so much for ants!).
+		local _, cont = Lib:GetCurrentMapContinent()
 
 		self:Debug("Scanning map for continent %d...",cont)
 
@@ -740,7 +749,7 @@ do
 
 			-- localize node, if that's even used anymore
 			local taxinode
-			if Lib.IsRetail or Lib.IsClassicTBC then
+			if Lib.IsRetail or Lib.IsClassicTBC or Lib.IsClassicWOTLK then
 				taxinode = Lib:FindTaxiByNodeID(taxi.nodeID)
 			else
 				taxinode = Lib:FindTaxiByTag(cont,taxi.taxitag)
@@ -812,7 +821,7 @@ do
 	-- Called with Dump Taxi Connections button
 	function Lib:DeepScanTaxiMap()  -- DEV FUNCTION
 		if not TaxiFrame:IsShown() and not FlightMapFrame:IsShown() then self:Debug("Map not shown, unable to scan."); return end
-		local cont = ZGV.GetMapContinent(C_Map.GetBestMapForUnit("player"))
+		local cont = Lib:GetCurrentMapContinent()
 		print("Continent is",cont)
 		Lib.flightcost[cont] = Lib.flightcost[cont] or {}
 		local fccont = Lib.flightcost[cont]
@@ -921,7 +930,7 @@ do
 
 	function Lib:DEV_ViewTaxiMapData()  -- DEV FUNCTION (simple)
 		if not TaxiFrame:IsShown() and not FlightMapFrame:IsShown() then self:Debug("Map not shown, unable to scan."); return end
-		local cont = ZGV.GetCurrentMapContinent()
+		local cont = Lib:GetCurrentMapContinent()
 
 		local ret = {}
 		local rett = {}
@@ -996,7 +1005,7 @@ do
 					Lib.LastTaxi.node = Lib:FindTaxiByNodeID(data.nodeID)
 					ZGV:Debug("LibTaxi: TakeTaxiNode proxy, flying to %s (nodeID %d)",data.name,data.nodeID)
 				else
-					Lib.LastTaxi.node = Lib:FindTaxiByTag(ZGV.GetCurrentMapContinent(),data.taxitag)
+					Lib.LastTaxi.node = Lib:FindTaxiByTag(Lib:GetCurrentMapContinent(),data.taxitag)
 					ZGV:Debug("LibTaxi: TakeTaxiNode proxy, flying to %s (taxitag %d)",data.name,data.taxitag)
 				end
 				if Lib.LastTaxi.node then
@@ -1076,7 +1085,7 @@ do
 	end
 
 	function Lib:DEV_FindNodeIDs(operator)
-		local continent = ZGV:GetCurrentMapContinent()
+		local continent = Lib:GetCurrentMapContinent()
 		local taxidata = C_TaxiMap.GetAllTaxiNodes(continent)
 		local count_ided=0
 		local count_alreadyided=0
@@ -1207,7 +1216,7 @@ do
 
 	-- /run LibTaxi:DumpFlightCosts()
 	function Lib:DEV_DumpFlightCosts(onlycont)
-		if onlycont==true or not IsShiftKeyDown() then onlycont=ZGV.GetMapContinent(C_Map.GetBestMapForUnit("player")) end
+		if onlycont==true or not IsShiftKeyDown() then onlycont=Lib:GetCurrentMapContinent() end
 
 		local s=""
 		if not onlycont then s="data.flightcost = {\n" end
@@ -1478,7 +1487,7 @@ do
 		end
 
 		for _,neigh in pairs(node.n) do
-			if neigh[1] and neigh[1].taxitag then
+			if neigh[1] and (neigh[1].taxitag or neigh[1].taxinodeID) then
 				Lib:LearnTaxi(neigh[1],false)
 			else
 			end
@@ -1501,7 +1510,7 @@ do
 			local ttag = x..":"..y
 
 
-			local tagmatch = Lib:FindTaxiByTag(ZGV.GetCurrentMapContinent(),ttag)
+			local tagmatch = Lib:FindTaxiByTag(Lib:GetCurrentMapContinent(),ttag)
 
 			if not tagmatch then
 				s = s.."\n"..ttag.." - No tag match - "..i
@@ -1639,7 +1648,7 @@ do
 				if hops[#hops]~=currentPin.taxiNodeData.taxitag then tinsert(hops,currentPin.taxiNodeData.taxitag) end
 				tinsert(hops,taxislots[destinationSlotIndex].taxitag)
 
-				local cont=ZGV.GetCurrentMapContinent()
+				local cont=Lib:GetCurrentMapContinent()
 
 				local startNode = self:FindTaxiByTag(cont,taxislots[sourceSlotIndex].taxitag)
 				local endNode = self:FindTaxiByTag(cont,taxislots[destinationSlotIndex].taxitag)

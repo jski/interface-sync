@@ -58,7 +58,7 @@ function Goldguide:Initialise()
 	ZGV:CacheSkills()
 
 	Goldguide.RecipeLevels={}
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		for skill,recipes in pairs(ZygorGuidesViewer.Professions.AllRecipes) do
 			for spell,recipe in pairs(recipes) do
 				Goldguide.RecipeLevels[spell] = tonumber(recipe.learnedat) or 1
@@ -800,7 +800,7 @@ function Goldguide.Common:CalculateDetails(refresh)
 
 				if trend and itemdata.is_lively then
 					itemdata.price = sellprice
-					if ZGV.IsClassic or ZGV.IsClassicTBC then
+					if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 						itemdata.demand = count -- classic, we have no demand values	
 					else
 						itemdata.demand = trend.sold or trend.q_md or (trend.q_lo + trend.q_hi)/2  -- TEMPORARY. Doubling the market is bad too, but we have to start with something.
@@ -910,7 +910,7 @@ function Goldguide.Common:CalculateDetails(refresh)
 	self:GetSmartProfitPerHour()
 
 	self.rate = self.profitperhour
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		self.scale = 1
 	else
 		self.scale = self.scale or 1
@@ -1001,7 +1001,7 @@ function Goldguide.Common:GetTooltipData(refresh)
 			if item.itemdata[3] then --crap
 				comment="Vendor."
 			elseif item.no_trend then
-				if ZGV.IsClassic or ZGV.IsClassicTBC then
+				if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 					comment="No trend data."
 				else
 					comment="Not useful."

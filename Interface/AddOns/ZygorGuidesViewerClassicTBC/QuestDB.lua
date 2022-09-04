@@ -226,7 +226,7 @@ end
 
 function QuestDB:SetQuestForButton(questIdent)
 	local questID,questLogTitleText = questIdent
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		questLogTitleText, _, _, _, _, _, _, questID, _ = GetQuestLogTitle(questIdent)
 	end
 
@@ -361,7 +361,7 @@ function QuestDB:GetQuestName(questID)
 	local questtitle = QuestDB.QuestNamesStored and QuestDB.QuestNamesStored[questID]
 	if questtitle then return questtitle end
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		return C_QuestLog.GetQuestInfo(questID)
 	else
 		return C_QuestLog.GetTitleForQuestID(questID)
@@ -534,7 +534,7 @@ tinsert(ZGV.startups,{"Quest DB",function(self)
 		hooksecurefunc("QuestMapFrame_ShowQuestDetails",function(questID) ZGV.QuestDB:SetQuestForButton(questID,"QuestMapFrame") end)
 		hooksecurefunc("QuestLogPopupDetailFrame_Show",function(questLogIndex) ZGV.QuestDB:SetQuestForButton(QuestLogPopupDetailFrame.questID,"QuestLogPopupDetailFrame") end)
 	end
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		hooksecurefunc("QuestLog_SetSelection",function(questIndex) ZGV.QuestDB:SetQuestForButton(questIndex) end)
 	end
 

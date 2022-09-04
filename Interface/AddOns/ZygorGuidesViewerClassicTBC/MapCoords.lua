@@ -384,6 +384,15 @@ MapCoords.cosmicMapData = cosmicMapData  --debug export
 
 		-- outland
 		cosmicMapData[C_OUTLAND] = { 45000, 33000, 18200, 11200 }
+
+	elseif ZGV.IsClassicWOTLK then
+		-- data for the azeroth world map
+		cosmicMapData[C_EASTERN] = { 94000, 60000, 79000, 35000 } -- Eastern
+		cosmicMapData[C_KALIMDOR] = { 100000, 64000, 67000, 40000 } -- Kalimdor
+		cosmicMapData[C_NORTHREND] = { 110000, 220000, 56000, 70000 } -- Northrend
+
+		-- outland
+		cosmicMapData[C_OUTLAND] = { 45000, 33000, 18200, 11200 }
 	else
 		-- data for the azeroth world map
 		cosmicMapData[C_EASTERN] = { 140000, 79000, 82000, 37000 } -- Eastern
@@ -510,6 +519,13 @@ elseif ZGV.IsClassicTBC then
 		[C_EASTERN]=1415,
 		[C_OUTLAND]=1945,
 	}
+elseif ZGV.IsClassicWOTLK then
+	continent_main_maps = {
+		[C_KALIMDOR]=1414,
+		[C_EASTERN]=1415,
+		[C_OUTLAND]=1945,
+		[C_NORTHREND]=113,
+	}
 elseif ZGV.IsClassic then
 	continent_main_maps = {
 		[C_KALIMDOR]=1414,
@@ -595,6 +611,24 @@ elseif ZGV.IsClassicTBC then
 		},
 		[C_EASTERN] = {
 			[C_KALIMDOR] =  { -2.0,  0.0,  1.0 },
+			[C_OUTLAND] = { 0.0, 0.0,  0.0 },
+		},
+	}
+elseif ZGV.IsClassicWOTLK then
+	virtual_continents = {
+		[C_KALIMDOR] = {
+			[C_EASTERN] =   { 2.0,  0.0,  1.0 },
+			[C_NORTHREND] = { 1.0, -0.5,  1.0 },
+			[C_OUTLAND] = { 0.0, 0.0,  0.0 },
+		},
+		[C_EASTERN] = {
+			[C_KALIMDOR] =  { -2.0,  0.0,  1.0 },
+			[C_NORTHREND] = { -1.0, -0.5,  1.0 },
+			[C_OUTLAND] = { 0.0, 0.0,  0.0 },
+		},
+		[C_NORTHREND] = {
+			[C_EASTERN] =   {  1.5,  1.0,  1.0 },
+			[C_KALIMDOR] =  { -1.5,  1.0,  1.0 },
 			[C_OUTLAND] = { 0.0, 0.0,  0.0 },
 		},
 	}

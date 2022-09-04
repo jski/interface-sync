@@ -1,16 +1,10 @@
-lightweight tag dc2b85d8fa4a0a7ad1fd7d005572a8fee6ec3d7b v2.1.17
-Author:	GitHub <noreply@github.com>
-Date:	Sun Jun 19 12:22:53 2022 +0200
+lightweight tag c794add89ad4f11de50d2a812fca7c8c5a743cd9 v3.0.0
+Author:	Simon Hirsig <simon.hirsig@gmail.com>
+Date:	Sat Sep 3 12:45:25 2022 +0200
 
-commit e9e6ad5ab071acedf6b2df87738a23b289a11467
-Author: Christian Lauener <lauenchr@students.zhaw.ch>
-Date:   Sat Apr 9 16:21:33 2022 +0200
+commit c794add89ad4f11de50d2a812fca7c8c5a743cd9
+Author: Simon Hirsig <simon.hirsig@gmail.com>
+Date:   Sat Sep 3 12:45:25 2022 +0200
 
-    add packaging from tags
-
-commit e9e6ad5ab071acedf6b2df87738a23b289a11467
-Author: Christian Lauener <lauenchr@students.zhaw.ch>
-Date:   Sat Apr 9 16:21:33 2022 +0200
-
-    add packaging from tags
+    wotlk update
 

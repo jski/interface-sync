@@ -46,7 +46,8 @@ ZGV.TestFramework.UnitTests = {} -- Not used yet.
 ZGV.UseUnitTesting = false -- Turn off before release!
 
 ZGV.IsClassic = WOW_PROJECT_ID == WOW_PROJECT_CLASSIC
-ZGV.IsClassicTBC = WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC
+ZGV.IsClassicTBC = (WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC) and (LE_EXPANSION_LEVEL_CURRENT == LE_EXPANSION_BURNING_CRUSADE)
+ZGV.IsClassicWOTLK = true
 ZGV.IsRetail = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
 ZGV.IsClassicSoM =  C_Seasons and (ZGV.IsClassic and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason()==Enum.SeasonID.SeasonOfMastery)
 
@@ -58,6 +59,7 @@ ZGV.SKINSDIR = ZGV.DIR .. "\\Skins\\"
 ZGV.ARROWSDIR = ZGV.DIR .. "\\Arrows\\"
 if ZGV.IsRetail     then ZGV.IMAGESDIR = ZGV.DIR .. "\\Guides-Retail\\Images\\" end
 if ZGV.IsClassicTBC then ZGV.IMAGESDIR = ZGV.DIR .. "\\Guides-TBC\\Images\\" end
+if ZGV.IsClassicWOTLK then ZGV.IMAGESDIR = ZGV.DIR .. "\\Guides-WOTLK\\Images\\" end
 if ZGV.IsClassic    then ZGV.IMAGESDIR = ZGV.DIR .. "\\Guides-Classic\\Images\\" end
 
 ZYGORGUIDESVIEWER_COMMAND = "zygor"
@@ -1641,7 +1643,7 @@ function ZGV:FocusStep(num,forcefocus)
 	local reportlabel = self.CurrentStep and ZGV.QuestDB.GetStepTag and (ZGV.QuestDB:GetStepTag(self.CurrentStep) or "").." " or ""
 	reportlabel = reportlabel .. ("(From %s step %s, fast forward %s, skipping %s"):format(tostring(prevguide),tostring(prevnum),tostring(self.fastforward),tostring(self.skipping))
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		if ZGV.CurrentGuide and (ZGV.db.char.guideTurnInsOnly == ZGV.CurrentGuide.title) then
 			reportlabel = reportlabel .. ", guide in turnins only mode"
 		end

@@ -395,7 +395,7 @@ end
 function BugReport:GetReport(maint,flags)
 	local s = ""
 
-	s = s .. ("Zygor Guides Viewer v%s %s\n"):format(ZGV.version,(ZGV.IsClassic and "classic") or (ZGV.IsClassicTBC and "tbc") or "retail")
+	s = s .. ("Zygor Guides Viewer v%s %s\n"):format(ZGV.version,(ZGV.IsClassic and "classic") or (ZGV.IsClassicTBC and "tbc") or (ZGV.IsClassicWOTLK and "wotlk") or "retail")
 	s = s .. ("Guide: %s\nStep: %d\n"):format(ZGV.CurrentGuideName or "no guide",ZGV.CurrentStepNum or 0)
 	s = s .. "\n"
 
@@ -658,7 +658,7 @@ function BugReport:GetReport(maint,flags)
 
 		s = s .. ("Class: %s\nLevel: %s\n%s\n"):format(ItemScore.playerclass,ItemScore.playerlevel,spec)
 
-		if ZGV.IsClassic or ZGV.IsClassicTBC then
+		if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 			s = s .. "\n\n*** Skills: " 
 			s = s .. "\n locale " .. GetLocale()
 			s = s .. "\n** registered " 
@@ -1467,17 +1467,21 @@ frame.face1 = CHAIN(CreateFrame("Button",nil,frame,"ZGV_Guide_Rating_Star_Templa
 		:SetPushedBackdropColor(unpack(SkinData("Accent")))
 		:SetScript("OnClick",function(self)
 			if (GuideRating.score ~= nil) and (GuideRating.score > 0) then
-				if self:GetParent().old_timestamp then
-					ZGV.db.global.bugreports[self:GetParent().old_timestamp]=nil
-				end
-				if frame.scroll.child:GetText() == "|cff888888Please tell us your thoughts on this guide." then
-					frame.scroll.child:SetText("")
-					GuideRating:Save(frame.scroll.child:GetText())
+				if (GuideRating.score == 1) and (frame.scroll.child:GetText() == "|cff888888Please tell us your thoughts on this guide.") then
+					ZGV:Print(L['viewer_special_badscore'])
 				else
-					GuideRating:Save(frame.scroll.child:GetText())
+					if self:GetParent().old_timestamp then
+						ZGV.db.global.bugreports[self:GetParent().old_timestamp]=nil
+					end
+					if frame.scroll.child:GetText() == "|cff888888Please tell us your thoughts on this guide." then
+						frame.scroll.child:SetText("")
+						GuideRating:Save(frame.scroll.child:GetText())
+					else
+						GuideRating:Save(frame.scroll.child:GetText())
+					end
+					ZGV.db.char.scoredguides[ZGV.CurrentGuide.title] = GuideRating.score
+					GuideRating:ShowGuideRating()
 				end
-				ZGV.db.char.scoredguides[ZGV.CurrentGuide.title] = GuideRating.score
-				GuideRating:ShowGuideRating()
 			else
 				ZGV:Print(L['viewer_special_scorecheck'])
 			end
@@ -1679,7 +1683,7 @@ function GuideRating:ShowGuideRating()
 	if ZGV.BugReport.GuideRating.NoRatingFrame then ZGV.BugReport.GuideRating.NoRatingFrame:Hide() end
 	if ZGV.BugReport.GuideRating.CancelledRatingFrame then GuideRating.CancelledRatingFrame:Hide() end
 
-	if ZGV.db.char.scoredguides[ZGV.CurrentGuide.title] ~= nil and (ZGV.db.char.scoredguides[ZGV.CurrentGuide.title] > -1) or not ZGV.db.profile.ratings then  --if the guide is already rated (1-3), rating was refused (0) or ratings disabled in options
+	if ZGV.db.char.scoredguides[ZGV.CurrentGuide.title] ~= nil and (ZGV.db.char.scoredguides[ZGV.CurrentGuide.title] > -1) or not ZGV.db.profile.ratings or ZGV.CurrentGuide.headerdata.noscoring then  --if the guide is already rated (1-3), rating was refused (0) or ratings disabled in options or guide header
 		GuideRating:HideRatingWidgets()
 		GuideRating:NextRatingGuide("show1")
 	elseif ZGV.db.profile.ratings and (ZGV.db.char.scoredguides[ZGV.CurrentGuide.title] == -1) then --if ratings are enabled and the rating was cancelled (i.e. is in pending state)

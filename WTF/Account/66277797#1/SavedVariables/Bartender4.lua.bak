@@ -24,8 +24,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -34,8 +34,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -126,6 +126,13 @@ Bartender4DB = {
 							},
 						}, -- [6]
 						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 178.9635772705078,
+								["x"] = -231.5,
+								["point"] = "BOTTOM",
+							},
 						}, -- [7]
 						{
 						}, -- [8]
@@ -257,15 +264,6 @@ Bartender4DB = {
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {
-				["Leelaturanga - Mankrik"] = {
-					["position"] = {
-						["y"] = 47,
-						["x"] = -256,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-					["artLayout"] = "ONEBAR",
-				},
 				["Tiffpollard - Mankrik"] = {
 					["artLayout"] = "ONEBAR",
 					["position"] = {
@@ -274,6 +272,15 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 					["version"] = 3,
+				},
+				["Leelaturanga - Mankrik"] = {
+					["position"] = {
+						["y"] = 47,
+						["x"] = -256,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+					["artLayout"] = "ONEBAR",
 				},
 			},
 		},
@@ -307,35 +314,6 @@ Bartender4DB = {
 				},
 			},
 		},
-		["StanceBar"] = {
-			["profiles"] = {
-				["Weedlordgirl - Mankrik"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -15,
-						["x"] = -82.49993896484375,
-						["point"] = "CENTER",
-					},
-				},
-				["Tiffpollard - Mankrik"] = {
-					["position"] = {
-						["y"] = 54,
-						["x"] = 199.2155456542969,
-						["point"] = "BOTTOMLEFT",
-					},
-					["version"] = 3,
-				},
-				["Leelaturanga - Mankrik"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = -15,
-						["x"] = -82.49993896484375,
-						["point"] = "CENTER",
-					},
-				},
-			},
-		},
 		["Vehicle"] = {
 			["profiles"] = {
 				["Weedlordgirl - Mankrik"] = {
@@ -359,6 +337,35 @@ Bartender4DB = {
 					["position"] = {
 						["y"] = 42.49996948242188,
 						["x"] = 104.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Weedlordgirl - Mankrik"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15,
+						["x"] = -82.49993896484375,
+						["point"] = "CENTER",
+					},
+				},
+				["Tiffpollard - Mankrik"] = {
+					["position"] = {
+						["y"] = 54,
+						["x"] = 147.4804573059082,
+						["point"] = "BOTTOMLEFT",
+					},
+					["version"] = 3,
+				},
+				["Leelaturanga - Mankrik"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15,
+						["x"] = -82.49993896484375,
 						["point"] = "CENTER",
 					},
 				},
@@ -425,7 +432,7 @@ Bartender4DB = {
 			["focuscastmodifier"] = false,
 			["buttonlock"] = true,
 			["minimapIcon"] = {
-				["minimapPos"] = 229.8082061064198,
+				["minimapPos"] = 151.8007663552151,
 			},
 			["outofrange"] = "hotkey",
 		},
@@ -436,7 +443,6 @@ Bartender4DB = {
 				["hide"] = true,
 			},
 			["outofrange"] = "hotkey",
-			["buttonlock"] = true,
 		},
 	},
 }

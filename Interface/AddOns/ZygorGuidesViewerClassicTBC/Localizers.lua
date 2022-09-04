@@ -121,7 +121,7 @@ do
 		-- unknown?
 		local title,objs
 		
-		if ZGV.IsClassic or ZGV.IsClassicTBC then
+		if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 			title = C_QuestLog.GetQuestInfo(qid)
 		else
 			title,objs = Localizers:GetQuestDataFromTooltip(qid)

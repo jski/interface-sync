@@ -42,7 +42,7 @@ function Goldguide:InitialiseCraftingChores()
 	table.wipe(Goldguide.CraftingItemToSpell)
 
 	-- get current skill levels
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		for i,prof in pairs(ZGV.db.char.SkillsKnown) do
 			Goldguide.SkillLevels[prof.parentskillID or prof.skillID or -1] = prof.level
 		end
@@ -54,7 +54,7 @@ function Goldguide:InitialiseCraftingChores()
 		end
 	end
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		for skillid,recipelist in pairs(ZygorGuidesViewer.Professions.AllRecipes) do
 			if Goldguide.SkillLevels[skillid]>0 then
 				for _,recipe in pairs(recipelist) do
@@ -103,7 +103,7 @@ function Crafting:GetRecipeReagents()
 	self.reagentfarmable={}
 	self.actions={}
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		for _,reagent in pairs(self.reagents) do
 			self.reagentcount[reagent.id]=(self.reagentcount[reagent.id] or 0)+reagent.num
 		end
@@ -356,7 +356,7 @@ function Crafting:GenerateGuide()
 		self:add_line("'If you want to buy some of the items on your own, click here to view shopping list |confirm |next reagents_buy")
 	end
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		ZGV.GuideMenuTier = "CLA"
 	else
 		ZGV.GuideMenuTier = "WOD"

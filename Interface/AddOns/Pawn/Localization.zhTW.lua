@@ -155,6 +155,7 @@ PawnLocal =
 		["SpellHitInfo"] = "Spell Hit.  Increases the chance that your damaging spells hit the target, especially bosses.",
 		--[[Translation missing --]]
 		["SpellPenetrationInfo"] = "Spell Penetration. Negates an enemy's resistances to your spells.",
+		["SpellPowerInfo"] = "",
 		["SpiritInfo"] = "Spirit.  Affects your out-of-combat mana regeneration.",
 		["StaminaInfo"] = "主要屬性, 耐力.",
 		["StrengthInfo"] = "主要屬性, 力量.",
@@ -315,6 +316,7 @@ PawnLocal =
 		["ExpertiseRating"] = "^裝備: 提高#點熟練。$",
 		["FeralAp"] = "^裝備： 在獵豹、熊或巨熊形態下的攻擊強度提高#點。$",
 		["FeralApMoonkin"] = "^裝備: 在獵豹、熊、巨熊和梟獸形態下的攻擊強度提高#點。$",
+		["FeralApWrath"] = "^使你在獵豹、熊、巨熊和梟獸形態下的攻擊強度提高#點。$",
 		["FireResist"] = "^%+?# 火焰抗性$",
 		["FireSpellDamage"] = "^%+# 火焰法術傷$",
 		["FireSpellDamage2"] = "^裝備： 提高火焰法術和效果所造成的傷害，最多#點。$",
@@ -432,6 +434,7 @@ PawnLocal =
 		["SpellPenetrationClassic"] = "^裝備： 使你法術目標的魔法抗性降低#點。$",
 		["SpellPenetrationShort"] = "^%+?#法術穿透力$",
 		["SpellPower"] = "^%+?#法術能量$",
+		["SpellPower2"] = "^裝備： 提高#點法術能量。$",
 		["Spirit"] = "^%+?#精神$",
 		["Staff"] = "^法杖$",
 		["Stamina"] = "^%+?#耐力$",
@@ -745,7 +748,7 @@ if VgerCore.IsClassic then
 	end
 end
 
-if VgerCore.IsBurningCrusade then
+if VgerCore.IsBurningCrusade or VgerCore.IsWrath then
 
 	local TooltipParsing_BurningCrusade =
 	{
@@ -771,7 +774,32 @@ if VgerCore.IsBurningCrusade then
 	local Key, NewString
 	for Key, NewString in pairs(TooltipParsing_BurningCrusade) do
 		PawnLocal.TooltipParsing[Key] = NewString
-	end	
+	end
+end
+
+if VgerCore.IsWrath then
+
+	local TooltipParsing_Wrath =
+	{
+		["BlockRating"] = "^裝備: 提高#點格擋等級。$",
+		["CritRating"] = "^裝備: 提高#點致命一擊等級。$",
+		["CritRating2"] = "^裝備: 提高#點致命一擊等級。$",
+		["CritRating3"] = "^裝備: 提高#點致命一擊等級。$",
+		["CritRatingShort"] = "^裝備: 提高#點致命一擊等級。$",
+		["DefenseRating2"] = "^裝備: 提高#點防禦等級。$",
+		["ExpertiseRating"] = "^裝備: 提高#點熟練等級。$",
+		["HasteRating"] = "^裝備: 提高#點加速等級。$",
+		["HitRating"] = "^裝備: 提高#點命中等級。$",
+		["HitRating2"] = "^裝備: 提高#點命中等級。$",
+		["Hp55"] = "^每5秒恢復#生命力$",
+		["ResilienceRating"] = "^裝備: 提高#點韌性等級。$",
+		["SpellPower2"] = "^裝備: 提高#點法術能量。$",
+	}
+
+	local Key, NewString
+	for Key, NewString in pairs(TooltipParsing_Wrath) do
+		PawnLocal.TooltipParsing[Key] = NewString
+	end
 end
 
 PawnLocal.Specs =

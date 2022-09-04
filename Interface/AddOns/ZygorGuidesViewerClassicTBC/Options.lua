@@ -1167,7 +1167,7 @@ function ZGV:Options_DefineOptionTables()
 		AddOption('',{ type = "description", name = L["opt_gear_sources_raids"]:format(), font=ZGV.font_dialog_gray, width="full" })
 			if ZGV.IsRetail then AddOption('gear_17',{ name=PLAYER_DIFFICULTY3, type='toggle', width="100", _default=true, set = function(i,v) Setter_Simple(i,v) ZGV.ItemScore.GearFinder:ClearResults() end, disabled=function() return not self.db.profile.autogear end, }) end
 			AddOption('gear_14',{ name=PLAYER_DIFFICULTY1, type='toggle', width="100", _default=false, set = function(i,v) Setter_Simple(i,v) ZGV.db.profile.gear_3=v ZGV.db.profile.gear_4=v ZGV.ItemScore.GearFinder:ClearResults() end, disabled=function() return not self.db.profile.autogear end, }) -- also setting filters for prelfr raids 
-			if ZGV.IsRetail then AddOption('gear_15',{ name=PLAYER_DIFFICULTY2, type='toggle', width="100", _default=false, set = function(i,v) Setter_Simple(i,v) ZGV.db.profile.gear_5=v ZGV.db.profile.gear_6=v ZGV.ItemScore.GearFinder:ClearResults() end, disabled=function() return not self.db.profile.autogear end, }) end -- also setting filters for prelfr raids
+			if ZGV.IsRetail  or ZGV.IsClassicWOTLK then AddOption('gear_15',{ name=PLAYER_DIFFICULTY2, type='toggle', width="100", _default=false, set = function(i,v) Setter_Simple(i,v) ZGV.db.profile.gear_5=v ZGV.db.profile.gear_6=v ZGV.ItemScore.GearFinder:ClearResults() end, disabled=function() return not self.db.profile.autogear end, }) end -- also setting filters for prelfr raids
 			if ZGV.IsRetail then AddOption('gear_16',{ name=PLAYER_DIFFICULTY6, type='toggle', width="100", _default=false, set = function(i,v) Setter_Simple(i,v) ZGV.db.profile.gear_7=v ZGV.ItemScore.GearFinder:ClearResults() end, disabled=function() return not self.db.profile.autogear end, }) end -- also setting filters for prelfr raids
 			AddOptionSpace()
 
@@ -1415,7 +1415,7 @@ function ZGV:Options_DefineOptionTables()
 						hidden=function() return not ZGV.ItemScore:UsesCustomWeights(class,specnum) end
 					})
 					AddOptionSep()
-					if ZGV.IsClassic or ZGV.IsClassicTBC then
+					if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 						AddOption('',{
 							type="description",
 							name= "You are using this statweight set",
@@ -1786,7 +1786,7 @@ function ZGV:Options_DefineOptionTables()
 
 			AddOptionSpace()
 
-			if ZGV.IsClassic or ZGV.IsClassicTBC then
+			if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 				AddOption('n_popup_skills',{ type = 'toggle', width = "double", _default = true, })
 				AddOptionSep()
 				AddOption('',{type="description", name=L['opt_group_notify_also'], font=ZGV.font_dialog })
@@ -1826,7 +1826,7 @@ function ZGV:Options_DefineOptionTables()
 			AddOption('talenton',{ type = 'toggle', width="full", set = function(i,v)   Setter_Simple(i,v)  ZGV.TalentAdvisor:Toggle(v)  end, _default=true})
 		end
 
-		if ZGV.IsClassic or ZGV.IsClassicTBC then
+		if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 			AddOption('beta_use_chains',{ 
 				type = 'toggle', 
 				_default=true,
@@ -1848,7 +1848,7 @@ function ZGV:Options_DefineOptionTables()
 		})
 	end
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		local options = ZGV.ZTA:SetupConfig()
 
 		AddOptionGroup("zta","ZygorTalentAdvisor","zgtalent",options)
@@ -2211,7 +2211,7 @@ function ZGV:Options_DefineOptionTables()
 			do -- Fake skills
 				local skills={"Alchemy","Archaeology","Blacksmithing","Cooking","Enchanting","Engineering","First Aid","Fishing","Herbalism","Inscription","Jewelcrafting","Leatherworking","Mining","Skinning","Tailoring"}
 				local skillvalues={}  for i,v in ipairs(skills) do skillvalues[v]=v end
-				if ZGV.IsClassic or ZGV.IsClassicTBC then
+				if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 					AddOption('fakeskill',{
 						name = "Fake profession",
 						desc = "Check to simulate skill levels.",
@@ -3753,7 +3753,7 @@ function ZGV:Options_DefineOptionTables()
 		AddOption('show_appraiser', { type = 'execute', desc="Show Appraiser", _default = false, func=function(info,val) ZGV.Gold.Appraiser:Show() end })
 		AddOption('load_mail', { type = 'toggle', desc="Enable Mail Helper", _default = false, set=Setter_Loud })
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		local extras = ZGV.ZTA:SetupConfigExtra()
 		for key,v in pairs(extras) do
 			for i,opt in pairs(v.args) do

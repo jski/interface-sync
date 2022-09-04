@@ -1,4 +1,9 @@
-VER 3 0000000000000001 "ZygorAction1" "134400"
+VER 3 0000000000000001 "ZygorAction1" "132212"
+#showtooltip Talk to Scout Neftis
+/run ZGV:MCM(4)
+/cleartarget
+/target Scout Neftis
+/run ZGV:MRM()
 END
 VER 3 0000000000000002 "ZygorAction2" "134400"
 END

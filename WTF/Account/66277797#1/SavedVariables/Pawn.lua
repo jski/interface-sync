@@ -7,10 +7,17 @@ PawnCommon = {
 	["ShowRelicUpgrades"] = false,
 	["ShowValuesForUpgradesOnly"] = true,
 	["ShowItemLevelUpgrades"] = false,
-	["Debug"] = false,
+	["ShownGettingStarted"] = true,
 	["IgnoreGemsWhileLeveling"] = true,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
+	["Digits"] = 1,
+	["ShowSocketingAdvisor"] = true,
+	["ShowSpecIcons"] = true,
+	["LastVersion"] = 2.0603,
+	["ButtonPosition"] = 2,
+	["ShowLootUpgradeAdvisor"] = true,
+	["ShowQuestUpgradeAdvisor"] = true,
 	["Scales"] = {
 		["\"Classic\":WARRIOR2"] = {
 			["PerCharacterOptions"] = {
@@ -85,12 +92,38 @@ PawnCommon = {
 			["UnenchantedColor"] = "2f94af",
 			["SpecID"] = 2,
 		},
+		["\"Classic\":DEATHKNIGHT2"] = {
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "ff4d6b",
+			["LocalizedName"] = "Death Knight: Frost Tank",
+			["ClassID"] = 6,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = false,
+			["Provider"] = "Classic",
+			["UnenchantedColor"] = "bf3950",
+			["SpecID"] = 2,
+		},
+		["\"Classic\":ROGUE"] = {
+			["Color"] = "fff468",
+			["LocalizedName"] = "Rogue: Off Hand",
+			["PerCharacterOptions"] = {
+			},
+			["DoNotShow1HUpgrades"] = false,
+			["ClassID"] = 4,
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = false,
+			["Provider"] = "Classic",
+			["UnenchantedColor"] = "bfb74e",
+		},
 		["\"Classic\":PALADIN2"] = {
 			["PerCharacterOptions"] = {
-				["Tiffpollard-Mankrik"] = {
+				["Weedlordgirl-Mankrik"] = {
 					["Visible"] = true,
 				},
-				["Weedlordgirl-Mankrik"] = {
+				["Tiffpollard-Mankrik"] = {
 					["Visible"] = true,
 				},
 			},
@@ -164,6 +197,26 @@ PawnCommon = {
 			["UnenchantedColor"] = "6565b1",
 			["SpecID"] = 3,
 		},
+		["\"Classic\":PALADIN3"] = {
+			["PerCharacterOptions"] = {
+				["Weedlordgirl-Mankrik"] = {
+					["Visible"] = true,
+				},
+				["Tiffpollard-Mankrik"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "f48cba",
+			["LocalizedName"] = "Paladin: Retribution",
+			["ClassID"] = 2,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = false,
+			["Provider"] = "Classic",
+			["UnenchantedColor"] = "b7698b",
+			["SpecID"] = 3,
+		},
 		["\"Classic\":PRIEST3"] = {
 			["PerCharacterOptions"] = {
 			},
@@ -234,18 +287,18 @@ PawnCommon = {
 			["UnenchantedColor"] = "947451",
 			["SpecID"] = 1,
 		},
-		["\"Classic\":ROGUE1"] = {
+		["\"Classic\":SHAMAN1"] = {
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "fff468",
-			["LocalizedName"] = "Rogue: Assassination",
-			["ClassID"] = 4,
+			["Color"] = "0070dd",
+			["LocalizedName"] = "Shaman: Elemental",
+			["ClassID"] = 7,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfb74e",
+			["UnenchantedColor"] = "0054a5",
 			["SpecID"] = 1,
 		},
 		["\"Classic\":SHAMAN3"] = {
@@ -262,64 +315,60 @@ PawnCommon = {
 			["UnenchantedColor"] = "0054a5",
 			["SpecID"] = 3,
 		},
-		["\"Classic\":PALADIN1"] = {
+		["\"Classic\":DEATHKNIGHT1"] = {
 			["PerCharacterOptions"] = {
-				["Tiffpollard-Mankrik"] = {
-					["Visible"] = true,
-				},
-				["Weedlordgirl-Mankrik"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "f48cba",
-			["LocalizedName"] = "Paladin: Holy",
-			["ClassID"] = 2,
+			["Color"] = "ff4d6b",
+			["LocalizedName"] = "Death Knight: Blood Damage",
+			["ClassID"] = 6,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
+			["Role"] = "TANK",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "b7698b",
+			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 1,
 		},
-		["\"Classic\":ROGUE"] = {
-			["Color"] = "fff468",
-			["ClassID"] = 4,
+		["\"Classic\":DEATHKNIGHT3"] = {
 			["PerCharacterOptions"] = {
 			},
-			["DoNotShow1HUpgrades"] = false,
-			["LocalizedName"] = "Rogue: Off Hand",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = false,
-			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfb74e",
-		},
-		["\"Classic\":ROGUE3"] = {
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "fff468",
-			["LocalizedName"] = "Rogue: Subtlety",
-			["ClassID"] = 4,
+			["Color"] = "ff4d6b",
+			["LocalizedName"] = "Death Knight: Unholy Damage",
+			["ClassID"] = 6,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfb74e",
+			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 3,
 		},
-		["\"Classic\":ROGUE2"] = {
+		["\"Classic\":DRUID3"] = {
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "fff468",
-			["LocalizedName"] = "Rogue: Combat",
-			["ClassID"] = 4,
+			["Color"] = "ff7c0a",
+			["LocalizedName"] = "Druid: Feral (Tank)",
+			["ClassID"] = 11,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = false,
+			["Provider"] = "Classic",
+			["UnenchantedColor"] = "bf5d07",
+			["SpecID"] = 3,
+		},
+		["\"Classic\":DRUID2"] = {
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "ff7c0a",
+			["LocalizedName"] = "Druid: Feral (Damage)",
+			["ClassID"] = 11,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfb74e",
+			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 2,
 		},
 		["\"Classic\":WARLOCK1"] = {
@@ -353,32 +402,32 @@ PawnCommon = {
 			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 4,
 		},
-		["\"Classic\":DRUID2"] = {
+		["\"Classic\":ROGUE2"] = {
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "ff7c0a",
-			["LocalizedName"] = "Druid: Feral (Damage)",
-			["ClassID"] = 11,
+			["Color"] = "fff468",
+			["LocalizedName"] = "Rogue: Combat",
+			["ClassID"] = 4,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf5d07",
+			["UnenchantedColor"] = "bfb74e",
 			["SpecID"] = 2,
 		},
-		["\"Classic\":DRUID3"] = {
+		["\"Classic\":ROGUE3"] = {
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "ff7c0a",
-			["LocalizedName"] = "Druid: Feral (Tank)",
-			["ClassID"] = 11,
+			["Color"] = "fff468",
+			["LocalizedName"] = "Rogue: Subtlety",
+			["ClassID"] = 4,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
+			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf5d07",
+			["UnenchantedColor"] = "bfb74e",
 			["SpecID"] = 3,
 		},
 		["\"Classic\":DRUID1"] = {
@@ -395,38 +444,38 @@ PawnCommon = {
 			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 1,
 		},
-		["\"Classic\":PALADIN3"] = {
+		["\"Classic\":PALADIN1"] = {
 			["PerCharacterOptions"] = {
-				["Tiffpollard-Mankrik"] = {
+				["Weedlordgirl-Mankrik"] = {
 					["Visible"] = true,
 				},
-				["Weedlordgirl-Mankrik"] = {
+				["Tiffpollard-Mankrik"] = {
 					["Visible"] = true,
 				},
 			},
 			["Color"] = "f48cba",
-			["LocalizedName"] = "Paladin: Retribution",
+			["LocalizedName"] = "Paladin: Holy",
 			["ClassID"] = 2,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
+			["Role"] = "HEALER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
 			["UnenchantedColor"] = "b7698b",
-			["SpecID"] = 3,
+			["SpecID"] = 1,
 		},
-		["\"Classic\":SHAMAN1"] = {
+		["\"Classic\":ROGUE1"] = {
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "0070dd",
-			["LocalizedName"] = "Shaman: Elemental",
-			["ClassID"] = 7,
+			["Color"] = "fff468",
+			["LocalizedName"] = "Rogue: Assassination",
+			["ClassID"] = 4,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "0054a5",
+			["UnenchantedColor"] = "bfb74e",
 			["SpecID"] = 1,
 		},
 		["\"Classic\":PRIEST2"] = {
@@ -444,12 +493,5 @@ PawnCommon = {
 			["SpecID"] = 2,
 		},
 	},
-	["ShowSocketingAdvisor"] = true,
-	["ShowSpecIcons"] = true,
-	["LastVersion"] = 2.0538,
-	["ButtonPosition"] = 2,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowQuestUpgradeAdvisor"] = true,
-	["Digits"] = 1,
-	["ShownGettingStarted"] = true,
+	["Debug"] = false,
 }

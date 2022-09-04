@@ -13,7 +13,7 @@ local TRENDS_OLD = 4 * 24 --h
 
 tinsert(ZGV.startups,{"Servertrends",function(self)
 			ZGV:Debug("&startup Importing server trends (in background)")
-			if ZGV.IsClassic or ZGV.IsClassicTBC then
+			if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 				Trends:GetTrendsFromScan()
 			else
 				for i,dump in ipairs(Trends.dumps) do

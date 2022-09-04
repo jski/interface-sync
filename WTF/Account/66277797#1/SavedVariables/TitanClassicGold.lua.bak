@@ -8,11 +8,11 @@ GoldSave = {
 	["Leelaturanga_Mankrik::Horde"] = {
 		["show"] = true,
 		["name"] = "Leelaturanga",
-		["gold"] = 15502186,
+		["gold"] = 11980364,
 	},
 	["Tiffpollard_Mankrik::Horde"] = {
 		["show"] = true,
 		["name"] = "Tiffpollard",
-		["gold"] = 226755,
+		["gold"] = 4712855,
 	},
 }

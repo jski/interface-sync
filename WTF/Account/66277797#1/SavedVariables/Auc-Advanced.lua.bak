@@ -28,7 +28,7 @@ AucAdvancedConfig = {
 				},
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOPLEFT:TOPLEFT:122.5:-69.7",
+				["ahframeanchors"] = "LEFT:LEFT:0.0:99.2",
 			},
 		},
 		["stat"] = {
@@ -62,8 +62,8 @@ AucAdvancedData = {
 AucAdvancedServers = {
 	["KnownRealms"] = {
 		["Mankrik"] = {
-			["Horde"] = 1661730387,
-			["Login"] = 1661774366,
+			["Horde"] = 1661903603,
+			["Login"] = 1661903460,
 			["Neutral"] = 1661658191,
 		},
 	},

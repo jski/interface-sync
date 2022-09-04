@@ -143,7 +143,7 @@ end
 
 local function GetDisplaySource(slotID)
 	local infoslot = FL:GetInfoSlot()
-	local transmogLocation = TransmogUtil.GetTransmogLocation(infoslot[slotID].name, Enum.TransmogType.Appearance, Enum.TransmogModification.None);
+	local transmogLocation = TransmogUtil.GetTransmogLocation(infoslot[slotID].name, Enum.TransmogType.Appearance, Enum.TransmogModification.Main);
 	local baseSourceID, _, appliedSourceID, _, _, _, _, _, hasPendingUndo, _ = C_Transmog.GetSlotVisualInfo(transmogLocation);
 	if ( hasPendingUndo or appliedSourceID == NO_TRANSMOG_SOURCE_ID ) then
 		return baseSourceID;
@@ -776,7 +776,7 @@ function OutfitDisplayItemButton_OnEnter(self)
 end
 
 function OutfitDisplayItemButton_OnEvent(self, event)
-	if ( event == "CURSOR_UPDATE" ) then
+	if ( event == "CURSOR_UPDATE" or event == "CURSOR_CHANGED" ) then
 		if ( not self.forced ) then
 			if ((self.CursorCanGoInSlot and self.CursorCanGoInSlot(self)) or
 				 SmartCursorCanGoInSlot(self)) then
@@ -828,7 +828,7 @@ function OutfitDisplayItemButton_OnLoad(self)
 	SetItemButtonTexture(self, self.backgroundTextureName);
 	self:RegisterForDrag("LeftButton");
 	self:RegisterForClicks("LeftButtonUp", "RightButtonUp");
-	self:RegisterEvent("CURSOR_UPDATE");
+	self:RegisterEvent("CURSOR_CHANGED");
 	self:SetFrameLevel(self:GetFrameLevel()+3);
 end
 

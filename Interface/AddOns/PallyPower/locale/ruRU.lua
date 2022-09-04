@@ -8,8 +8,7 @@ L["[|cffffd200Enable|r/|cffffd200Disable|r] The Auto Buff Button or [|cffffd200E
 L["[|cffffd200Enable|r/|cffffd200Disable|r] The Drag Handle Button."] = "[|cffffd200Вкл|r/|cffffd200Выкл|r] кнопку Перетаскивания."
 L["[|cffffd200Enable|r/|cffffd200Disable|r] The Player(s) or Class Buttons."] = "[|cffffd200Вкл|r/|cffffd200Выкл|r] кнопки Игроков или Классов."
 L["[|cffffd200Enable|r/|cffffd200Disable|r] The Seal Button, Enable/Disable Righteous Fury or select the Seal you want to track."] = "[|cffffd200Вкл|r/|cffffd200Выкл|r] кнопку Печати, [|cffffd200Вкл|r/|cffffd200Выкл|r] Праведное неистовство или выбрать Печать для отслеживания."
---[[Translation missing --]]
-L["[Enable/Disable] Class Buttons"] = "[Enable/Disable] Class Buttons"
+L["[Enable/Disable] Class Buttons"] = "[Показать/Скрыть] Кнопки классов"
 L["[Enable/Disable] PallyPower"] = "[Показать/Скрыть] PallyPower"
 L["[Enable/Disable] PallyPower in Party"] = "[Показывать/Скрыть] PallyPower в группе"
 L["[Enable/Disable] PallyPower while Solo"] = "[Показать/Скрыть] PallyPower при игре в одиночку"
@@ -85,8 +84,8 @@ L["If you enable this option PallyPower will automatically over-write a Greater 
 L["If you enable this option PallyPower will automatically over-write a Greater Blessing with a Normal Blessing on players marked with the |cffffd200Main Tank|r role in the Blizzard Raid Panel. This is useful for spot buffing the |cffffd200Main Tank|r role with Blessing of Sanctuary."] = "If you enable this option PallyPower will automatically over-write a Greater Blessing with a Normal Blessing on players marked with the |cffffd200Main Tank|r role in the Blizzard Raid Panel. This is useful for spot buffing the |cffffd200Main Tank|r role with Blessing of Sanctuary."
 L["If you enable this option PallyPower will automatically over-write a Greater Blessing with a Normal Blessing on players marked with the |cffffd200Main Tank|r role in the Blizzard Raid Panel. This is useful to avoid blessing the |cffffd200Main Tank|r role with a Greater Blessing of Salvation."] = "Если вы включите эту опцию, PallyPower автоматически перезапишет Великое благословение Обычным Благословением для игроков, помеченных ролью |cffffd200Главный танк|r в интерфейсе рейда. Это полезно, чтобы самостоятельно заменять Великое благословение спасения другим благословением для роли |cffffd200Главного танка|r кликая по кнопке игрока ПКМ."
 L["If you enable this option, you will not be allowed to assign Blessing of Wisdom to Warriors or Rogues, and Blessing of Might to Mages, Warlocks, or Hunters."] = "Если эта опция включена, то запрещает назначать Благословение мудрости для Воинов или Разбойников и Благословение могущества для Магов, Чернокнижников и Охотников."
---[[Translation missing --]]
-L["If you enable this option, you will not be allowed to assign Blessing of Wisdom to Warriors, Rogues, or Death Knights and Blessing of Might to Mages, Warlocks, or Hunters."] = "If you enable this option, you will not be allowed to assign Blessing of Wisdom to Warriors, Rogues, or Death Knights and Blessing of Might to Mages, Warlocks, or Hunters."
+L["If you enable this option, you will not be allowed to assign Blessing of Wisdom to Warriors, Rogues, or Death Knights and Blessing of Might to Mages, Warlocks, or Hunters."] = [=[Если вы включите эту опцию, вы не сможете назначать Благословение мудрости для
+Воинов, Разбойников или Рыцарей смерти или Благословение могущества для Магов, Чернокнижников и Охотников.]=]
 L["LAYOUT_TOOLTIP"] = "Вертикально [Слева/Справа] Горизонтально [Вверху/Внизу]"
 L["Main PallyPower Settings"] = "Когда показывать PallyPower"
 L["Main Tank / Main Assist Roles"] = "Роли Главный танк / Наводчик"
@@ -108,8 +107,7 @@ L["None Buffed"] = "Нет баффов"
 L["Options"] = "Настройки"
 L["OPTIONS_BUTTON_TOOLTIP"] = "Открыть окно настроек PallyPower."
 L["Override Druids / Paladins..."] = "Автозамена для Друидов/Паладинов..."
---[[Translation missing --]]
-L["Override Warriors / Death Knights..."] = "Override Warriors / Death Knights..."
+L["Override Warriors / Death Knights..."] = "Переопределить Воинов / Рыцарей Смерти..."
 L["Override Warriors..."] = "Автозамена для Воинов..."
 L["PallyPower Buttons Scale"] = "Масштаб кнопок баффа"
 L["PallyPower Classic"] = "PallyPower"
@@ -122,14 +120,8 @@ L["PP_REFRESH_TOOLTIP"] = [=[Обновить все назначенные
 Благословения, Таланты,
 Знаки королей для Паладинов
 в группе/рейде]=]
---[[Translation missing --]]
-L["Preset"] = "Preset"
---[[Translation missing --]]
-L["PRESET_TOOLTIP"] = [=[|cffffffff[Left-Click]|r Load the last saved Preset.
-
-|cffffffff[Shift-Left-Click]|r Save a preset 
-of all Greater and Normal Blessings 
-currently configured.]=]
+L["Preset"] = "Предустановка"
+L["PRESET_TOOLTIP"] = "|cffffffff[Левый клик]|r Загрузите последнюю сохраненную предустановку. |cffffffff[Shift-левый клик]|r Сохраните предустановку всех великих и обыкновенных благословений, настроенных в данный момент."
 L["Raid only options"] = "Настройки только для рейда"
 L["Refresh"] = "Обновить"
 L["REPORT_CHANNEL_OPTION_TOOLTIP"] = [=[Установите канал для Отчёта о Благословениях:
@@ -152,20 +144,16 @@ L["Seal Button"] = "Кнопка Печати"
 L["Seal Tracker"] = "Отслеживание Печати"
 L["Select the Aura you want to track"] = "Выбор Ауры для отслеживания"
 L["Select the Greater Blessing assignment you wish to over-write on Main Assist: Druids / Paladins."] = "Выберите Великое Благословение для автозамены на другое Обычное Благословение для Друидов/Паладинов, отмеченных ролью Наводчика."
---[[Translation missing --]]
-L["Select the Greater Blessing assignment you wish to over-write on Main Assist: Warriors / Death Knights."] = "Select the Greater Blessing assignment you wish to over-write on Main Assist: Warriors / Death Knights."
+L["Select the Greater Blessing assignment you wish to over-write on Main Assist: Warriors / Death Knights."] = "Выберите назначенное великое благословение, которое вы хотите использовать, чтобы перезаписать когда главный помощник: Воины / Рыцари смерти."
 L["Select the Greater Blessing assignment you wish to over-write on Main Assist: Warriors."] = "Выберите Великое Благословение для автозамены на другое Обычное Благословение для Воинов, отмеченных ролью Наводчика."
 L["Select the Greater Blessing assignment you wish to over-write on Main Tank: Druids / Paladins."] = "Выберите Великое Благословение для автозамены на другое Обычное Благословение для Друидов/Паладинов, отмеченных ролью Главного Танка."
---[[Translation missing --]]
-L["Select the Greater Blessing assignment you wish to over-write on Main Tank: Warriors / Death Knights."] = "Select the Greater Blessing assignment you wish to over-write on Main Tank: Warriors / Death Knights."
+L["Select the Greater Blessing assignment you wish to over-write on Main Tank: Warriors / Death Knights."] = "Выберите назначенное великое благословение, которое вы хотите использовать, чтобы перезаписать когда основной танк: Воины / Рыцари смерти."
 L["Select the Greater Blessing assignment you wish to over-write on Main Tank: Warriors."] = "Выберите великое благословение, которое хотите перебафать на главного танка: Воина."
 L["Select the Normal Blessing you wish to use to over-write the Main Assist: Druids / Paladins."] = "Выберите Обычное Благословение, которым будет заменяться Великое Благословение для Друидов/Паладинов, отмеченных ролью Наводчика."
---[[Translation missing --]]
-L["Select the Normal Blessing you wish to use to over-write the Main Assist: Warriors / Death Knights."] = "Select the Normal Blessing you wish to use to over-write the Main Assist: Warriors / Death Knights."
+L["Select the Normal Blessing you wish to use to over-write the Main Assist: Warriors / Death Knights."] = "Выберите обычное благословение, которое вы хотите использовать, чтобы перезаписать когда главные помощник: Воины / Рыцари смерти."
 L["Select the Normal Blessing you wish to use to over-write the Main Assist: Warriors."] = "Выберите Обычное Благословение, которым будет заменяться Великое Благословение для Воинов, отмеченных ролью Наводчика."
 L["Select the Normal Blessing you wish to use to over-write the Main Tank: Druids / Paladins."] = "Выберите Обычное Благословение, которым будет заменяться Великое Благословение для Друидов/Паладинов, отмеченных ролью Главного Танка."
---[[Translation missing --]]
-L["Select the Normal Blessing you wish to use to over-write the Main Tank: Warriors / Death Knights."] = "Select the Normal Blessing you wish to use to over-write the Main Tank: Warriors / Death Knights."
+L["Select the Normal Blessing you wish to use to over-write the Main Tank: Warriors / Death Knights."] = "Выберите обычное благословение, которое вы хотите использовать, чтобы перезаписать когда основной танк: Воины / Рыцари смерти."
 L["Select the Normal Blessing you wish to use to over-write the Main Tank: Warriors."] = "Выберите обычное благословение, которое хотите перебафать на главного танка: Воина."
 L["Select the Seal you want to track"] = "Выбор Печати для отслеживания"
 L["Show Minimap Icon"] = "Иконка у миникарты"

@@ -63,7 +63,7 @@ function ItemScore:Initialise()
 		self.eventFrame:RegisterEvent("PLAYER_SPECIALIZATION_CHANGED")
 	end
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		self.eventFrame:RegisterEvent("CHARACTER_POINTS_CHANGED")
 		self.eventFrame:RegisterEvent("SKILL_LINES_CHANGED")
 	end
@@ -135,7 +135,7 @@ function ItemScore:SetStatWeights(playerclass,playerspec,playerlevel)
 	self.playerlevel = playerlevel or ((ZGV.db.char.fakelevel or 0)>0 and ZGV.db.char.fakelevel) or UnitLevel("player")
 	self.playerfaction = UnitFactionGroup("player")
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		self.playeristank = self.playerclass=="DRUID" or self.playerclass=="PALADIN" or self.playerclass=="WARRIOR"
 		self.playerishealer = self.playerclass=="DRUID" or self.playerclass=="SHAMAN" or self.playerclass=="PRIEST" or self.playerclass=="PALADIN"
 		if not ZGV.db.char.gear_active_build then
@@ -180,7 +180,7 @@ function ItemScore:SetStatWeights(playerclass,playerspec,playerlevel)
 		if ZGV.IsRetail then
 			for i,v in pairs(ItemScore.rules[self.playerclass][active_set].primary) do self.ActiveRuleSet.primary[i]=v end
 		end
-		if ZGV.IsClassic or ZGV.IsClassicTBC then
+		if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 			for i,v in pairs(ItemScore.rules[self.playerclass][active_set].caps) do self.ActiveRuleSet.caps[i]=v end
 		end
 	else
@@ -586,7 +586,7 @@ function ItemScore:IsValidItem(itemlink, future)
 		return false, true, item.validstatus
 	end
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		-- do we have skill to use this
 		if (subclass~="JEWELERY") and (ItemScore.Skills[subclass] or 0) == 0 then
 			item.validated = true

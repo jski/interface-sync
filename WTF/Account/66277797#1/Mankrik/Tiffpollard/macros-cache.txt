@@ -1,7 +1,7 @@
 VER 3 0000000001000003 "crusader/cmd" "135924"
 #showtooltip [nocombat] Seal of Crusader; [combat] Judgement
 /cast [nocombat] Seal of the Crusader; Judgement
-/cast [combat] Seal of Command
+/cast [combat] Seal of Crusader
 END
 VER 3 0000000001000002 "judge and comman" "132093"
 #showtooltip [nocombat] Seal of Command; [combat] Judgement
@@ -10,4 +10,9 @@ VER 3 0000000001000002 "judge and comman" "132093"
 END
 VER 3 0000000001000001 "mark" "132269"
 /tm 8
+END
+VER 3 0000000001000004 "righteous/judg" "132325"
+#showtooltip [nocombat] Seal of Righteousness; [combat] Judgement
+/cast [nocombat] Seal of the Righteousness; Judgement
+/cast [combat] Seal of Righteousness
 END

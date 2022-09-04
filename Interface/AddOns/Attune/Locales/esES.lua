@@ -188,7 +188,12 @@ Lang["DelUnder70_TEXT"] = "Eliminar PJs por debajo de nivel 70"
 Lang["DelUnder70_DESC"] = "Eliminar toda la información sobre Pjs por debajo de nivel 70."
 Lang["DelUnder70_CONF"] = "¿Quieres realmente eliminar TODOS los personajes por debajo de 70?"
 Lang["DelUnder70_DONE"] = "Todos los resultados por debajo de nivel 70 eliminados."
-
+--302
+Lang["AnnounceAchieve_TEXT"] = "Anunciar logros en el chat del gremio                                       Límite:"
+Lang["AnnounceAchieve_DESC"] = "Envía un mensaje de hermandad cuando obtengas un logro."
+Lang["AchieveCompleteGuild"] = "##LINK## completada! (##POINTS## puntos totales)" 
+Lang["AchieveSurvey"] = "¿Te gustaría que |cFFFFD100Attune|r anunciara tus logros en el chat del gremio?"
+					
 
 -- TREEVIEW
 Lang["World of Warcraft"] = "World of Warcraft"

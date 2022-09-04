@@ -184,6 +184,7 @@ Para más información sobre como personalizar Pawn, por favor lee el archivo (R
 		["SpellHitInfo"] = "Spell Hit.  Increases the chance that your damaging spells hit the target, especially bosses.",
 		--[[Translation missing --]]
 		["SpellPenetrationInfo"] = "Spell Penetration. Negates an enemy's resistances to your spells.",
+		["SpellPowerInfo"] = "",
 		--[[Translation missing --]]
 		["SpiritInfo"] = "Spirit.  Affects your out-of-combat mana regeneration.",
 		["StaminaInfo"] = "Aguante.  Aumenta tu vida.",
@@ -345,6 +346,7 @@ Para más información sobre como personalizar Pawn, por favor lee el archivo (R
 		["ExpertiseRating"] = "^Equipar: Aumenta tu índice de pericia [ue]n # ?p?%.$",
 		["FeralAp"] = "^Equipar: %+# p%. de poder de ataque solo en las formas felina, de oso y de oso temible%.$",
 		["FeralApMoonkin"] = "^Equipar: Aumenta e?n? ?# p%. el poder de ataque bajo formas felinas, de oso, de oso temible y de lechúcico lunar%.$",
+		["FeralApWrath"] = "^Aumenta e?n? ?# p%. el poder de ataque bajo formas felinas, de oso, de oso temible y de lechúcico lunar%.$",
 		["FireResist"] = "^%+?# resistencia a Fuego$",
 		["FireSpellDamage"] = "^%+# daño con hechizos de Fuego$",
 		["FireSpellDamage2"] = "^Equipar: Aumenta hasta # p%. el daño que infligen los hechizos y efectos de Fuego%.$",
@@ -461,6 +463,7 @@ Para más información sobre como personalizar Pawn, por favor lee el archivo (R
 		["SpellPenetrationClassic"] = "^Equipar: Las resistencias mágicas de los objetivos de tus hechizos se reducen # p%.$",
 		["SpellPenetrationShort"] = "^%+?# penetración de hechizos$",
 		["SpellPower"] = "^%+?# poder con hechizos$",
+		["SpellPower2"] = "^Equipar: Aumenta el poder con hechizos # p%.$",
 		["Spirit"] = "^%+?# d?e? ?[Ee]spíritu$",
 		["Staff"] = "^Bastón$",
 		["Stamina"] = "^%+?# d?e? ?[Aa]guante$",
@@ -809,6 +812,11 @@ if GetLocale() == "esES" then
 	PawnLocal.ThousandsSeparator = ""
 	PawnLocal.DecimalSeparator = ","
 
+	if VgerCore.IsWrath then
+		-- Wrath Classic on esES has an incorrect LARGE_NUMBER_SEPERATOR.
+		PawnLocal.ThousandsSeparator = ","
+	end
+
 	local TooltipParsing_All =
 	{
 		["Avoidance"] = "^%+# Evasión$",
@@ -854,7 +862,7 @@ if GetLocale() == "esES" then
 		end
 	end
 
-	if VgerCore.IsClassic or VgerCore.IsBurningCrusade then
+	if VgerCore.IsClassic or VgerCore.IsBurningCrusade or VgerCore.IsWrath then
 
 		local TooltipParsing_Classic =
 		{
@@ -904,7 +912,7 @@ if GetLocale() == "esES" then
 		end
 	end
 
-	if VgerCore.IsBurningCrusade then
+	if VgerCore.IsBurningCrusade or VgerCore.IsWrath then
 
 		local TooltipParsing_BurningCrusade =
 		{
@@ -924,7 +932,7 @@ if GetLocale() == "esES" then
 		end
 	end
 
-	if VgerCore.IsShadowlands or VgerCore.IsBurningCrusade then
+	if VgerCore.IsMainline or VgerCore.IsBurningCrusade or VgerCore.IsWrath then
 		PawnLocal.TooltipParsing.Block = "^%+?# bloqueo$"
 	end
 
@@ -933,7 +941,7 @@ elseif GetLocale() == "esMX" then
 	PawnLocal.ThousandsSeparator = ","
 	PawnLocal.DecimalSeparator = "."
 
-	if VgerCore.IsBurningCrusade then
+	if VgerCore.IsBurningCrusade or VgerCore.IsWrath then
 		PawnLocal.TooltipParsing.Block = "^%+?# bloqueo$"
 	end
 end

@@ -57,7 +57,8 @@ do
 	local ZGV
 
 	Lib.IsClassic = WOW_PROJECT_ID == WOW_PROJECT_CLASSIC
-	Lib.IsClassicTBC = WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC
+	Lib.IsClassicTBC = (WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC) and (LE_EXPANSION_LEVEL_CURRENT == LE_EXPANSION_BURNING_CRUSADE)
+	Lib.IsClassicWOTLK = (WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC) and (LE_EXPANSION_LEVEL_CURRENT == LE_EXPANSION_WRATH_OF_THE_LICH_KING)
 	Lib.IsRetail = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
 
 	--[[
@@ -316,7 +317,7 @@ do
 			["SHIMMERINGEXPANSE"]=205,
 		}
 
-		if Lib.IsClassic or Lib.IsClassicTBC then
+		if Lib.IsClassic or Lib.IsClassicTBC or Lib.IsClassicWOTLK then
 			MAPENUM={
 				["KALIMDOR"]=1414,
 				["EASTERNKINGDOMS"]=1415,
@@ -3236,7 +3237,7 @@ do
 					end
 
 					-- Classic: no unknown flyovers
-					if Lib.IsClassic or Lib.IsClassicTBC then
+					if Lib.IsClassic or Lib.IsClassicTBC or Lib.IsClassicWOTLK then
 						if mode=="taxi" and neigh.known==false then
 							mycost=mycost+COST_FAILURE+23
 							if cost_debugging then costdesc = costdesc .. "no flyovers; " end
@@ -4412,9 +4413,11 @@ do
 
 		local last_checked=GetTime()  -- unused?
 		function Lib:HasFlyingMount()
-			if Lib.IsClassic or Lib.IsClassicTBC then return false end
+			if Lib.IsClassic then return false end
+			if Lib.IsClassicTBC or Lib.IsClassicWOTLK then return true end 
 			if GetTime()-last_checked<60 then return has_flying_mount end
 			last_checked=GetTime()
+
 			C_MountJournal.GetNumDisplayedMounts()
 			for i=1,C_MountJournal.GetNumDisplayedMounts() do
 				local mountID = select(12,C_MountJournal.GetDisplayedMountInfo(i))

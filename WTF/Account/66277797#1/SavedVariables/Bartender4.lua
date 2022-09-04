@@ -24,8 +24,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -34,8 +34,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -72,13 +72,13 @@ Bartender4DB = {
 				["Tiffpollard - Mankrik"] = {
 					["actionbars"] = {
 						{
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 41.75,
 								["x"] = -256,
 								["point"] = "BOTTOM",
 							},
+							["padding"] = 6,
 						}, -- [1]
 						{
 							["enabled"] = false,
@@ -90,7 +90,6 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
@@ -98,9 +97,9 @@ Bartender4DB = {
 								["x"] = -42,
 								["point"] = "BOTTOMRIGHT",
 							},
+							["padding"] = 5,
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
@@ -108,6 +107,7 @@ Bartender4DB = {
 								["x"] = -82,
 								["point"] = "BOTTOMRIGHT",
 							},
+							["padding"] = 5,
 						}, -- [4]
 						{
 							["version"] = 3,
@@ -126,6 +126,13 @@ Bartender4DB = {
 							},
 						}, -- [6]
 						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 178.9635772705078,
+								["x"] = -231.5,
+								["point"] = "BOTTOM",
+							},
 						}, -- [7]
 						{
 						}, -- [8]
@@ -137,13 +144,13 @@ Bartender4DB = {
 				["Leelaturanga - Mankrik"] = {
 					["actionbars"] = {
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 41.75,
 								["x"] = -256,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
 						}, -- [1]
 						{
 							["enabled"] = false,
@@ -156,23 +163,23 @@ Bartender4DB = {
 						}, -- [2]
 						{
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
 								["x"] = -42,
 								["point"] = "BOTTOMRIGHT",
 							},
-							["padding"] = 5,
 						}, -- [3]
 						{
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
 								["x"] = -82,
 								["point"] = "BOTTOMRIGHT",
 							},
-							["padding"] = 5,
 						}, -- [4]
 						{
 							["version"] = 3,
@@ -221,23 +228,23 @@ Bartender4DB = {
 				},
 				["Tiffpollard - Mankrik"] = {
 					["enabled"] = false,
-					["version"] = 3,
 					["position"] = {
 						["y"] = 42.80001920263021,
 						["x"] = -171.9999180180039,
 						["point"] = "CENTER",
 						["scale"] = 0.800000011920929,
 					},
+					["version"] = 3,
 				},
 				["Leelaturanga - Mankrik"] = {
 					["enabled"] = false,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 42.80001920263021,
 						["x"] = -171.9999180180039,
 						["point"] = "CENTER",
 						["scale"] = 0.800000011920929,
 					},
-					["version"] = 3,
 				},
 			},
 		},
@@ -245,28 +252,28 @@ Bartender4DB = {
 			["profiles"] = {
 				["Tiffpollard - Mankrik"] = {
 					["enabled"] = true,
-					["version"] = 3,
 					["position"] = {
 						["y"] = 48,
 						["x"] = -256,
 						["point"] = "BOTTOM",
 						["scale"] = 0.5,
 					},
+					["version"] = 3,
 				},
 			},
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {
-				["Tiffpollard - Mankrik"] = {
+				["Leelaturanga - Mankrik"] = {
+					["artLayout"] = "ONEBAR",
+					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -256,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
-					["artLayout"] = "ONEBAR",
 				},
-				["Leelaturanga - Mankrik"] = {
+				["Tiffpollard - Mankrik"] = {
 					["artLayout"] = "ONEBAR",
 					["position"] = {
 						["y"] = 47,
@@ -307,34 +314,6 @@ Bartender4DB = {
 				},
 			},
 		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["Weedlordgirl - Mankrik"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.49996948242188,
-						["x"] = 104.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Tiffpollard - Mankrik"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.49996948242188,
-						["x"] = 104.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Leelaturanga - Mankrik"] = {
-					["position"] = {
-						["y"] = 42.49996948242188,
-						["x"] = 104.5001220703125,
-						["point"] = "CENTER",
-					},
-					["version"] = 3,
-				},
-			},
-		},
 		["StanceBar"] = {
 			["profiles"] = {
 				["Weedlordgirl - Mankrik"] = {
@@ -346,21 +325,49 @@ Bartender4DB = {
 					},
 				},
 				["Tiffpollard - Mankrik"] = {
-					["version"] = 3,
 					["position"] = {
 						["y"] = 54,
-						["x"] = 199.2155456542969,
+						["x"] = 147.4804573059082,
 						["point"] = "BOTTOMLEFT",
 					},
+					["version"] = 3,
 				},
 				["Leelaturanga - Mankrik"] = {
 					["enabled"] = false,
+					["version"] = 3,
 					["position"] = {
 						["y"] = -15,
 						["x"] = -82.49993896484375,
 						["point"] = "CENTER",
 					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Weedlordgirl - Mankrik"] = {
 					["version"] = 3,
+					["position"] = {
+						["y"] = 42.49996948242188,
+						["x"] = 104.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Tiffpollard - Mankrik"] = {
+					["position"] = {
+						["y"] = 42.49996948242188,
+						["x"] = 104.5001220703125,
+						["point"] = "CENTER",
+					},
+					["version"] = 3,
+				},
+				["Leelaturanga - Mankrik"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.49996948242188,
+						["x"] = 104.5001220703125,
+						["point"] = "CENTER",
+					},
 				},
 			},
 		},
@@ -396,13 +403,13 @@ Bartender4DB = {
 			["profiles"] = {
 				["Tiffpollard - Mankrik"] = {
 					["enabled"] = true,
-					["version"] = 3,
 					["position"] = {
 						["y"] = 51,
 						["x"] = -256,
 						["point"] = "BOTTOM",
 						["scale"] = 0.5,
 					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -423,15 +430,14 @@ Bartender4DB = {
 		},
 		["Tiffpollard - Mankrik"] = {
 			["focuscastmodifier"] = false,
+			["buttonlock"] = true,
 			["minimapIcon"] = {
-				["minimapPos"] = 229.8082061064198,
+				["minimapPos"] = 151.8007663552151,
 			},
 			["outofrange"] = "hotkey",
-			["buttonlock"] = true,
 		},
 		["Leelaturanga - Mankrik"] = {
 			["focuscastmodifier"] = false,
-			["buttonlock"] = true,
 			["minimapIcon"] = {
 				["minimapPos"] = 226.0299169191275,
 				["hide"] = true,

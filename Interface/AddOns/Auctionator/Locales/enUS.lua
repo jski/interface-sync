@@ -197,6 +197,7 @@ AUCTIONATOR_LOCALES.enUS = function()
   L["SELLERS_COLUMN"] = "Seller(s)"
   L["SELLERS_OVERFLOW_TEXT"] = "%s, and %s more"
   L["OWNED_COLUMN"] = "Owned?"
+  L["IS_TOP_COLUMN"] = "Top?"
   L["YOU_COLUMN"] = "You?"
 
   L["FULL_SCAN_BUTTON"] = "Full Scan"
@@ -431,6 +432,7 @@ AUCTIONATOR_LOCALES.enUS = function()
   L["TOTAL_PRICE"] = "Total Price:"
   L["CONFIRM_POST_LOW_PRICE"] = "The price of %s looks a bit low. Are you sure you want to post at that price?"
   L["CONFIRM_POST_BELOW_VENDOR"] = "You can make more gold selling this to a vendor. Are you sure you want to post at that price?"
+  L["CONFIRM_POST_PRICE_DROP"] = "The unit price of %s is a large price drop. Are you sure you want to post at that price?"
 
   L["DEFAULT_TAB"] = "Default Tab"
   L["DEFAULT_TAB_TEXT"] = "shows as the default tab"
@@ -457,6 +459,9 @@ AUCTIONATOR_LOCALES.enUS = function()
   L["CONFIG_SELLING_CONFIRM_LOW_PRICE"] = "Confirm posting items at an unusually low price"
   L["CONFIG_SELLING_CONFIRM_LOW_PRICE_TOOLTIP_HEADER"] = "Confirm Posting Low Price"
   L["CONFIG_SELLING_CONFIRM_LOW_PRICE_TOOLTIP_TEXT"] = "Lets you remove the confirmation dialog that appears when posting an item at an unusually low price."
+  L["CONFIG_SELLING_SPLIT_PANELS"] = "Show split panel view between current prices and historical prices"
+  L["CONFIG_SELLING_SPLIT_PANELS_TOOLTIP_HEADER"] = "Split Panels View"
+  L["CONFIG_SELLING_SPLIT_PANELS_TOOLTIP_TEXT"] = "Normally the historical prices are on a tab inside the Selling tab, instead this makes the current prices always visible, but the historical prices show as a panel below them."
   L["CONFIG_BAG_COLLAPSED"] = "Bag sections start collapsed (reload required)"
   L["CONFIG_BAG_COLLAPSED_TOOLTIP_HEADER"] = "Bag collapsing on start"
   L["CONFIG_BAG_COLLAPSED_TOOLTIP_TEXT"] = "If this option is on the bag sections will start closed, instead of open."

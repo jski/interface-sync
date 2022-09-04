@@ -1,138 +1,134 @@
 
 PallyPowerDB = {
 	["profileKeys"] = {
-		["Leelaturanga - Mankrik"] = "Other",
 		["Tiffpollard - Mankrik"] = "Default",
+		["Leelaturanga - Mankrik"] = "Other",
 	},
 	["profiles"] = {
 		["Other"] = {
 			["enable"] = true,
+			["WrathTransition"] = true,
 			["minimap"] = {
 				["minimapPos"] = 121.4798769857185,
 			},
 		},
 		["Default"] = {
-			["layout"] = "Layout 6",
-			["seal"] = 6,
+			["seal"] = 5,
 			["display"] = {
 				["buffDuration"] = false,
 				["frameLocked"] = true,
 			},
 			["enable"] = true,
 			["minimap"] = {
-				["minimapPos"] = 181.9484905431984,
+				["minimapPos"] = 186.9627133884591,
 			},
 			["mainTankSpellsDP"] = 1,
 			["mainTankGSpellsDP"] = 1,
+			["WrathTransition"] = true,
+			["layout"] = "Layout 6",
 			["rf"] = true,
 		},
 	},
 }
 PallyPower_Assignments = {
-	["Blessnstuff"] = {
-		2, -- [1]
-		2, -- [2]
-		4, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
-		4, -- [7]
-		4, -- [8]
-		4, -- [9]
-	},
-	["Cha"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-	},
-	["Juturna"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-	},
-	["Slurrm"] = {
-		4, -- [1]
+	["Janekings"] = {
+		0, -- [1]
 		0, -- [2]
-		4, -- [3]
-		4, -- [4]
-		6, -- [5]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
 		0, -- [6]
-		4, -- [7]
+		0, -- [7]
 		0, -- [8]
 		0, -- [9]
+		0, -- [10]
 	},
-	["Tiffpollard"] = {
+	["Mortisen"] = {
 		2, -- [1]
 		2, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		2, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		2, -- [10]
+	},
+	["Neverregret"] = {
+		0, -- [1]
+		0, -- [2]
 		1, -- [3]
-		2, -- [4]
+		1, -- [4]
 		1, -- [5]
 		1, -- [6]
-		4, -- [7]
+		1, -- [7]
 		1, -- [8]
 		1, -- [9]
+		0, -- [10]
+	},
+	["Markael"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+	},
+	["Yeehawtlou"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+	},
+	["Tiffpollard"] = {
+		0, -- [1]
+		2, -- [2]
+		3, -- [3]
+		3, -- [4]
+		2, -- [5]
+		2, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
 		2, -- [10]
 		2, -- [11]
 	},
 	["Tgcid"] = {
 		0, -- [1]
-		4, -- [2]
-		1, -- [3]
-		0, -- [4]
-		6, -- [5]
-		2, -- [6]
+		0, -- [2]
+		0, -- [3]
+		4, -- [4]
+		4, -- [5]
+		0, -- [6]
 		0, -- [7]
-		4, -- [8]
+		0, -- [8]
 		0, -- [9]
+		4, -- [10]
 	},
 }
 PallyPower_NormalAssignments = {
 }
 PallyPower_AuraAssignments = {
-	["Diggitydankz"] = 1,
-	["Tiffpollard"] = 7,
-	["Slurrm"] = 0,
-	["Blueagga-Grobbulus"] = 8,
-	["Lynaa-Windseeker"] = 7,
-	["Smellyblunt-Grobbulus"] = 0,
-	["Blessnstuff"] = 0,
-	["Pashtunwali-Whitemane"] = 0,
-	["Telthrandis-Faerlina"] = 1,
-	["Protorhot"] = 1,
-	["Lastard"] = 7,
-	["Holycoomer"] = 1,
-	["Bonetores-Faerlina"] = 8,
-	["Cuckpig"] = 3,
-	["Opb"] = 0,
-	["Sinjohns-Faerlina"] = 1,
-	["Aegolism"] = 3,
-	["Kilowan-Grobbulus"] = 0,
-	["Juturna"] = 7,
-	["Cha"] = 1,
-	["Miyke"] = 1,
-	["Priecharound-Atiesh"] = 2,
-	["Holeeschitte"] = 0,
-	["Saraypal-Grobbulus"] = 1,
-	["Razzekk-Faerlina"] = 0,
-	["Salvi"] = 2,
-	["Lunastus"] = 1,
-	["Dinaden"] = 1,
-	["Éxito-Whitemane"] = 3,
-	["Ascensionxo-Faerlina"] = 1,
-	["Syranne"] = 2,
-	["Tgcid"] = 0,
+	["Markael"] = 7,
+	["Yeehawtlou"] = 2,
+	["Mebeblood"] = 1,
+	["Tiffpollard"] = 2,
+	["Pallyrevzz"] = 3,
+	["Neverregret"] = 4,
+	["Janekings"] = 5,
+	["Mortisen"] = 2,
+	["Tgcid"] = 1,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_Assignments"] = {

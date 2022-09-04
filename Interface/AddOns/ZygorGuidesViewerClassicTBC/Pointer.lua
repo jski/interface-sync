@@ -307,7 +307,7 @@ function Pointer:Startup()
 		:SetFrameLevel(1)
 		.__END
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		self.OverlayFrame:SetFrameStrata("FULLSCREEN")
 	end
 

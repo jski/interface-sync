@@ -1366,7 +1366,7 @@ end
 
 	function ZGV_DefaultSkin_Frame_Mixin:OnShow()
 		ZGV:Frame_OnShow()
-		local flavour = (ZGV.IsRetail and " retail") or (ZGV.IsClassicTBC and " tbc") or (ZGV.IsClassic and " classic") or ""
+		local flavour = (ZGV.IsRetail and " retail") or (ZGV.IsClassicTBC and " tbc") or (ZGV.IsClassic and " classic") or (ZGV.IsClassicWOTLK and " wotlk") or ""
 		self.Controls.DevLabel:SetText(ZGV.name.." rev "..ZGV.revision..flavour)
 		self.Controls.DevLabel:SetShown(ZGV.db.profile.debug_display and not ZGV.db.profile.hide_dev_once)
 	end
@@ -1918,7 +1918,7 @@ function ZGV_DefaultSkin_Frame_Mixin:MenuSettingsButton_OnClick()
 		},
 	}
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		table.insert(setting_menu,7, -- after findnearest
 			{
 				text=L["menu_ShowSkills"],

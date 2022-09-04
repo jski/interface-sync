@@ -44,6 +44,8 @@ function WW:SetupMenuArray()
 	elseif ZGV.IsClassicTBC then
 		table.remove(Tradeskills,11) -- inscription
 		table.remove(Tradeskills,3) -- bandages
+	elseif ZGV.IsClassicWOTLK then
+		table.remove(Tradeskills,3) -- bandages
 	elseif ZGV.IsClassic then
 		table.remove(Tradeskills,12) -- jewelcrafting
 		table.remove(Tradeskills,11) -- inscription
@@ -104,7 +106,7 @@ function WW:SetupMenuArray()
 
 	if ZGV.IsRetail then
 		table.remove(WW.Types ,4) -- class trainers
-	elseif ZGV.IsClassic or ZGV.IsClassicTBC then
+	elseif ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		table.remove(WW.Types ,13) -- void storage
 		table.remove(WW.Types ,11) -- transmog
 		table.remove(WW.Types ,9) -- riding
@@ -363,7 +365,7 @@ ZGV.NPCData.raw=data
 function ZGV.NPCData:iterate(typ)
 	return data[typ]:gmatch("(%d+)=([^\n]+)\n")
 end
-ZGV._NPCData=nil
+--ZGV._NPCData=nil
 
 
 -- Mailboxes --

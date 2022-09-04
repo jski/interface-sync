@@ -815,7 +815,7 @@ function Goldguide:UpdateTimeStamp()
 	local timestamptext,updateTitletext,lastScanStr
 
 	local ScanDatabase
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		ScanDatabase = ZGVG.Scan.db.factionrealm
 	else
 		ScanDatabase = ZGVG.Scan.db.realm

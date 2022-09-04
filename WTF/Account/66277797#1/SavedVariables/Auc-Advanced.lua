@@ -27,7 +27,7 @@ AucAdvancedConfig = {
 				["columnsortcurSort"] = 6,
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOPLEFT:TOPLEFT:122.5:-69.7",
+				["ahframeanchors"] = "LEFT:LEFT:0.0:99.2",
 			},
 			["automagic"] = {
 				["ammailguix"] = 160,
@@ -62,8 +62,8 @@ AucAdvancedData = {
 AucAdvancedServers = {
 	["KnownRealms"] = {
 		["Mankrik"] = {
-			["Horde"] = 1661730387,
-			["Login"] = 1661796615,
+			["Horde"] = 1661903603,
+			["Login"] = 1661903681,
 			["Neutral"] = 1661658191,
 		},
 	},

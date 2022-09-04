@@ -1,8 +1,12 @@
+VER 3 0000000001000003 "crusader/cmd" "135924"
+#showtooltip [nocombat] Seal of Crusader; [combat] Judgement
+/cast [nocombat] Seal of the Crusader; Judgement
+/cast [combat] Seal of Command
+END
 VER 3 0000000001000002 "judge and comman" "132093"
-#showtooltip Avenging Wrath
-/startattack
-/cast Judgement
-/cast Seal of Command
+#showtooltip [nocombat] Seal of Command; [combat] Judgement
+/cast [nocombat] Seal of the Command; Judgement
+/cast [combat] Seal of Command
 END
 VER 3 0000000001000001 "mark" "132269"
 /tm 8

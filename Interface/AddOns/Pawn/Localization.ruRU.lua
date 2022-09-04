@@ -154,6 +154,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["SpellHitInfo"] = "Spell Hit.  Increases the chance that your damaging spells hit the target, especially bosses.",
 		--[[Translation missing --]]
 		["SpellPenetrationInfo"] = "Spell Penetration. Negates an enemy's resistances to your spells.",
+		["SpellPowerInfo"] = "",
 		["SpiritInfo"] = "Spirit.  Affects your out-of-combat mana regeneration.",
 		["StaminaInfo"] = "Выносливость. Увеличивает количество жизни. ",
 		["StrengthInfo"] = "Сила. Увеличивает силу атаки для некоторых классов.",
@@ -314,6 +315,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["ExpertiseRating"] = "^Если на персонаже: Повышает рейтинг мастерства на #%.$",
 		["FeralAp"] = "^Если на персонаже: Увеличивает силу атаки на # ед%. в облике кошки, медведя и лютого медведя%.$",
 		["FeralApMoonkin"] = "^Если на персонаже: Увеличивает силу атаки на # ед%. в облике кошки, медведя, лютого медведя или лунного совуха%.$",
+		["FeralApWrath"] = "^Увеличивает силу атаки на # в облике кошки, медведя, лютого медведя и лунного совуха%.$",
 		["FireResist"] = "^Устойчивость: %+# огонь$",
 		["FireSpellDamage"] = "^%+# к урону от заклинаний огня$",
 		["FireSpellDamage2"] = "^Если на персонаже: Увеличение наносимого урона от заклинаний и эффектов огня не более чем на # ед%.$",
@@ -431,6 +433,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["SpellPenetrationClassic"] = "^Если на персонаже: Снижает сопротивление магии целей ваших заклинаний на #%.$",
 		["SpellPenetrationShort"] = "^%+?# к проникающей способности заклинаний$",
 		["SpellPower"] = "^%+?# к силе заклинаний$",
+		["SpellPower2"] = "^Если на персонаже: Увеличивает силу заклинаний на #%.$",
 		["Spirit"] = "^%+?# к духу$",
 		["Staff"] = "^Посох$",
 		["Stamina"] = "^%+?# к выносливости$",
@@ -765,7 +768,7 @@ PawnLocal.Specs =
 	},
 }
 
-if VgerCore.IsBurningCrusade then
+if VgerCore.IsBurningCrusade or VgerCore.IsWrath then
 	PawnLocal.DecimalSeparator = ","
 	PawnLocal.ThousandsSeparator = ","
 end

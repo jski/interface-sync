@@ -39,7 +39,7 @@ Upgrades.EquippedItems = {
 	[INVSLOT_TRINKET2] = {},
 }
 
-if ZGV.IsClassic or ZGV.IsClassicTBC then
+if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 	Upgrades.EquippedItems[INVSLOT_RANGED] = {}
 end
 
@@ -449,7 +449,7 @@ Upgrades.UpgradeQueue = {
 	[INVSLOT_TRINKET2] = {},
 }
 
-if ZGV.IsClassic or ZGV.IsClassicTBC then
+if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 	Upgrades.UpgradeQueue[INVSLOT_RANGED] = {}
 end
 
@@ -1190,7 +1190,7 @@ function Upgrades:ShowGearReport()
 	-- player data
 	out = out .. "*** Player data: " 
 	out = out .. "\n class " .. ItemScore.playerclassName .. " system " .. (select(1,UnitClass("player")))
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		out = out .. "\n build " .. ZGV.db.char.gear_active_build
 	else
 		out = out .. "\n spec " .. ItemScore.playerspecName  .. " system " .. (select(2,GetSpecializationInfo(ItemScore.playerspec)))
@@ -1198,7 +1198,7 @@ function Upgrades:ShowGearReport()
 	out = out .. "\n level " .. ItemScore.playerlevel .. " system " .. UnitLevel("player")
 	out = out .. "\n faction " .. ItemScore.playerfaction .. " system " .. UnitFactionGroup("player")
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		out = out .. "\n\n*** Skills: " 
 		out = out .. "\n locale " .. GetLocale()
 		out = out .. "\n** registered " 

@@ -1,9 +1,4 @@
-VER 3 0000000000000001 "ZygorAction1" "132212"
-#showtooltip Talk to Qia
-/run ZGV:MCM(4)
-/cleartarget
-/target Qia
-/run ZGV:MRM()
+VER 3 0000000000000001 "ZygorAction1" "134400"
 END
 VER 3 0000000000000002 "ZygorAction2" "134400"
 END

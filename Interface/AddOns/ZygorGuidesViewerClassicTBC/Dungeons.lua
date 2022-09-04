@@ -28,10 +28,10 @@ setmetatable(Dungeons,{
 
 		if type(id)=="string" and not Dungeons.hardcoded_dungeons[id] then return end   -- error("No function Dungeons."..id)   -- don't error, this breaks Spoo.
 
-		local name, typeID, subtypeID, minLevel, maxLevel, recLevel, minRecLevel, maxRecLevel, expansionLevel, groupID, textureFilename, difficulty, maxPlayers, description, isHoliday, min_ilevel, attunement_achieve, attunement_quest, attunement_queston, bonusRepAmount,isTimeWalker,minPlayers,name2
+		local name, typeID, subtypeID, minLevel, maxLevel, recLevel, minRecLevel, maxRecLevel, expansionLevel, groupID, textureFilename, difficulty, maxPlayers, description, isHoliday, min_ilevel, attunement_achieve, attunement_quest, attunement_queston, bonusRepAmount,isTimeWalker,minPlayers,name2, phase
 		if Dungeons.hardcoded_dungeons[id] then
 			local d=Dungeons.hardcoded_dungeons[id]
-			name,expansionLevel,minLevel,min_ilevel,difficulty = d.name,d.expansionLevel,d.minLevel,d.min_ilevel,d.difficulty
+			name,expansionLevel,minLevel,min_ilevel,difficulty,phase = d.name,d.expansionLevel,d.minLevel,d.min_ilevel,d.difficulty,d.phase
 		elseif GetLFGDungeonInfo then
 			name, typeID, subtypeID, minLevel, maxLevel, recLevel, minRecLevel, maxRecLevel, expansionLevel, groupID, textureFilename, difficulty, maxPlayers, description, isHoliday, bonusRepAmount, minPlayers, isTimeWalker, name2, min_ilevel  = GetLFGDungeonInfo(id)
 		end
@@ -47,6 +47,7 @@ setmetatable(Dungeons,{
 			dungeon.expansionLevel = expansionLevel
 			dungeon.maxScaleLevel = math.max(Dungeons.ExpansionsLimits[expansionLevel],dungeon.minLevel) -- maxscale cannot be lower than minlevel (uldir hero/mythic reports being from exp6, so maxscale would be 110)
 			dungeon.min_ilevel = min_ilevel
+			dungeon.phase = phase
 
 			if Dungeons.add_flags[id] then
 				for flag,value in pairs(Dungeons.add_flags[id]) do

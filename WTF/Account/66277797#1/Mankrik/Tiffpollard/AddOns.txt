@@ -4,3 +4,9 @@ ItemRackOptions: enabled
 Auc-Advanced: disabled
 Auc-Filter-Basic: enabled
 aux-addon: disabled
+Details: enabled
+Details_Streamer: enabled
+Details_TinyThreat: enabled
+FishingBuddy: enabled
+Attune: enabled
+SpeedyAutoLoot: disabled

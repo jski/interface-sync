@@ -17,7 +17,7 @@ function Goldguide:InitialiseAuctionChores()
 
 	local ST=ZGV.Gold.servertrends
 	ST=ST and ST.items
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		AH=ZGV.db.factionrealm.gold_scan_data
 	else
 		AH=ZGV.db.realm.gold_scan_data
@@ -77,7 +77,7 @@ function Auctions:CalculateDetails(refresh)
 
 	local id = self.id
 	local auctions
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		auctions=ZGV.db.factionrealm.gold_scan_data[1][id]
 	else
 		auctions=ZGV.db.realm.gold_scan_data[1][id]
@@ -376,7 +376,7 @@ function Auctions:GetTooltipData(refresh)
 	if flags_string_bad~="" then flags_description = flags_description.. " |r|cffff0000(CONS: "..flags_string_bad.. ")|r" end
 
 	local demand_description
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		demand_description = ""
 	else
 		demand_description = ("Daily demand for item: %s"):format(self.demand or "unknown")

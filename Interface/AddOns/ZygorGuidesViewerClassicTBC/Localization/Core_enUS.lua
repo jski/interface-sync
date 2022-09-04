@@ -1263,6 +1263,7 @@ ZygorGuidesViewer_L("Main", "enUS", function() local f = {
 		viewer_special_rate_next = "You have reached the end of the guide.\n|cfffe6100Click here|r to load the |c%s%s|r guide.",
 		viewer_special_rate_menu = "You have reached the end of the guide.\n|cfffe6100Click here|r to load a guide.",
 		viewer_special_scorecheck = "Please rate the guide before submitting feedback",
+		viewer_special_badscore = "|cfffe6100Please tell us how we could improve this guide.",
 		viewer_special_toggle = "Don't show this dialog again",
 		viewer_special_senttopopup = "You have reached the end of the guide.\nStep content sent to popup.",
 		viewer_special_cancelled_rate = "You have reached the end of the guide.\n\n|cfffe6100Click here|r to rate this guide.",

@@ -1,8 +1,3 @@
-local SALE_ITEM_EVENTS = {
-  "ITEM_SEARCH_RESULTS_UPDATED",
-  "COMMODITY_SEARCH_RESULTS_UPDATED",
-}
-
 local function IsEquipment(itemInfo)
   return itemInfo.classId == Enum.ItemClass.Weapon or itemInfo.classId == Enum.ItemClass.Armor
 end
@@ -238,6 +233,7 @@ function AuctionatorSaleItemMixin:SellItemClick()
       Auctionator.EventBus:Fire(self, Auctionator.Selling.Events.RefreshBuying, self.itemInfo)
     -- Failed; this item can't be auctioned
     else
+      Auctionator.EventBus:Fire(self, Auctionator.Selling.Events.StopFakeBuyLoading)
       Auctionator.Debug.Message("Invalid sell item")
       self.itemInfo = nil
       self:Update()
@@ -245,6 +241,8 @@ function AuctionatorSaleItemMixin:SellItemClick()
   else
     if self.itemInfo ~= nil then
       Auctionator.EventBus:Fire(self, Auctionator.Selling.Events.RefreshBuying, self.itemInfo)
+    else
+      Auctionator.EventBus:Fire(self, Auctionator.Selling.Events.StopFakeBuyLoading)
     end
     self.itemInfo = nil
   end
@@ -295,11 +293,15 @@ function AuctionatorSaleItemMixin:ReceiveEvent(event, ...)
     local info = ...
     if info ~= nil then
       self:UpdateForHistoryPrice(info.unitPrice)
+      local unitPrice
       if not info.isOwned then
-        self:SetUnitPrice(GetAmountWithUndercut(info.unitPrice))
+        unitPrice = GetAmountWithUndercut(info.unitPrice)
       else
-        self:SetUnitPrice(info.unitPrice)
+        unitPrice = info.unitPrice
       end
+      self:SetUnitPrice(unitPrice)
+      -- Used to check if the undercut is more than 50% below configured setting
+      self.priceThreshold = unitPrice * 0.5
     end
   elseif event == Auctionator.Buying.Events.HistoricalPrice and
          self.itemInfo ~= nil then
@@ -368,6 +370,8 @@ function AuctionatorSaleItemMixin:UpdateForNewItem()
 
   self:SetQuantity()
 
+  self.priceThreshold = nil
+
   Auctionator.Utilities.DBKeyFromLink(self.itemInfo.itemLink, function(dbKeys)
     local price = Auctionator.Database:GetFirstPrice(dbKeys)
 
@@ -379,6 +383,11 @@ function AuctionatorSaleItemMixin:UpdateForNewItem()
       self:SetUnitPrice(0)
     end
   end)
+
+  -- Used because it can take a while for the throttle to clear on a megaserver,
+  -- this makes it clear that something is loading rather than leaving the
+  -- prices frozen on the previous item.
+  Auctionator.EventBus:Fire(self, Auctionator.Selling.Events.StartFakeBuyLoading, {itemLink = self.itemInfo.itemLink})
 
   self.minPriceSeen = 0
 end
@@ -462,6 +471,8 @@ function AuctionatorSaleItemMixin:SetUnitPrice(salesPrice)
   self.StackPrice:SetAmount(self.UnitPrice:GetAmount() * self.Stacks.StackSize:GetNumber())
   self.BidPrice:SetAmount(self:GetAutoBidAmount())
 
+  self.priceThreshold = nil
+
   self.prevStackSize = self.Stacks.StackSize:GetNumber()
   self.prevUnitPrice = self.UnitPrice:GetAmount()
   self.prevStackPrice = self.StackPrice:GetAmount()
@@ -518,6 +529,10 @@ function AuctionatorSaleItemMixin:GetPostButtonState()
 end
 
 function AuctionatorSaleItemMixin:GetConfirmationMessage()
+  if self.priceThreshold ~= nil and self.UnitPrice:GetAmount() < self.priceThreshold then
+    return AUCTIONATOR_L_CONFIRM_POST_PRICE_DROP:format(GetMoneyString(self.UnitPrice:GetAmount(), true))
+  end
+
   -- Determine if the item is worth more to sell to a vendor than to post on the
   -- AH.
   local itemInfo = { GetItemInfo(self.itemInfo.itemLink) }

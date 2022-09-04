@@ -845,7 +845,7 @@ function Tabs:RemoveTab()
 		ZGV:ShowWaypoints()
 		ZGV.db.char.unloadedguide=true
 
-		if ZGV.IsClassic or ZGV.IsClassicTBC then
+		if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 			if ZGV.QuestDB.GuideHelperMenu then ZGV.QuestDB.GuideHelperMenu:Hide() end
 			ZGV.QuestDB:Cancel()
 		end

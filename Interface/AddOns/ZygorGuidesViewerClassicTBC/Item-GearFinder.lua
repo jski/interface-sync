@@ -58,6 +58,7 @@ function GearFinder:IsValidDungeon(dungeon, instanceId)
 	local dungeon = ZGV.Dungeons[ident]
 
 	if not dungeon then return false, false, ident, 0, false, "no dungeon" end
+	if dungeon.phase and not ZGV.Dungeons.Phases[dungeon.phase] then return false, false, ident, 0, false, "phase inactive" end
 
 	if dungeon.nomythicplus and dungeon.difficulty==23 and ZGV.db.profile.gear_23_plus>1 then return false, false, ident, 0, false, "no mythic plus" end
 
@@ -86,7 +87,7 @@ function GearFinder:IsValidDungeon(dungeon, instanceId)
 	end
 
 	local mythic = dungeon.difficulty==23 
-	local mythicplus = mythic and dungeon.expansionLevel==ZGV.Dungeons.CurrentExpansion 
+	local mythicplus = dungeon.mythicplusvalid -- mythic and dungeon.expansionLevel==ZGV.Dungeons.CurrentExpansion
 
 	-- handle future rejects
 	if dungeon.minLevel and dungeon.minLevel > ItemScore.playerlevel then return false, true, ident, dungeon.maxScaleLevel, mythic, "need higher level" end
@@ -122,7 +123,7 @@ GearFinder.UpgradeQueue = {
 	[INVSLOT_TRINKET2] = {},
 }
 
-if ZGV.IsClassic or ZGV.IsClassicTBC then
+if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 	GearFinder.UpgradeQueue[INVSLOT_RANGED] = {}
 end
 
@@ -399,7 +400,7 @@ function GearFinder:ScoreDungeonItems()
 		if valid then
 			GearFinder.ItemsToScore[ident] = {}
 			for boss,bossdata in pairs(dungeondata) do
-				if type(bossdata)=="table" then
+				if type(bossdata)=="table" and (not bossdata.phase or ZGV.Dungeons.Phases[bossdata.phase]) then
 					for _,itemlink in pairs(bossdata[player]) do
 						if type(itemlink)=="number" then itemlink = "item:"..itemlink end
 						itemlink = ZGV.ItemLink.SetLevel(itemlink,capped_player_level,false)
@@ -423,7 +424,7 @@ function GearFinder:ScoreDungeonItems()
 			GearFinder.ItemsToMaybeScore[ident] = {}
 
 			for boss,bossdata in pairs(dungeondata) do
-				if type(bossdata)=="table" then
+				if type(bossdata)=="table" and (not bossdata.phase or ZGV.Dungeons.Phases[bossdata.phase]) then
 					for _,itemlink in pairs(bossdata[player]) do
 						if type(itemlink)=="number" then itemlink = "item:"..itemlink end
 						itemlink = ZGV.ItemLink.SetLevel(itemlink,capped_player_level,false)
@@ -661,7 +662,7 @@ function GearFinder:CreateMainFrame()
 		{136524,INVSLOT_OFFHAND,INVTYPE_WEAPONOFFHAND},
 	}
 
-	if ZGV.IsClassic or ZGV.IsClassicTBC then
+	if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 		table.insert(left_column,{136520,INVSLOT_RANGED,INVTYPE_RANGED})
 	end
 

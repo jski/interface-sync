@@ -152,6 +152,7 @@ PawnLocal =
 		["SpellHitInfo"] = "法术命中: 增加法术攻击命中目标的几率 (对于首领而言尤为重要)。",
 		--[[Translation missing --]]
 		["SpellPenetrationInfo"] = "Spell Penetration. Negates an enemy's resistances to your spells.",
+		["SpellPowerInfo"] = "",
 		["SpiritInfo"] = "精神 - 影响非战斗状态下生命和法力的恢复速度 (在战斗状态下, 仅影响法力的恢复速度).",
 		["StaminaInfo"] = "耐力，增加你的生命值上限。",
 		["StrengthInfo"] = "力量，为力量型职业增加攻击强度。",
@@ -312,6 +313,7 @@ PawnLocal =
 		["ExpertiseRating"] = "^装备： 使你的精准等级提高#点。$",
 		["FeralAp"] = "^装备： ?在猎豹、熊和巨熊形态下的攻击强度提高#点。$",
 		["FeralApMoonkin"] = "^装备： 在猎豹、熊、巨熊和枭兽形态下的攻击强度提高#点。$",
+		["FeralApWrath"] = "^在猎豹、熊、巨熊和枭兽形态下的攻击强度提高#点。$",
 		["FireResist"] = "^%+?# 火焰抗性$",
 		["FireSpellDamage"] = "^%+# 火焰法术伤害$",
 		["FireSpellDamage2"] = "^装备： ?提高火焰法术和效果所造成的伤害，最多#点。$",
@@ -428,6 +430,7 @@ PawnLocal =
 		["SpellPenetrationClassic"] = "^装备： 使你的法术目标的魔法抗性降低#点。$",
 		["SpellPenetrationShort"] = "^%+?# 法术穿透$",
 		["SpellPower"] = "^%+?# 法术强度$",
+		["SpellPower2"] = "^装备： 法术强度提高#点。$",
 		["Spirit"] = "^%+?# 精神$",
 		["Staff"] = "^法杖$",
 		["Stamina"] = "^%+?# 耐力$",
@@ -694,7 +697,7 @@ Pawn插件默认已经参考AskMrRobot给所有职业的专精建立了标准评
 
 -- Special case: wands use different text on Classic.
 -- So, patch things up here.
-if VgerCore.IsClassic or VgerCore.IsBurningCrusade then
+if VgerCore.IsClassic or VgerCore.IsBurningCrusade or VgerCore.IsWrath then
 
 	local TooltipParsing_Classic =
 	{
@@ -720,7 +723,7 @@ if VgerCore.IsClassic or VgerCore.IsBurningCrusade then
 	end
 end
 
-if VgerCore.IsBurningCrusade then
+if VgerCore.IsBurningCrusade or VgerCore.IsWrath then
 
 	local TooltipParsing_BurningCrusade =
 	{

@@ -1,4 +1,4 @@
-## Interface: 20504
+## Interface: 30400
 ## Title: |cffffffffZygor Guide Viewer Classic TBC|r |cfffe61008|r
 ## Notes: Free multi-purpose leveling guide viewer, Classic edition.
 ## Author: Zygor Guides

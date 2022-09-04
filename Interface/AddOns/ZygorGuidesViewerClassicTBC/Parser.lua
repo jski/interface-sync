@@ -48,13 +48,11 @@ local classspecs=
 	["DRUID"]		= { "Balance","Feral","Guardian","Restoration","Starter" },
 	["DEMONHUNTER"]		= { "Havoc","Vengeance",nil,nil,"Starter" },
 }
-if ZGV.IsClassic or ZGV.IsClassicTBC then
+if ZGV.IsClassic or ZGV.IsClassicTBC or ZGV.IsClassicWOTLK then
 	classspecs["HUNTER"]		= { "Beast Mastery","Marksmanship","Survival" }
 	classspecs["ROGUE"]		= { "Assassination","Combat","Subtlety" }
 	classspecs["DRUID"]		= { "Balance","Feral","Restoration" }
-	classspecs["DEATHKNIGHT"]	= nil
 	classspecs["DEMONHUNTER"]	= nil
-
 end
 
 Parser.classspecs = classspecs
@@ -608,11 +606,15 @@ local ConditionEnv = {
 	thunderprogress = function()
 		return math.floor(select(2,ZGV:GetThunderStage())*100)
 	end,
-	hasmount = function(mountspell)
-		local mountIDs = C_MountJournal.GetMountIDs()
-		for i, mountID in ipairs(mountIDs) do
-			local name, spell, _, _, _, _, _, _, _, _, isCollected = C_MountJournal.GetMountInfoByID(mountID)
-			if spell==mountspell and isCollected then return true end
+	hasmount = function(mountident)
+		if ZGV.IsRetail then
+			local mountIDs = C_MountJournal.GetMountIDs()
+			for i, mountID in ipairs(mountIDs) do
+				local name, spell, _, _, _, _, _, _, _, _, isCollected = C_MountJournal.GetMountInfoByID(mountID)
+				if spell==mountident and isCollected then return true end
+			end
+		else
+			return Parser.ConditionEnv.itemcount(mountident) > 0
 		end
 	end,
 	boosted = function(boost)

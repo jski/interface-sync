@@ -89,6 +89,7 @@ Guide.SubTypes = {
 
 	CLA = 1,
 	BCC = 2,
+	WLK = 3,
 	}
 Guide.Sides = {
 	A = 1,
@@ -351,7 +352,7 @@ function Guide:GetCompletionText(mode)
 		-- Old equation: (self.endlevel-math.floor(self.endlevel))*20
 		-- New equation: floor((self.endlevel-math.floor(self.endlevel))*20+0.05)
 		-- ~~ Jeremiah
-		return math.floor(comp*100).."%", ("Level %3d (+%d bars) reached: %d%%"):format(self.endlevel,floor((self.endlevel-math.floor(self.endlevel))*20+0.05),math.floor(comp*100))
+		return math.floor(comp*100).."%", ("Level %3d (+%d bars) reached: %d%%"):format(self.endlevel,floor((self.endlevel-math.floor(self.endlevel))*20+0.05),math.floor(comp*100)) --- 2015-03-29
 	elseif mode=="steps" then
 		return math.floor(comp*100).."%", ("Steps completed: %d/%d"):format(a,b)
 	elseif mode=="macro" then

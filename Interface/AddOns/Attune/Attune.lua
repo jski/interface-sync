@@ -8,13 +8,16 @@
 --
 -------------------------------------------------------------------------
 
--- Done in 255
---	Updated to cater for honored and revered rep keys
-
+-- Done in 305
+--  Fixed a missing quest description
+--  Updated the default url to point to WOTLK instead of TBC on Wowhead
+--  Added a point threshold for the Achievement guild announcements
 
 -------------------------------------------------------------------------
 -- ADDON VARIABLES
 -------------------------------------------------------------------------
+
+local addonName, addon = ...
 
 Attune = LibStub("AceAddon-3.0"):NewAddon("Attune", "AceConsole-3.0", "AceEvent-3.0", "AceComm-3.0")
 Attune_Data = {};							-- Attunements / steps / tooltips
@@ -30,7 +33,7 @@ local attunelocal_minimapicon = LibStub("LibDBIcon-1.0")
 local attunelocal_brokervalue = nil
 local attunelocal_brokerlabel = nil
 
-local attunelocal_version = "255"  					-- change here, and in TOC x2
+local attunelocal_version = tostring(GetAddOnMetadata(addonName, "Version"))
 local attunelocal_prefix = "Attune_Channel"			-- used for addon chat communications
 local attunelocal_versionprefix = "Attune_Version"	-- used for addon version check
 local attunelocal_syncprefix = "Attune_Sync"		-- used for addon version check
@@ -113,6 +116,8 @@ local attunelocal_raidsize = 0					-- selected Raid size
 local attunelocal_raidcount = 1  				-- selected raid, number of raid groups to show
 
 local attunelocal_inactivity = 60*60*24*30		-- number of seconds to account for inactivity
+
+local attunelocal_achieveDelayDone = false		-- Wait a few seconds to avoid the barrage of achieves when one first logs in
 
 local patch = 0
 
@@ -202,15 +207,41 @@ local attune_options = {
 					desc = Lang["ShowOther_DESC"],
 					get = function(info) return Attune_DB.showOtherChat end,
 					set = function(info, val) Attune_DB.showOtherChat = val end,
-					width = "full",
-					order = 20,
+					width = 1.65,
+					order = 19,
 				},
-				spacer2 = {
-					type = "description",
-					name = " ",
-					width = "full",
+				announceAchieveCompleted = {
+					type = "toggle",
+					name = Lang["AnnounceAchieve_TEXT"],
+					desc = Lang["AnnounceAchieve_DESC"],
+					get = function(info) return Attune_DB.announceAchieveCompleted end,
+					set = function(info, val) Attune_DB.announceAchieveCompleted = val end,
+					width = 2.6,
+					order = 20,
+				},				
+				achieveMinPoints = {
+					type = "select",
+					name = "",
+					desc = "",
+					values = {	
+						[10] = "10 Points", 
+						[20] = "20 Points",
+						[25] = "25 Points",
+						[30] = "30 Points",
+						[40] = "40 Points",
+						[50] = "50 Points",
+						[60] = "60 Points",
+						[70] = "70 Points",
+						[80] = "80 Points",
+						[90] = "90 Points",
+						[100] = "100 Points",
+					},
+					get = function(info) return Attune_DB.achieveMinPoints end,
+					set = function(info, val) Attune_DB.achieveMinPoints = val end,
+					width = 0.7,
 					order = 21,
 				},
+
 				showList = {
 					type = "toggle",
 					name = Lang["ShowGuildies_TEXT"],
@@ -218,7 +249,7 @@ local attune_options = {
 					get = function(info) return Attune_DB.showList end,
 					set = function(info, val) Attune_DB.showList = val end,
 					width = 2.8,
-					order = 22,
+					order = 23,
 				},
 				maxListSize = {
 					type = "input",
@@ -505,7 +536,10 @@ function Attune:OnEnable()
 	self:RegisterEvent("UPDATE_FACTION")
 	self:RegisterEvent("BAG_UPDATE")
 	self:RegisterEvent("GOSSIP_SHOW")
+	self:RegisterEvent("QUEST_DETAIL")
+	self:RegisterEvent("ACHIEVEMENT_EARNED")
 	
+		
 	_, _, _, patch	 = GetBuildInfo()
 	
 	if Attune_DB == nil then Attune_DB = {} end
@@ -522,14 +556,18 @@ function Attune:OnEnable()
 	if Attune_DB.showResponses == nil then Attune_DB.showResponses = true end
 	if Attune_DB.showStepReached == nil then Attune_DB.showStepReached = true end
 	if Attune_DB.announceAttuneCompleted == nil then Attune_DB.announceAttuneCompleted = true end
+	if Attune_DB.announceAchieveCompleted == nil then Attune_DB.announceAchieveCompleted = true end
+	if Attune_DB.achieveMinPoints == nil then Attune_DB.achieveMinPoints = 20 end
 	if Attune_DB.showOtherChat == nil then Attune_DB.showOtherChat = true end
 	if Attune_DB.maxListSize == nil then Attune_DB.maxListSize = "20" end
 	if Attune_DB.logs == nil then Attune_DB.logs = {} end
 	if Attune_DB.minimapbuttonpos == nil then Attune_DB.minimapbuttonpos = {} end
 	if Attune_DB.minimapbuttonpos.hide == nil then Attune_DB.minimapbuttonpos.hide = false end
 	if Attune_DB.autosurvey == nil then Attune_DB.autosurvey = false end
-	if Attune_DB.websiteUrl == nil then Attune_DB.websiteUrl = "https://tbc.wowhead.com" end
+	if Attune_DB.websiteUrl == nil then Attune_DB.websiteUrl = "https://wowhead.com/wotlk" end
 	if TreeExpandStatus == nil then TreeExpandStatus = {} end
+	if Attune_DB.announceAchieveSurvey == nil then Attune_DB.announceAchieveSurvey = false end
+	
 
 	--raid planner
 	if Attune_DB.raidShowMains == nil then Attune_DB.raidShowMains = true end
@@ -644,6 +682,9 @@ function Attune:OnEnable()
 		Attune:SendCommMessage(attunelocal_versionprefix, attunelocal_version, "YELL", "");
 	end)
 
+	C_Timer.After(15, function()
+		attunelocal_achieveDelayDone = true -- after 10s the spam should have been done
+	end)
 
 	-- sending a couple version checks to make sure people update to the latest version
 
@@ -717,6 +758,32 @@ function Attune:OnEnable()
 
 	attunelocal_minimapicon:Register("Attune_Broker", Attune_Broker, Attune_DB.minimapbuttonpos)
 	if Attune_DB.minimapbuttonpos.hide then attunelocal_minimapicon:Hide("Attune_Broker"); attunelocal_minimapicon:Hide("Attune_Broker") else attunelocal_minimapicon:Show("Attune_Broker");attunelocal_minimapicon:Show("Attune_Broker") end
+
+
+
+	C_Timer.After(10, function()
+		if not Attune_DB.announceAchieveSurvey then
+			StaticPopupDialogs["ACHIEVEANNOUNCE_CONFIRM"] = {
+				text = Lang["\n"..Lang["AchieveSurvey"].."\n\n"],
+				button1 = Lang["Yes"],
+				button2 = Lang["No"],
+				timeout = 0,
+				hasEditBox = false,
+				whileDead = true,
+				hideOnEscape = true,
+				preferredIndex = 3,  -- avoid some UI taint, see http://www.wowace.com/announcements/how-to-avoid-some-ui-taint/
+				OnAccept = function()
+					Attune_DB.announceAchieveSurvey = true
+					Attune_DB.announceAchieveCompleted = true
+				end,
+				OnCancel = function (_,reason)
+					Attune_DB.announceAchieveSurvey = true
+					Attune_DB.announceAchieveCompleted = false
+				end,
+			}
+			StaticPopup_Show ("ACHIEVEANNOUNCE_CONFIRM")
+		end
+	end)
 
 
 	--Attune_CreateRepWidget()
@@ -804,6 +871,27 @@ function Attune:OnDisable()
 	self:Print("|cffff00ff[Attune]|r "..Lang["Addon disabled"])
 end
 
+
+-------------------------------------------------------------------------
+-- EVENT: Fired when an achievement is gained
+-------------------------------------------------------------------------
+
+function Attune:ACHIEVEMENT_EARNED(event, id)
+	--send a guild message when an achievement is earned 
+	guildName, guildRankName, guildRankIndex = GetGuildInfo("player");
+	if guildName ~= nil then attunelocal_myguild = guildName end
+
+	achieveId, achieveName, achievePoints = GetAchievementInfo(id)
+	
+	if 	achievePoints >= Attune_DB.achieveMinPoints
+		and Attune_DB.announceAchieveCompleted 
+		and attunelocal_myguild ~= "" 
+		and attunelocal_achieveDelayDone then 
+			SendChatMessage(Lang["AchieveCompleteGuild"]:gsub("##LINK##", GetAchievementLink(id)):gsub("##POINTS##", GetTotalAchievementPoints()) , "GUILD")
+	end
+
+end
+
 -------------------------------------------------------------------------
 -- EVENT: Addon Chat message is received
 -------------------------------------------------------------------------
@@ -870,7 +958,7 @@ function Attune:COMBAT_LOG_EVENT_UNFILTERED(event, arg1, arg2, arg3, arg4)
 					end
 					--print(npc_id)
 		
-					if s.ID_WOWHEAD == npc_id then
+					if ""..s.ID_WOWHEAD == ""..npc_id then
 						-- checking that predecessors are done (meaning this step is ISNext)
 						local isNext = true
 						local followOR = false
@@ -894,6 +982,7 @@ function Attune:COMBAT_LOG_EVENT_UNFILTERED(event, arg1, arg2, arg3, arg4)
 							if Attune_DB.toons[attunelocal_charKey].done[s.ID_ATTUNE .. "-" .. s.ID] == nil then
 								for k, a in pairs(Attune_Data.attunes) do
 									if a.ID == s.ID_ATTUNE then
+										local faction = UnitFactionGroup("player")
 										if a.FACTION == faction or a.FACTION == 'Both' then
 											--mark step as done
 											Attune_DB.toons[attunelocal_charKey].done[s.ID_ATTUNE .. "-" .. s.ID] = 1
@@ -1064,8 +1153,13 @@ end
 -------------------------------------------------------------------------
 -- EVENT: Interact with NPC
 -------------------------------------------------------------------------
-
+function Attune:QUEST_DETAIL(event)
+	--print("QUEST_DETAIL")
+	Attune:GOSSIP_SHOW(event)
+end
+-------------------------------------------------------------------------
 function Attune:GOSSIP_SHOW(event)
+	--print("GOSSIP")
 	--print(UnitGUID("target"))
 	local npc_id = -1
 	if UnitGUID("target") ~= nil then
@@ -1449,6 +1543,16 @@ function Attune_CheckComplete(newComplete)
 
 	if att.done["250-110"] and att.attuned["250"] ~= 100 	then att.done["250-120"] = 1; 	Attune_SendPushInfo("250-120"); 	att.attuned["250"] = 100; Attune_UpdateTreeGroup("250"); newComplete = true;  end	-- Ogrila
 	if att.done["260-110"] and att.attuned["260"] ~= 100 	then att.done["260-120"] = 1; 	Attune_SendPushInfo("260-120"); 	att.attuned["260"] = 100; Attune_UpdateTreeGroup("260"); newComplete = true;  end	-- Netherwing
+
+
+	if att.done["300-290"] and att.attuned["300"] ~= 100 	then att.done["300-300"] = 1; 	Attune_SendPushInfo("300-300"); 	att.attuned["300"] = 100; Attune_UpdateTreeGroup("300"); newComplete = true;  end	-- Wrathgate Horde
+	if att.done["310-400"] and att.attuned["310"] ~= 100 	then att.done["310-410"] = 1; 	Attune_SendPushInfo("310-410"); 	att.attuned["310"] = 100; Attune_UpdateTreeGroup("310"); newComplete = true;  end	-- Wrathgate Alliance
+	if att.done["330-380"] and att.attuned["330"] ~= 100 	then att.done["330-390"] = 1; 	Attune_SendPushInfo("330-390"); 	att.attuned["330"] = 100; Attune_UpdateTreeGroup("330"); newComplete = true;  end	-- Sons of Hodir
+	if att.done["340-140"] and att.attuned["340"] ~= 100 	then att.done["340-150"] = 1; 	Attune_SendPushInfo("340-150"); 	att.attuned["340"] = 100; Attune_UpdateTreeGroup("340"); newComplete = true;  end	-- Ebon Blade Horde
+	if att.done["350-140"] and att.attuned["350"] ~= 100 	then att.done["350-150"] = 1; 	Attune_SendPushInfo("350-150"); 	att.attuned["350"] = 100; Attune_UpdateTreeGroup("350"); newComplete = true;  end	-- Ebon Blade Alliance
+	if att.done["370-50"] and att.attuned["370"] ~= 100 	then att.done["370-60"] = 1; 	Attune_SendPushInfo("370-60"); 		att.attuned["370"] = 100; Attune_UpdateTreeGroup("370"); att.done["360-55"] = 1; newComplete = true;  end	-- Malygos 25 -- this also pushes the sub attunement in Maly 10
+	if att.done["360-55"] 									then att.done["360-50"] = 1; 	Attune_SendPushInfo("360-50"); 		newComplete = true;  end	-- Malygos 10 (granted via Malygos 25)
+	if att.done["360-50"] and att.attuned["360"] ~= 100 	then att.done["360-60"] = 1; 	Attune_SendPushInfo("360-60"); 		att.attuned["360"] = 100; Attune_UpdateTreeGroup("360"); newComplete = true;  end	-- Malygos 10 (granted via quest)
 
 	if newComplete then 
 		for i, s in Attune_spairs(Attune_Data.steps, function(t,a,b) 	return tonumber(t[b].ID) > tonumber(t[a].ID) end) do

@@ -189,6 +189,8 @@ L["CONFIRM"] = "확인"
 L["CONFIRM_POST_BELOW_VENDOR"] = "You can make more gold selling this to a vendor. Are you sure you want to post at that price?"
 --[[Translation missing --]]
 L["CONFIRM_POST_LOW_PRICE"] = "The price of %s looks a bit low. Are you sure you want to post at that price?"
+--[[Translation missing --]]
+L["CONFIRM_POST_PRICE_DROP"] = "The unit price of %s is a large price drop. Are you sure you want to post at that price?"
 L["CONTRIBUTORS_HEADER"] = "기증자"
 L["COPY_ITEM_ADDED"] = "%s 을 %s 로 복사"
 L["COPY_NO_LIST_SELECTED"] = "아이템을 복사할 수 없습니다. 선택한 구매 목록이 없습니다"
