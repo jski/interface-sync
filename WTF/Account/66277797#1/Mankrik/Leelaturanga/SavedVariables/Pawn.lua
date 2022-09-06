@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0601,
+	["LastVersion"] = 2.0604,
+	["LastPlayerFullName"] = "Leelaturanga-Mankrik",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 28804,
@@ -64,10 +66,10 @@ PawnOptions = {
 			["Level"] = 103,
 			["Link"] = "|cff0070dd|Hitem:29317::::::::69:::::::::|h[Tempest's Touch]|h|r",
 		},
-		[18] = {
-			["ID"] = 27540,
-			["Level"] = 115,
-			["Link"] = "|cff0070dd|Hitem:27540::::::::70:::::::::|h[Nexus Torch]|h|r",
+		[9] = {
+			["ID"] = 31770,
+			["Level"] = 96,
+			["Link"] = "|cff1eff00|Hitem:31770::::::::66:::::::::|h[Marsh Bracers]|h|r",
 		},
 		[11] = {
 			["ID"] = 31728,
@@ -86,14 +88,12 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cff1eff00|Hitem:31728::::::::66:::::::::|h[Heirloom Signet of Willpower]|h|r",
 		},
-		[9] = {
-			["ID"] = 31770,
-			["Level"] = 96,
-			["Link"] = "|cff1eff00|Hitem:31770::::::::66:::::::::|h[Marsh Bracers]|h|r",
+		[18] = {
+			["ID"] = 27540,
+			["Level"] = 115,
+			["Link"] = "|cff0070dd|Hitem:27540::::::::70:::::::::|h[Nexus Torch]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "Leelaturanga-Mankrik",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

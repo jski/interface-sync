@@ -3,13 +3,13 @@ Dailies_Data = {
 	["Toons"] = {
 		["Tiffpollard-Mankrik"] = {
 			["Professions"] = {
-				[186] = 321,
-				[356] = 99,
+				[186] = 345,
+				[356] = 127,
 				[202] = 260,
 				[129] = 137,
 				[185] = 110,
 			},
-			["TotalDailies"] = 1,
+			["TotalDailies"] = 2,
 			["Quests"] = {
 				[11066] = {
 					["Ignored"] = false,
@@ -22,8 +22,10 @@ Dailies_Data = {
 					["Ignored"] = false,
 				},
 				[11382] = {
-					["Ignored"] = false,
 					["Order"] = 29,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
 				},
 				[11540] = {
 					["Order"] = 11,
@@ -70,8 +72,12 @@ Dailies_Data = {
 					["Ignored"] = false,
 				},
 				[11514] = {
-					["Ignored"] = false,
+					["TimesCompleted"] = 0,
 					["Order"] = 3,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1662435610,
 				},
 				[11546] = {
 					["Order"] = 10,
@@ -80,8 +86,10 @@ Dailies_Data = {
 					["Ignored"] = false,
 				},
 				[11515] = {
-					["Ignored"] = false,
 					["Order"] = 5,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
 				},
 				[11547] = {
 					["Order"] = 25,
@@ -90,11 +98,25 @@ Dailies_Data = {
 					["Ignored"] = false,
 				},
 				[11516] = {
-					["Ignored"] = false,
 					["Order"] = 9,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11548] = {
+					["Order"] = 56,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
 				},
 				[11666] = {
 					["Order"] = 55,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11506] = {
+					["Order"] = 12,
 					["Duration"] = {
 					},
 					["Ignored"] = false,
@@ -105,11 +127,9 @@ Dailies_Data = {
 					},
 					["Ignored"] = false,
 				},
-				[11506] = {
-					["Order"] = 12,
-					["Duration"] = {
-					},
+				[11080] = {
 					["Ignored"] = false,
+					["Order"] = 38,
 				},
 				[11521] = {
 					["Order"] = 28,
@@ -124,8 +144,10 @@ Dailies_Data = {
 					["Ignored"] = false,
 				},
 				[13916] = {
-					["Ignored"] = false,
 					["Order"] = 48,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
 				},
 				[13917] = {
 					["Order"] = 51,
@@ -134,14 +156,20 @@ Dailies_Data = {
 					["Ignored"] = false,
 				},
 				[11523] = {
+					["TimesCompleted"] = 0,
 					["Order"] = 6,
 					["Duration"] = {
 					},
 					["Ignored"] = false,
+					["Accepted"] = 1662431927,
 				},
-				[11080] = {
+				[14182] = {
+					["TimesCompleted"] = 0,
+					["Order"] = 57,
+					["Duration"] = {
+					},
 					["Ignored"] = false,
-					["Order"] = 38,
+					["Accepted"] = 1662429084,
 				},
 				[11541] = {
 					["Order"] = 15,
@@ -156,10 +184,12 @@ Dailies_Data = {
 					["Ignored"] = false,
 				},
 				[11525] = {
+					["TimesCompleted"] = 0,
 					["Order"] = 13,
 					["Duration"] = {
 					},
 					["Ignored"] = false,
+					["Accepted"] = 1662431930,
 				},
 				[11368] = {
 					["Order"] = 39,
@@ -184,16 +214,17 @@ Dailies_Data = {
 					["Order"] = 37,
 				},
 				[10110] = {
-					["TimesCompleted"] = 1,
-					["Completed"] = 1662249588,
+					["TimesCompleted"] = 2,
+					["Completed"] = 1662404338,
 					["Order"] = 26,
 					["Duration"] = {
-						["Current"] = 1990,
-						["Fastest"] = 1990,
+						["Current"] = 401,
+						["Last"] = 1990,
 						["Slowest"] = 1990,
+						["Fastest"] = 401,
 					},
 					["Ignored"] = false,
-					["Accepted"] = 1662247598,
+					["Accepted"] = 1662403937,
 				},
 				[11339] = {
 					["Order"] = 41,
@@ -213,23 +244,23 @@ Dailies_Data = {
 					},
 					["Ignored"] = false,
 				},
+				[11377] = {
+					["Ignored"] = false,
+					["Order"] = 43,
+				},
+				[11341] = {
+					["Ignored"] = false,
+					["Order"] = 21,
+				},
 				[11499] = {
 					["Order"] = 30,
 					["Duration"] = {
 					},
 					["Ignored"] = false,
 				},
-				[11341] = {
-					["Ignored"] = false,
-					["Order"] = 21,
-				},
 				[11877] = {
 					["Ignored"] = false,
 					["Order"] = 17,
-				},
-				[11377] = {
-					["Ignored"] = false,
-					["Order"] = 43,
 				},
 				[11500] = {
 					["Order"] = 46,
@@ -237,15 +268,15 @@ Dailies_Data = {
 					},
 					["Ignored"] = false,
 				},
+				[11880] = {
+					["Ignored"] = false,
+					["Order"] = 8,
+				},
 				[11381] = {
 					["Order"] = 42,
 					["Duration"] = {
 					},
 					["Ignored"] = false,
-				},
-				[11880] = {
-					["Ignored"] = false,
-					["Order"] = 8,
 				},
 				[11533] = {
 					["Order"] = 14,
@@ -312,7 +343,7 @@ Dailies_Data = {
 					["Ignored"] = false,
 				},
 			},
-			["TotalGold"] = 23000,
+			["TotalGold"] = 55000,
 		},
 		["Leelaturanga-Mankrik"] = {
 			["Professions"] = {
@@ -415,15 +446,15 @@ Dailies_Data = {
 					},
 					["Ignored"] = false,
 				},
+				[11548] = {
+					["Ignored"] = false,
+					["Order"] = 56,
+				},
 				[11666] = {
 					["Order"] = 55,
 					["Duration"] = {
 					},
 					["Ignored"] = false,
-				},
-				[13914] = {
-					["Ignored"] = false,
-					["Order"] = 52,
 				},
 				[11380] = {
 					["TimesCompleted"] = 0,
@@ -433,8 +464,18 @@ Dailies_Data = {
 					["Ignored"] = false,
 					["Accepted"] = 1661450894,
 				},
+				[13914] = {
+					["Ignored"] = false,
+					["Order"] = 52,
+				},
 				[11521] = {
 					["Order"] = 18,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11080] = {
+					["Order"] = 34,
 					["Duration"] = {
 					},
 					["Ignored"] = false,
@@ -463,8 +504,8 @@ Dailies_Data = {
 					["Ignored"] = false,
 					["Order"] = 51,
 				},
-				[11080] = {
-					["Order"] = 34,
+				[11536] = {
+					["Order"] = 15,
 					["Duration"] = {
 					},
 					["Ignored"] = false,
@@ -551,11 +592,13 @@ Dailies_Data = {
 					},
 					["Ignored"] = false,
 				},
-				[11877] = {
-					["Order"] = 5,
+				[11503] = {
+					["TimesCompleted"] = 0,
+					["Order"] = 25,
 					["Duration"] = {
 					},
 					["Ignored"] = false,
+					["Accepted"] = 1661440015,
 				},
 				[11341] = {
 					["TimesCompleted"] = 1,
@@ -575,22 +618,14 @@ Dailies_Data = {
 					},
 					["Ignored"] = false,
 				},
-				[11503] = {
-					["TimesCompleted"] = 0,
-					["Order"] = 25,
+				[11381] = {
+					["Order"] = 41,
 					["Duration"] = {
 					},
 					["Ignored"] = false,
-					["Accepted"] = 1661440015,
 				},
 				[11500] = {
 					["Order"] = 46,
-					["Duration"] = {
-					},
-					["Ignored"] = false,
-				},
-				[11381] = {
-					["Order"] = 41,
 					["Duration"] = {
 					},
 					["Ignored"] = false,
@@ -608,6 +643,11 @@ Dailies_Data = {
 					["Ignored"] = false,
 					["Accepted"] = 1661570632,
 				},
+				[11499] = {
+					["Order"] = 31,
+					["Ignored"] = false,
+					["TimesCompleted"] = 0,
+				},
 				[11533] = {
 					["Order"] = 11,
 					["Duration"] = {
@@ -622,10 +662,11 @@ Dailies_Data = {
 					["Ignored"] = false,
 					["Accepted"] = 1661439836,
 				},
-				[11499] = {
-					["Order"] = 31,
+				[11877] = {
+					["Order"] = 5,
+					["Duration"] = {
+					},
 					["Ignored"] = false,
-					["TimesCompleted"] = 0,
 				},
 				[11377] = {
 					["TimesCompleted"] = 1,
@@ -647,11 +688,9 @@ Dailies_Data = {
 					["Ignored"] = false,
 					["Order"] = 7,
 				},
-				[11536] = {
-					["Order"] = 15,
-					["Duration"] = {
-					},
+				[14182] = {
 					["Ignored"] = false,
+					["Order"] = 57,
 				},
 				[11379] = {
 					["Ignored"] = false,
@@ -686,7 +725,7 @@ Dailies_Data = {
 			["TotalGold"] = 1706100,
 		},
 	},
-	["TotalDailies"] = 13,
+	["TotalDailies"] = 14,
 	["Quests"] = {
 		[11066] = {
 			["Honor"] = 0,
@@ -729,18 +768,18 @@ Dailies_Data = {
 			["Xp"] = 0,
 			["Frequency"] = "Daily",
 			["Title"] = "Wanted: Aeonus's Hourglass",
-			["SubZone"] = "Lower City",
+			["SubZone"] = "",
 			["Seen"] = {
 				["Mankrik"] = 1,
 			},
-			["Zone"] = "Shattrath City",
-			["NPC"] = "Wind Trader Zhareem",
+			["Zone"] = "Caverns of Time",
+			["NPC"] = "Sa'at",
 			["Factions"] = {
 				["Horde"] = 1,
 			},
 		},
 		[11540] = {
-			["TodayUntil"] = 1662390000,
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 119900,
 			["Text"] = "Magister Ilastar at Sun's Reach Armory wants you to slay 6 Dawnblade Summoners, 6 Dawnblade Blood Knights and 3 Dawnblade Marksmen.",
@@ -793,6 +832,7 @@ Dailies_Data = {
 			["Frequency"] = "Daily",
 		},
 		[11668] = {
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 0,
 			["Text"] = "Bring 10 Giant Freshwater Shrimp to Old Man Barlo.  You can find him fishing northeast of Shattrath City by Silmyr Lake.",
@@ -810,7 +850,7 @@ Dailies_Data = {
 			},
 		},
 		[11543] = {
-			["TodayUntil"] = 1662390000,
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 75900,
 			["Text"] = "Vindicator Kaalan at the Sun's Reach Armory wants you to speak to Ayren Cloudbreaker and fly over the Dawnblade reinforcement fleet.  Use the Flaming Oil to set the ship sails on fire as you fly and once you land, slay 6 Dawnblade Reservists.",
@@ -845,7 +885,7 @@ Dailies_Data = {
 			},
 		},
 		[11544] = {
-			["TodayUntil"] = 1662130800,
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 182800,
 			["Text"] = "Smith Hauthaa needs you to produce 5 Cleansed Ata'mal Metal. Do so by breaking down Ata'mal Armaments on her anvil at the Sun's Reach Armory on the Isle of Quel'Danas.",
@@ -863,6 +903,7 @@ Dailies_Data = {
 			["Frequency"] = "Daily",
 		},
 		[11514] = {
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 101000,
 			["Text"] = "Obtain 10 Smuggled Mana Cells and return them to Exarch Nasuun on the Terrace of Light in Shattrath City.",
@@ -880,7 +921,7 @@ Dailies_Data = {
 			["Frequency"] = "Daily",
 		},
 		[11546] = {
-			["TodayUntil"] = 1662390000,
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 119900,
 			["Text"] = "Mar'nah at the Sun's Reach Harbor wants you to gather 5 Bloodberries from the bushes found on Quel'Danas.",
@@ -898,6 +939,7 @@ Dailies_Data = {
 			["Frequency"] = "Daily",
 		},
 		[11515] = {
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 119900,
 			["Text"] = "Magistrix Seyla at the Throne of Kil'jaeden wants you to kill 4 Emaciated Felbloods by using the Fel Siphon on them.  You will need Demonic Blood from nearby Wrath Heralds to power the Fel Siphon.",
@@ -915,7 +957,7 @@ Dailies_Data = {
 			["Frequency"] = "Daily",
 		},
 		[11547] = {
-			["TodayUntil"] = 1662303600,
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 119900,
 			["Text"] = "Astromancer Darnarian in the Sun's Reach Sanctum wants you to use the Astromancer's Crystal at the Bloodcrystal, the Dawning Square portal, and the naga shrine at Greengill Coast.",
@@ -933,6 +975,7 @@ Dailies_Data = {
 			["Frequency"] = "Daily",
 		},
 		[11516] = {
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 101000,
 			["Text"] = "Magistrix Seyla at the Throne of Kil'jaeden wants you to use the Sizzling Embers to summon a Living Flare and slay Incandescent Fel Sparks near it until it becomes an Unstable Living Flare.  Return to the Legion Gateway with the Unstable Living Flare to destroy it.",
@@ -948,6 +991,24 @@ Dailies_Data = {
 			["Zone"] = "Hellfire Peninsula",
 			["SubZone"] = "Throne of Kil'jaeden",
 			["Frequency"] = "Daily",
+		},
+		[11548] = {
+			["TodayUntil"] = 1662390000,
+			["Honor"] = 0,
+			["Money"] = 0,
+			["Text"] = "Anchorite Ayuri at Sun's Reach in Sunwell Isle wants you to donate 10 gold.",
+			["Xp"] = 0,
+			["Frequency"] = "Daily",
+			["Title"] = "Your Continued Support",
+			["SubZone"] = "Sun's Reach Armory",
+			["NPC"] = "Anchorite Ayuri",
+			["Zone"] = "Isle of Quel'Danas",
+			["Seen"] = {
+				["Mankrik"] = 1,
+			},
+			["Factions"] = {
+				["Horde"] = 1,
+			},
 		},
 		[11666] = {
 			["Honor"] = 0,
@@ -965,6 +1026,24 @@ Dailies_Data = {
 			["Zone"] = "Terokkar Forest",
 			["SubZone"] = "Silmyr Lake",
 			["Frequency"] = "Daily",
+		},
+		[11380] = {
+			["TodayUntil"] = 1662476400,
+			["Honor"] = 0,
+			["Money"] = 75900,
+			["Text"] = "The Rokk in Lower City has asked you collect 15 Mana Berries from the Eco-Domes in Netherstorm.",
+			["Xp"] = 0,
+			["Frequency"] = "Daily",
+			["Title"] = "Manalicious",
+			["SubZone"] = "Lower City",
+			["Seen"] = {
+				["Mankrik"] = 1,
+			},
+			["Zone"] = "Shattrath City",
+			["NPC"] = "The Rokk",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
 		},
 		[13914] = {
 			["TodayUntil"] = 1662130800,
@@ -984,25 +1063,26 @@ Dailies_Data = {
 			["SubZone"] = "",
 			["Frequency"] = "Daily",
 		},
-		[11380] = {
+		[13915] = {
+			["TodayUntil"] = 1662217200,
 			["Honor"] = 0,
-			["Money"] = 75900,
-			["Text"] = "The Rokk in Lower City has asked you collect 15 Mana Berries from the Eco-Domes in Netherstorm.",
+			["Money"] = 0,
+			["Text"] = "Your Venomhide Hatchling wants you to feed it 15 pieces of Fresh Dinosaur Meat.",
 			["Xp"] = 0,
 			["Frequency"] = "Daily",
-			["Title"] = "Manalicious",
-			["SubZone"] = "Lower City",
+			["Title"] = "Hungry, Hungry Hatchling",
+			["SubZone"] = "Caverns of Time",
 			["Seen"] = {
 				["Mankrik"] = 1,
 			},
-			["Zone"] = "Shattrath City",
-			["NPC"] = "The Rokk",
+			["Zone"] = "Tanaris",
+			["NPC"] = "Venomhide Hatchling",
 			["Factions"] = {
 				["Horde"] = 1,
 			},
 		},
 		[11521] = {
-			["TodayUntil"] = 1662217200,
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 138800,
 			["Text"] = "Mar'nah at Sun's Reach Harbor wants you to travel to Razorthorn Rise in Outlands, collect 5 Razorthorn Roots, and return to her.",
@@ -1037,7 +1117,7 @@ Dailies_Data = {
 			},
 		},
 		[13916] = {
-			["TodayUntil"] = 1662303600,
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 0,
 			["Text"] = "Your Venomhide Hatchling wants you to feed it 12 Silithid Eggs.",
@@ -1052,24 +1132,6 @@ Dailies_Data = {
 			["NPC"] = "Venomhide Hatchling",
 			["Zone"] = "Tanaris",
 			["SubZone"] = "Caverns of Time",
-			["Frequency"] = "Daily",
-		},
-		[11541] = {
-			["TodayUntil"] = 1662217200,
-			["Honor"] = 0,
-			["Money"] = 119900,
-			["Text"] = "Captain Valindria wants you to free 10 Greengill Slaves. Return to her onboard the Silvermoon's Pride at Sun's Reach Harbor once you have done so.",
-			["Xp"] = 0,
-			["Factions"] = {
-				["Horde"] = 1,
-			},
-			["Title"] = "Disrupt the Greengill Coast",
-			["Seen"] = {
-				["Mankrik"] = 1,
-			},
-			["NPC"] = "Captain Valindria",
-			["Zone"] = "Isle of Quel'Danas",
-			["SubZone"] = "Silvermoon's Pride",
 			["Frequency"] = "Daily",
 		},
 		[13917] = {
@@ -1091,7 +1153,7 @@ Dailies_Data = {
 			["Frequency"] = "Daily",
 		},
 		[11523] = {
-			["TodayUntil"] = 1662390000,
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 91000,
 			["Text"] = "Captain Theris Dawnhearth at the Shattered Sun Staging Area wants you to obtain 4 Mana Remnants from Wretched Fiends and Wretched Devourers and use them to energize one of the Crystal Wards surrounding the structures in Sun's Reach.",
@@ -1106,6 +1168,24 @@ Dailies_Data = {
 			["NPC"] = "Captain Theris Dawnhearth",
 			["Zone"] = "Isle of Quel'Danas",
 			["SubZone"] = "Shattered Sun Staging Area",
+			["Frequency"] = "Daily",
+		},
+		[14182] = {
+			["TodayUntil"] = 1662476400,
+			["Honor"] = 838,
+			["Money"] = 158000,
+			["Text"] = "Win an Eye of the Storm battleground match and return to a Horde Warbringer at any Horde capital city, Wintergrasp, Dalaran,  or Shattrath.",
+			["Xp"] = 0,
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["Title"] = "Call to Arms: Eye of the Storm",
+			["NPC"] = "Horde Warbringer",
+			["Seen"] = {
+				["Mankrik"] = 1,
+			},
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Terrace of Light",
 			["Frequency"] = "Daily",
 		},
 		[11080] = {
@@ -1143,7 +1223,7 @@ Dailies_Data = {
 			["Frequency"] = "Daily",
 		},
 		[11525] = {
-			["TodayUntil"] = 1662390000,
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 91000,
 			["Text"] = "Vindicator Xayann at the Shattered Sun Staging Area wants you to place the Attuned Crystal Cores inside 5 defeated Erratic Sentries to turn them into friendly units.",
@@ -1229,11 +1309,11 @@ Dailies_Data = {
 			},
 		},
 		[10110] = {
-			["TodayUntil"] = 1662303600,
-			["Honor"] = 1434,
-			["Money"] = 23000,
+			["TodayUntil"] = 1662476400,
+			["Honor"] = 1814,
+			["Money"] = 32000,
 			["Text"] = "Capture the Overlook, the Stadium and Broken Hill, then return to Battlecryer Blackeye in Thrallmar.",
-			["Xp"] = 11700,
+			["Xp"] = 9250,
 			["Frequency"] = "Daily",
 			["Title"] = "Hellfire Fortifications",
 			["SubZone"] = "Thrallmar",
@@ -1297,16 +1377,16 @@ Dailies_Data = {
 				["Horde"] = 1,
 			},
 		},
-		[11499] = {
-			["Honor"] = 0,
-			["Money"] = 246000,
-			["Text"] = "Wind Trader Zhareem has asked you to obtain The Signet Ring of Prince Kael'thas. Deliver it to him in Shattrath's Lower City to collect the reward.\nThis quest may only be completed at the Magisters' Terrace on Heroic difficulty.",
+		[11503] = {
+			["Honor"] = 943,
+			["Money"] = 119900,
+			["Text"] = "Defeat 10 enemy players in Halaa and return to Karrtog in Garadar.",
 			["Xp"] = 0,
 			["Frequency"] = "Daily",
-			["Title"] = "Wanted: The Signet Ring of Prince Kael'thas",
-			["SubZone"] = "Lower City",
-			["NPC"] = "Wind Trader Zhareem",
-			["Zone"] = "Shattrath City",
+			["Title"] = "Enemies, Old and New",
+			["SubZone"] = "Garadar",
+			["NPC"] = "Karrtog",
+			["Zone"] = "Nagrand",
 			["Seen"] = {
 				["Mankrik"] = 1,
 			},
@@ -1331,6 +1411,23 @@ Dailies_Data = {
 				["Horde"] = 1,
 			},
 		},
+		[11499] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to obtain The Signet Ring of Prince Kael'thas. Deliver it to him in Shattrath's Lower City to collect the reward.\nThis quest may only be completed at the Magisters' Terrace on Heroic difficulty.",
+			["Xp"] = 0,
+			["Frequency"] = "Daily",
+			["Title"] = "Wanted: The Signet Ring of Prince Kael'thas",
+			["SubZone"] = "Lower City",
+			["NPC"] = "Wind Trader Zhareem",
+			["Zone"] = "Shattrath City",
+			["Seen"] = {
+				["Mankrik"] = 1,
+			},
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
 		[11373] = {
 			["Honor"] = 0,
 			["Money"] = 246000,
@@ -1348,23 +1445,6 @@ Dailies_Data = {
 			["SubZone"] = "Lower City",
 			["Frequency"] = "Daily",
 		},
-		[11503] = {
-			["Honor"] = 943,
-			["Money"] = 119900,
-			["Text"] = "Defeat 10 enemy players in Halaa and return to Karrtog in Garadar.",
-			["Xp"] = 0,
-			["Frequency"] = "Daily",
-			["Title"] = "Enemies, Old and New",
-			["SubZone"] = "Garadar",
-			["NPC"] = "Karrtog",
-			["Zone"] = "Nagrand",
-			["Seen"] = {
-				["Mankrik"] = 1,
-			},
-			["Factions"] = {
-				["Horde"] = 1,
-			},
-		},
 		[11500] = {
 			["Honor"] = 0,
 			["Money"] = 163900,
@@ -1378,23 +1458,6 @@ Dailies_Data = {
 				["Mankrik"] = 1,
 			},
 			["NPC"] = "Nether-Stalker Mah'duun",
-			["Zone"] = "Shattrath City",
-			["SubZone"] = "Lower City",
-			["Frequency"] = "Daily",
-		},
-		[11381] = {
-			["Honor"] = 0,
-			["Money"] = 75900,
-			["Text"] = "The Rokk in Lower City has asked you to cook up some Spiritual Soup using his cooking pot.  Return to him when it's done.",
-			["Xp"] = 0,
-			["Factions"] = {
-				["Horde"] = 1,
-			},
-			["Title"] = "Soup for the Soul",
-			["Seen"] = {
-				["Mankrik"] = 1,
-			},
-			["NPC"] = "The Rokk",
 			["Zone"] = "Shattrath City",
 			["SubZone"] = "Lower City",
 			["Frequency"] = "Daily",
@@ -1416,8 +1479,25 @@ Dailies_Data = {
 			["SubZone"] = "Terrace of Light",
 			["Frequency"] = "Daily",
 		},
+		[11381] = {
+			["Honor"] = 0,
+			["Money"] = 75900,
+			["Text"] = "The Rokk in Lower City has asked you to cook up some Spiritual Soup using his cooking pot.  Return to him when it's done.",
+			["Xp"] = 0,
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["Title"] = "Soup for the Soul",
+			["Seen"] = {
+				["Mankrik"] = 1,
+			},
+			["NPC"] = "The Rokk",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Lower City",
+			["Frequency"] = "Daily",
+		},
 		[11533] = {
-			["TodayUntil"] = 1662303600,
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 91000,
 			["Text"] = "Battlemage Arynna wants you to speak to Ayren Cloudbreaker when you're ready to fly over the Dead Scar.  Once there, use the Arcane Charges to kill 2 Pit Overlords, 3 Eredar Sorcerers and 12 Wrath Enforcers.",
@@ -1452,7 +1532,6 @@ Dailies_Data = {
 			},
 		},
 		[11669] = {
-			["TodayUntil"] = 1662390000,
 			["Honor"] = 0,
 			["Money"] = 0,
 			["Text"] = "Bring a Monstrous Felblood Snapper to Old Man Barlo.  You can find him fishing northeast of Shattrath City by Silmyr Lake.",
@@ -1514,7 +1593,7 @@ Dailies_Data = {
 			["Frequency"] = "Daily",
 		},
 		[11536] = {
-			["TodayUntil"] = 1662217200,
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 119900,
 			["Text"] = "Smith Hauthaa in Sun's Reach Armory wants you to kill Darkspine Myrmidon to the east and use their keys to steal three pieces of the ore from their chests.",
@@ -1549,7 +1628,7 @@ Dailies_Data = {
 			["Frequency"] = "Daily",
 		},
 		[11537] = {
-			["TodayUntil"] = 1662303600,
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
 			["Money"] = 101000,
 			["Text"] = "Harbinger Inuuro wants you to slay 6 Burning Legion Demons and the Emissary of Hate in Dawning Square.  Use the Shattered Sun Banner to impale the Emissary of Hate's corpse.",
@@ -1583,26 +1662,26 @@ Dailies_Data = {
 				["Horde"] = 1,
 			},
 		},
-		[13915] = {
-			["TodayUntil"] = 1662217200,
+		[11541] = {
+			["TodayUntil"] = 1662476400,
 			["Honor"] = 0,
-			["Money"] = 0,
-			["Text"] = "Your Venomhide Hatchling wants you to feed it 15 pieces of Fresh Dinosaur Meat.",
+			["Money"] = 119900,
+			["Text"] = "Captain Valindria wants you to free 10 Greengill Slaves. Return to her onboard the Silvermoon's Pride at Sun's Reach Harbor once you have done so.",
 			["Xp"] = 0,
-			["Frequency"] = "Daily",
-			["Title"] = "Hungry, Hungry Hatchling",
-			["SubZone"] = "Caverns of Time",
-			["Seen"] = {
-				["Mankrik"] = 1,
-			},
-			["Zone"] = "Tanaris",
-			["NPC"] = "Venomhide Hatchling",
 			["Factions"] = {
 				["Horde"] = 1,
 			},
+			["Title"] = "Disrupt the Greengill Coast",
+			["Seen"] = {
+				["Mankrik"] = 1,
+			},
+			["NPC"] = "Captain Valindria",
+			["Zone"] = "Isle of Quel'Danas",
+			["SubZone"] = "Silvermoon's Pride",
+			["Frequency"] = "Daily",
 		},
 	},
-	["TotalGold"] = 1729100,
+	["TotalGold"] = 1761100,
 }
 Dailies_Settings = {
 	["autoCompleteQuests"] = false,

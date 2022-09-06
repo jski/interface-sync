@@ -1,8 +1,10 @@
+VER 3 0000000000000007 "GRM_Tool" "INV_MISC_QUESTIONMARK"
+END
 VER 3 0000000000000001 "ZygorAction1" "132212"
-#showtooltip Talk to Scout Neftis
+#showtooltip Talk to Shadow Hunter Denjai
 /run ZGV:MCM(4)
 /cleartarget
-/target Scout Neftis
+/target Shadow Hunter Denjai
 /run ZGV:MRM()
 END
 VER 3 0000000000000002 "ZygorAction2" "134400"

@@ -5,181 +5,13 @@ SwatterData = {
 	["combat"] = false,
 	["errors"] = {
 		{
-			["message"] = "...rface\\AddOns\\FishingBuddy\\ODF\\OutfitDisplayFrame.lua:831: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 19,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.5.5\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=2e4)\n",
-			["locals"] = "(*temporary) = FBOutfitFrameHeadSlot {\n 0 = <userdata>\n Count = FBOutfitFrameHeadSlotCount {\n }\n IconBorder = <unnamed> {\n }\n backgroundTextureName = 136516\n searchOverlay = FBOutfitFrameHeadSlotSearchOverlay {\n }\n icon = FBOutfitFrameHeadSlotIconTexture {\n }\n IconOverlay = <unnamed> {\n }\n}\n(*temporary) = \"CURSOR_UPDATE\"\n",
-			["timestamp"] = "2022-09-01 21:17:50",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\FishingBuddy\\ODF\\OutfitDisplayFrame.lua\"]:831: in function <...rface\\AddOns\\FishingBuddy\\ODF\\OutfitDisplayFrame.lua:817>\n",
-		}, -- [1]
-		{
-			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.5.5\n  GatherMate2, v1.46.1-classic\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.8-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v353.1-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.4.5\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=597)\n",
-			["timestamp"] = "2022-09-01 21:17:55",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [2]
-		{
-			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
-			["count"] = 7,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.5.5\n  GatherMate2, v1.46.1-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.8-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v353.1-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.4.5\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5c2)\n",
-			["timestamp"] = "2022-09-01 21:52:55",
-			["context"] = "Global",
-			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...face\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [3]
-		{
-			["message"] = "Interface\\AddOns\\FishingBuddy\\FishingBuddy.lua:1433: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.5.5\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=2e4)\n",
-			["locals"] = "(*temporary) = FishingBuddyRoot {\n 0 = <userdata>\n}\n(*temporary) = \"CURSOR_UPDATE\"\n",
-			["timestamp"] = "2022-09-02 09:55:21",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\FishingBuddy\\FishingBuddy.lua\"]:1433: in function `OnLoad'\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [4]
-		{
-			["message"] = "...rface\\AddOns\\FishingBuddy\\ODF\\OutfitDisplayFrame.lua:831: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 19,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.5.5\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=2e4)\n",
-			["locals"] = "(*temporary) = FBOutfitFrameHeadSlot {\n 0 = <userdata>\n Count = FBOutfitFrameHeadSlotCount {\n }\n IconBorder = <unnamed> {\n }\n backgroundTextureName = 136516\n searchOverlay = FBOutfitFrameHeadSlotSearchOverlay {\n }\n icon = FBOutfitFrameHeadSlotIconTexture {\n }\n IconOverlay = <unnamed> {\n }\n}\n(*temporary) = \"CURSOR_UPDATE\"\n",
-			["timestamp"] = "2022-09-02 09:55:21",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\FishingBuddy\\ODF\\OutfitDisplayFrame.lua\"]:831: in function <...rface\\AddOns\\FishingBuddy\\ODF\\OutfitDisplayFrame.lua:817>\n",
-		}, -- [5]
-		{
-			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.5.5\n  GatherMate2, v1.46.1-classic\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.8-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v353.1-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.4.5\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=597)\n",
-			["timestamp"] = "2022-09-02 09:55:34",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [6]
-		{
-			["message"] = "Interface\\AddOns\\FishingBuddy\\FishingBuddy.lua:1433: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.5.5\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=2e4)\n",
-			["locals"] = "(*temporary) = FishingBuddyRoot {\n 0 = <userdata>\n}\n(*temporary) = \"CURSOR_UPDATE\"\n",
-			["timestamp"] = "2022-09-02 10:33:52",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\FishingBuddy\\FishingBuddy.lua\"]:1433: in function `OnLoad'\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [7]
-		{
-			["message"] = "...rface\\AddOns\\FishingBuddy\\ODF\\OutfitDisplayFrame.lua:831: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 19,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.5.5\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=2e4)\n",
-			["locals"] = "(*temporary) = FBOutfitFrameHeadSlot {\n 0 = <userdata>\n Count = FBOutfitFrameHeadSlotCount {\n }\n IconBorder = <unnamed> {\n }\n backgroundTextureName = 136516\n searchOverlay = FBOutfitFrameHeadSlotSearchOverlay {\n }\n icon = FBOutfitFrameHeadSlotIconTexture {\n }\n IconOverlay = <unnamed> {\n }\n}\n(*temporary) = \"CURSOR_UPDATE\"\n",
-			["timestamp"] = "2022-09-02 10:33:52",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\FishingBuddy\\ODF\\OutfitDisplayFrame.lua\"]:831: in function <...rface\\AddOns\\FishingBuddy\\ODF\\OutfitDisplayFrame.lua:817>\n",
-		}, -- [8]
-		{
-			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.5.5\n  GatherMate2, v1.46.1-classic\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.8-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v353.1-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.4.5\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=597)\n",
-			["timestamp"] = "2022-09-02 10:34:03",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [9]
-		{
-			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.5.5\n  GatherMate2, v1.46.1-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.8-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v353.1-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.4.5\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5c2)\n",
-			["timestamp"] = "2022-09-02 10:46:24",
-			["context"] = "Global",
-			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...face\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [10]
-		{
-			["message"] = "Interface\\AddOns\\FishingBuddy\\FishingBuddy.lua:1433: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.5.5\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=2e4)\n",
-			["locals"] = "(*temporary) = FishingBuddyRoot {\n 0 = <userdata>\n}\n(*temporary) = \"CURSOR_UPDATE\"\n",
-			["timestamp"] = "2022-09-02 10:57:03",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\FishingBuddy\\FishingBuddy.lua\"]:1433: in function `OnLoad'\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
-		}, -- [11]
-		{
-			["message"] = "...rface\\AddOns\\FishingBuddy\\ODF\\OutfitDisplayFrame.lua:831: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 19,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.5.5\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=2e4)\n",
-			["locals"] = "(*temporary) = FBOutfitFrameHeadSlot {\n 0 = <userdata>\n Count = FBOutfitFrameHeadSlotCount {\n }\n IconBorder = <unnamed> {\n }\n backgroundTextureName = 136516\n searchOverlay = FBOutfitFrameHeadSlotSearchOverlay {\n }\n icon = FBOutfitFrameHeadSlotIconTexture {\n }\n IconOverlay = <unnamed> {\n }\n}\n(*temporary) = \"CURSOR_UPDATE\"\n",
-			["timestamp"] = "2022-09-02 10:57:03",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\FishingBuddy\\ODF\\OutfitDisplayFrame.lua\"]:831: in function <...rface\\AddOns\\FishingBuddy\\ODF\\OutfitDisplayFrame.lua:817>\n",
-		}, -- [12]
-		{
-			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.5.5\n  GatherMate2, v1.46.1-classic\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.8-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v353.1-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  SpeedyAutoLoot, v2.1.15\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.4.5\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5b1)\n",
-			["timestamp"] = "2022-09-02 10:57:06",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [13]
-		{
-			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  GatherMate2, v1.46.1-classic\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.8-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v353.1-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  SpeedyAutoLoot, v2.1.15\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.4.5\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=598)\n",
-			["timestamp"] = "2022-09-02 10:57:19",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [14]
-		{
-			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  GatherMate2, v1.46.1-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.8-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v353.1-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  SpeedyAutoLoot, v2.1.15\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.4.5\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5c3)\n",
-			["timestamp"] = "2022-09-02 10:57:38",
-			["context"] = "Global",
-			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...face\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [15]
-		{
-			["message"] = "...rface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:178: attempt to compare nil with number",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.31\n  BagBrother, v\n  Bagnon, v9.1.5\n  BagnonConfig, v\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, v7f4515b\n  DBMStatusBarTimers, v7f4515b\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  GatherMate2, v1.46.1-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.8-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v353.1-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  SpeedyAutoLoot, v2.1.15\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.4.5\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5d5)\n",
-			["locals"] = "a = <table> {\n price = 600\n class = 7\n bind = 0\n crafting = false\n equip = \"\"\n level = 50\n icon = 133221\n quality = 1\n link = \"|cffffffff|Hitem:12359::::::::55:::::::::|h[Thorium Bar]|h|r\"\n id = 12359\n space = <table> {\n }\n subclass = 7\n set = 1\n stack = 20\n count = 20\n name = \"Thorium Bar\"\n family = 1024\n expac = 254\n minLevel = 0\n cached = true\n}\nb = <table> {\n price = 600\n class = 7\n bind = 0\n crafting = false\n equip = \"\"\n level = 50\n icon = 133221\n quality = 1\n link = \"|cffffffff|Hitem:12359::::::::55:::::::::|h[Thorium Bar]|h|r\"\n id = 12359\n space = <table> {\n }\n subclass = 7\n set = 1\n cached = true\n stack = 20\n family = 1024\n expac = 254\n name = \"Thorium Bar\"\n minLevel = 0\n}\n(for generator) = <function> defined =[C]:-1\n(for state) = <table> {\n 1 = \"set\"\n 2 = \"class\"\n 3 = \"subclass\"\n 4 = \"equip\"\n 5 = \"quality\"\n 6 = \"icon\"\n 7 = \"level\"\n 8 = \"name\"\n 9 = \"id\"\n 10 = \"count\"\n}\n(for control) = 10\n_ = 10\nprop = \"count\"\n(*temporary) = 20\n(*temporary) = nil\n(*temporary) = \"attempt to compare nil with number\"\nSort = <table> {\n SendSignal = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\WildAddon-1.0\\WildAddon-1.0.lua:82\n CanRun = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:163\n RegisterMessage = <function> defined @Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90\n NewModule = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\WildAddon-1.0\\WildAddon-1.0.lua:68\n GetOrder = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:142\n Proprieties = <table> {\n }\n owner = \"Tiffpollard\"\n bags = <table> {\n }\n GetFamilies = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:127\n SendMessage = <function> defined @Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:59\n Delaying = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\MutexDelay-1.0\\MutexDelay-1.0.lua:46\n Rule = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:175\n UnregisterSignal = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\WildAddon-1.0\\WildAddon-1.0.lua:78\n FitsIn = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:167\n Move = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:188\n GetSpaces = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:109\n RegisterSignal = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\WildAddon-1.0\\WildAddon-1.0.lua:74\n UnregisterAllMessages = <function> defined @Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:174\n Run = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:32\n UnregisterAllEvents = <function> defined @Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:174\n Iterate = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:41\n UnregisterMessage = <function> defined @Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:153\n Stop = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:102\n RegisterEvent = <function> defined @Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90\n Start = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:22\n Delay = <function> defined @Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\MutexDelay-1.0\\MutexDelay-1.0.lua:27\n UnregisterEvent = <function> defined @Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:153\n Tag = \"BAGNON_\"\n}\n",
-			["timestamp"] = "2022-09-02 11:51:51",
-			["context"] = "Global",
-			["stack"] = "[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua\"]:178: in function <...rface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:175>\n[string \"=[C]\"]: in function `sort'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua\"]:156: in function `GetOrder'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua\"]:69: in function `Iterate'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua\"]:35: in function `func'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\MutexDelay-1.0\\MutexDelay-1.0.lua\"]:36: in function <...mon\\Wildpants\\libs\\MutexDelay-1.0\\MutexDelay-1.0.lua:30>\n",
-		}, -- [16]
-		{
-			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.32\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  GatherMate2, v1.46.1-classic\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  SpeedyAutoLoot, v2.1.15\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=596)\n",
-			["timestamp"] = "2022-09-02 13:02:59",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [17]
-		{
-			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.32\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  GatherMate2, v1.46.1-classic\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=57c)\n",
-			["timestamp"] = "2022-09-02 13:03:27",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [18]
-		{
-			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.32\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  GatherMate2, v1.46.1-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5a7)\n",
-			["timestamp"] = "2022-09-02 13:31:36",
-			["context"] = "Global",
-			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...face\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [19]
-		{
-			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
-			["count"] = 1,
-			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.32\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  GatherMate2, v1.46.1-classic\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=57c)\n",
-			["timestamp"] = "2022-09-02 13:35:30",
-			["context"] = "Global",
-			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [20]
-		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 2,
 			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Auctionator, v9.2.32\n  BagBrother, v\n  Bagnon, v9.1.5\n  Bartender4, v4.11.4\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  GatherMate2, v1.46.1-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.02\n  NovaWorldBuffs, v2.30\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.0\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5a7)\n",
 			["timestamp"] = "2022-09-02 14:23:01",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...face\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [21]
+		}, -- [1]
 		{
 			["message"] = "...ace\\AddOns\\ZygorGuidesViewerClassicTBC\\MapCoords.lua:657: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -188,7 +20,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:30:53",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\MapCoords.lua\"]:657: in function `TranslateVirtualContinents'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\MapCoords.lua\"]:1000: in main chunk\n",
-		}, -- [22]
+		}, -- [2]
 		{
 			["message"] = "...esViewerClassicTBC\\Data-WOTLK\\GuideMenu-Featured.lua:13: attempt to concatenate field 'IMAGESDIR' (a nil value)",
 			["count"] = 1,
@@ -197,7 +29,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:30:53",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Data-WOTLK\\GuideMenu-Featured.lua\"]:13: in main chunk\n",
-		}, -- [23]
+		}, -- [3]
 		{
 			["message"] = "...\\Guides-WOTLK\\Leveling\\ZygorLevelingHordeCLASSIC.lua:8: attempt to concatenate field 'IMAGESDIR' (a nil value)",
 			["count"] = 1,
@@ -206,7 +38,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:30:53",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Guides-WOTLK\\Leveling\\ZygorLevelingHordeCLASSIC.lua\"]:8: in main chunk\n",
-		}, -- [24]
+		}, -- [4]
 		{
 			["message"] = "...BC\\Guides-WOTLK\\Leveling\\ZygorLevelingHordeWOTLK.lua:8: attempt to concatenate field 'IMAGESDIR' (a nil value)",
 			["count"] = 1,
@@ -215,7 +47,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:30:53",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Guides-WOTLK\\Leveling\\ZygorLevelingHordeWOTLK.lua\"]:8: in main chunk\n",
-		}, -- [25]
+		}, -- [5]
 		{
 			["message"] = "...C\\Guides-WOTLK\\Dungeons\\ZygorDungeonHordeCLASSIC.lua:8: attempt to concatenate field 'IMAGESDIR' (a nil value)",
 			["count"] = 1,
@@ -224,7 +56,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:30:53",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Guides-WOTLK\\Dungeons\\ZygorDungeonHordeCLASSIC.lua\"]:8: in main chunk\n",
-		}, -- [26]
+		}, -- [6]
 		{
 			["message"] = "...er4\\libs\\LibActionButton-1.0\\LibActionButton-1.0.lua:683: Attempt to register unknown event \"ARCHAEOLOGY_CLOSED\"",
 			["count"] = 1,
@@ -232,7 +64,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:30:55",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\LibActionButton-1.0\\LibActionButton-1.0.lua\"]:683: in function <...er4\\libs\\LibActionButton-1.0\\LibActionButton-1.0.lua:650>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\LibActionButton-1.0\\LibActionButton-1.0.lua\"]:183: in function `CreateButton'\n[string \"@Interface\\AddOns\\Bartender4\\ActionBar.lua\"]:217: in function `UpdateButtons'\n[string \"@Interface\\AddOns\\Bartender4\\ActionBar.lua\"]:37: in function `ApplyConfig'\n[string \"@Interface\\AddOns\\Bartender4\\ActionBars.lua\"]:191: in function `Create'\n[string \"@Interface\\AddOns\\Bartender4\\ActionBars.lua\"]:81: in function <Interface\\AddOns\\Bartender4\\ActionBars.lua:73>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [27]
+		}, -- [7]
 		{
 			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
 			["count"] = 1,
@@ -240,7 +72,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:30:55",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [28]
+		}, -- [8]
 		{
 			["message"] = "Interface\\AddOns\\Pawn\\Pawn.lua:1124: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -249,7 +81,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:30:56",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:1124: in function `PawnRecalculateScaleTotal'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:468: in function `PawnInitialize'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:139: in function `PawnOnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [29]
+		}, -- [9]
 		{
 			["message"] = "...AddOns\\ZygorGuidesViewerClassicTBC\\Item-Upgrades.lua:272: attempt to index field 'BadUpgrades' (a nil value)",
 			["count"] = 6,
@@ -258,7 +90,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:31:00",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Item-Upgrades.lua\"]:272: in function `IsUpgrade'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Item-Upgrades.lua\"]:729: in function `func'\n[string \"@Interface\\AddOns\\Details\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua\"]:57: in function <...ce\\AddOns\\Details\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:50>\n",
-		}, -- [30]
+		}, -- [10]
 		{
 			["message"] = "...ace\\AddOns\\ZygorGuidesViewerClassicTBC\\MapCoords.lua:657: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -267,7 +99,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:33:23",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\MapCoords.lua\"]:657: in function `TranslateVirtualContinents'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\MapCoords.lua\"]:1000: in main chunk\n",
-		}, -- [31]
+		}, -- [11]
 		{
 			["message"] = "...esViewerClassicTBC\\Data-WOTLK\\GuideMenu-Featured.lua:13: attempt to concatenate field 'IMAGESDIR' (a nil value)",
 			["count"] = 1,
@@ -276,7 +108,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:33:23",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Data-WOTLK\\GuideMenu-Featured.lua\"]:13: in main chunk\n",
-		}, -- [32]
+		}, -- [12]
 		{
 			["message"] = "...\\Guides-WOTLK\\Leveling\\ZygorLevelingHordeCLASSIC.lua:8: attempt to concatenate field 'IMAGESDIR' (a nil value)",
 			["count"] = 1,
@@ -285,7 +117,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:33:23",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Guides-WOTLK\\Leveling\\ZygorLevelingHordeCLASSIC.lua\"]:8: in main chunk\n",
-		}, -- [33]
+		}, -- [13]
 		{
 			["message"] = "...BC\\Guides-WOTLK\\Leveling\\ZygorLevelingHordeWOTLK.lua:8: attempt to concatenate field 'IMAGESDIR' (a nil value)",
 			["count"] = 1,
@@ -294,7 +126,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:33:23",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Guides-WOTLK\\Leveling\\ZygorLevelingHordeWOTLK.lua\"]:8: in main chunk\n",
-		}, -- [34]
+		}, -- [14]
 		{
 			["message"] = "...C\\Guides-WOTLK\\Dungeons\\ZygorDungeonHordeCLASSIC.lua:8: attempt to concatenate field 'IMAGESDIR' (a nil value)",
 			["count"] = 1,
@@ -303,7 +135,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:33:23",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Guides-WOTLK\\Dungeons\\ZygorDungeonHordeCLASSIC.lua\"]:8: in main chunk\n",
-		}, -- [35]
+		}, -- [15]
 		{
 			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
 			["count"] = 1,
@@ -311,7 +143,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:33:24",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [36]
+		}, -- [16]
 		{
 			["message"] = "Interface\\AddOns\\Pawn\\Pawn.lua:1124: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -320,7 +152,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:33:24",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:1124: in function `PawnRecalculateScaleTotal'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:468: in function `PawnInitialize'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:139: in function `PawnOnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [37]
+		}, -- [17]
 		{
 			["message"] = "...AddOns\\ZygorGuidesViewerClassicTBC\\Item-Upgrades.lua:272: attempt to index field 'BadUpgrades' (a nil value)",
 			["count"] = 139,
@@ -329,7 +161,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:33:27",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Item-Upgrades.lua\"]:272: in function `IsUpgrade'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Item-Upgrades.lua\"]:729: in function `func'\n[string \"@Interface\\AddOns\\Details\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua\"]:57: in function <...ce\\AddOns\\Details\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:50>\n",
-		}, -- [38]
+		}, -- [18]
 		{
 			["message"] = "...AddOns\\ZygorGuidesViewerClassicTBC\\Item-Upgrades.lua:468: attempt to index field 'BadUpgrades' (a nil value)",
 			["count"] = 142,
@@ -338,7 +170,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:34:14",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Item-Upgrades.lua\"]:468: in function `QueueWeapon'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Item-ItemScore.lua\"]:950: in function <...ddOns\\ZygorGuidesViewerClassicTBC\\Item-ItemScore.lua:878>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\BeanCounter\\libs\\LibExtraTip\\LibExtraTip.lua\"]:434: in function <...\\AddOns\\BeanCounter\\libs\\LibExtraTip\\LibExtraTip.lua:428>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetBagItem'\n[string \"@Interface\\FrameXML\\ContainerFrame_Shared.lua\"]:1333: in function <Interface\\FrameXML\\ContainerFrame_Shared.lua:1304>\n[string \"=[C]\"]: in function `ContainerFrameItemButton_OnEnter'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\classes\\item.lua\"]:369: in function `ShowTooltip'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\classes\\item.lua\"]:340: in function `UpdateTooltip'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\classes\\item.lua\"]:180: in function <...face\\AddOns\\Bagnon\\common\\Wildpants\\classes\\item.lua:179>\n",
-		}, -- [39]
+		}, -- [19]
 		{
 			["message"] = "Note: AddOn ZygorGuidesViewerClassicTBC attempted to call a protected function (ZygorGuidesViewer_ActionBar:Hide()) during combat lockdown.",
 			["count"] = 7,
@@ -346,7 +178,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:37:12",
 			["context"] = "AddOn: ZygorGuidesViewerClassicTBC",
 			["stack"] = "[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Skins\\Default\\ViewerFrame.lua\"]:1756: in function `ShowSpecialState'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Skins\\Default\\ViewerFrame.lua\"]:1726: in function `SetSpecialState'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Tabs.lua\"]:844: in function `RemoveTab'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Tabs.lua\"]:628: in function <...nterface\\AddOns\\ZygorGuidesViewerClassicTBC\\Tabs.lua:628>\n",
-		}, -- [40]
+		}, -- [20]
 		{
 			["message"] = "...ddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua:796: attempt to index field '?' (a nil value)",
 			["count"] = 1,
@@ -355,7 +187,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:37:17",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua\"]:796: in function `CreateFrames'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua\"]:1074: in function `Show'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Skins\\Default\\ViewerFrame.lua\"]:1863: in function `func'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Libs\\UIDropDownFork.lua\"]:1022: in function `UIDropDownForkButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
-		}, -- [41]
+		}, -- [21]
 		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 2,
@@ -363,7 +195,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:49:25",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...face\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [42]
+		}, -- [22]
 		{
 			["message"] = "...ddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua:175: attempt to index field '?' (a nil value)",
 			["count"] = 2,
@@ -372,7 +204,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:51:27",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua\"]:175: in function `Open'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua\"]:1098: in function `Show'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Skins\\Default\\ViewerFrame.lua\"]:1863: in function `func'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Libs\\UIDropDownFork.lua\"]:1022: in function `UIDropDownForkButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
-		}, -- [43]
+		}, -- [23]
 		{
 			["message"] = "...ddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua:173: attempt to index field '?' (a nil value)",
 			["count"] = 1,
@@ -381,7 +213,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:51:29",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua\"]:173: in function `Open'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua\"]:1056: in function <...ddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua:1056>\n",
-		}, -- [44]
+		}, -- [24]
 		{
 			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
 			["count"] = 1,
@@ -389,7 +221,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:52:51",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [45]
+		}, -- [25]
 		{
 			["message"] = "Interface\\AddOns\\Pawn\\Pawn.lua:1124: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -398,7 +230,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 16:52:51",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:1124: in function `PawnRecalculateScaleTotal'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:468: in function `PawnInitialize'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:139: in function `PawnOnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [46]
+		}, -- [26]
 		{
 			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
 			["count"] = 1,
@@ -406,7 +238,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 19:13:35",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [47]
+		}, -- [27]
 		{
 			["message"] = "Interface\\AddOns\\Pawn\\Pawn.lua:1124: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -415,7 +247,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 19:13:35",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:1124: in function `PawnRecalculateScaleTotal'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:468: in function `PawnInitialize'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:139: in function `PawnOnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [48]
+		}, -- [28]
 		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 4,
@@ -423,7 +255,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 19:21:27",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...face\\AddOns\\Dailies\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [49]
+		}, -- [29]
 		{
 			["message"] = "...ace\\AddOns\\Attune\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
 			["count"] = 1,
@@ -431,7 +263,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 19:40:01",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...ace\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...ace\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [50]
+		}, -- [30]
 		{
 			["message"] = "Interface\\AddOns\\Pawn\\Pawn.lua:1124: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -440,7 +272,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 19:40:02",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:1124: in function `PawnRecalculateScaleTotal'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:468: in function `PawnInitialize'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:139: in function `PawnOnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [51]
+		}, -- [31]
 		{
 			["message"] = "...ace\\AddOns\\Attune\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
 			["count"] = 1,
@@ -448,7 +280,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 20:28:24",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...ace\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...ace\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [52]
+		}, -- [32]
 		{
 			["message"] = "Interface\\AddOns\\Pawn\\Pawn.lua:1124: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -457,7 +289,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 20:28:25",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:1124: in function `PawnRecalculateScaleTotal'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:468: in function `PawnInitialize'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:139: in function `PawnOnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [53]
+		}, -- [33]
 		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 5,
@@ -465,7 +297,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 20:32:57",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [54]
+		}, -- [34]
 		{
 			["message"] = "...ace\\AddOns\\Attune\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
 			["count"] = 1,
@@ -473,7 +305,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 22:38:00",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...ace\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...ace\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [55]
+		}, -- [35]
 		{
 			["message"] = "Interface\\AddOns\\Pawn\\Pawn.lua:1124: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -482,7 +314,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 22:38:01",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:1124: in function `PawnRecalculateScaleTotal'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:468: in function `PawnInitialize'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:139: in function `PawnOnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [56]
+		}, -- [36]
 		{
 			["message"] = "Note: AddOn ZygorGuidesViewerClassicTBC attempted to call a protected function (ZygorGuidesViewer_ActionBar:Hide()) during combat lockdown.",
 			["count"] = 11,
@@ -490,7 +322,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 23:09:15",
 			["context"] = "AddOn: ZygorGuidesViewerClassicTBC",
 			["stack"] = "[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Skins\\Default\\ViewerFrame.lua\"]:1756: in function `ShowSpecialState'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Skins\\Default\\ViewerFrame.lua\"]:1726: in function `SetSpecialState'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Tabs.lua\"]:844: in function `RemoveTab'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Tabs.lua\"]:628: in function <...nterface\\AddOns\\ZygorGuidesViewerClassicTBC\\Tabs.lua:628>\n",
-		}, -- [57]
+		}, -- [37]
 		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 5,
@@ -498,7 +330,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-02 23:47:50",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [58]
+		}, -- [38]
 		{
 			["message"] = "...rface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:178: attempt to compare number with nil",
 			["count"] = 183,
@@ -507,7 +339,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 00:33:05",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua\"]:178: in function <...rface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua:175>\n[string \"=[C]\"]: in function `sort'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua\"]:156: in function `GetOrder'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua\"]:69: in function `Iterate'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\api\\sorting.lua\"]:35: in function `func'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\MutexDelay-1.0\\MutexDelay-1.0.lua\"]:36: in function <...mon\\Wildpants\\libs\\MutexDelay-1.0\\MutexDelay-1.0.lua:30>\n",
-		}, -- [59]
+		}, -- [39]
 		{
 			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
 			["count"] = 1,
@@ -515,7 +347,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 01:26:13",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [60]
+		}, -- [40]
 		{
 			["message"] = "Interface\\AddOns\\Pawn\\Pawn.lua:1124: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -524,7 +356,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 01:26:14",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:1124: in function `PawnRecalculateScaleTotal'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:468: in function `PawnInitialize'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:139: in function `PawnOnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [61]
+		}, -- [41]
 		{
 			["message"] = "...ace\\AddOns\\Attune\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
 			["count"] = 1,
@@ -532,7 +364,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 01:27:06",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...ace\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...ace\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [62]
+		}, -- [42]
 		{
 			["message"] = "Interface\\AddOns\\Pawn\\Pawn.lua:1124: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -541,7 +373,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 01:27:06",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:1124: in function `PawnRecalculateScaleTotal'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:468: in function `PawnInitialize'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:139: in function `PawnOnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [63]
+		}, -- [43]
 		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 1,
@@ -549,7 +381,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 01:27:13",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [64]
+		}, -- [44]
 		{
 			["message"] = "Interface\\AddOns\\Bagnon\\addons\\guild\\item.lua:35: attempt to call method 'OpenStackSplitFrame' (a nil value)",
 			["count"] = 1,
@@ -558,7 +390,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 01:42:53",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Bagnon\\addons\\guild\\item.lua\"]:35: in function <Interface\\AddOns\\Bagnon\\addons\\guild\\item.lua:30>\n",
-		}, -- [65]
+		}, -- [45]
 		{
 			["message"] = "...ace\\AddOns\\Attune\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
 			["count"] = 1,
@@ -566,7 +398,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 11:12:37",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...ace\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...ace\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [66]
+		}, -- [46]
 		{
 			["message"] = "Interface\\AddOns\\Pawn\\Pawn.lua:1124: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -575,7 +407,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 11:12:37",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:1124: in function `PawnRecalculateScaleTotal'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:468: in function `PawnInitialize'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:139: in function `PawnOnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [67]
+		}, -- [47]
 		{
 			["message"] = "...\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
 			["count"] = 1,
@@ -583,7 +415,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 12:04:44",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Bagnon\\common\\Wildpants\\libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...AddOns\\Bartender4\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n",
-		}, -- [68]
+		}, -- [48]
 		{
 			["message"] = "Interface\\AddOns\\Pawn\\Pawn.lua:1124: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -592,7 +424,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 12:04:44",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:1124: in function `PawnRecalculateScaleTotal'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:468: in function `PawnInitialize'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:139: in function `PawnOnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [69]
+		}, -- [49]
 		{
 			["message"] = "...ace\\AddOns\\Attune\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:33: Attempt to register unknown event \"CURSOR_UPDATE\"",
 			["count"] = 1,
@@ -600,7 +432,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 12:24:43",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua\"]:33: in function `OnUsed'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:142: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:77: in function `RegisterGatherEvents'\n[string \"@Interface\\AddOns\\GatherMate2\\Collector.lua\"]:66: in function <Interface\\AddOns\\GatherMate2\\Collector.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:70: in function <...ace\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:540: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua\"]:630: in function <...ace\\AddOns\\Attune\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:386: in function `UIParentLoadAddOn'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:444: in function `RaidFrame_LoadUI'\n[string \"@Interface\\FrameXML\\RaidFrame.lua\"]:55: in function <Interface\\FrameXML\\RaidFrame.lua:50>\n",
-		}, -- [70]
+		}, -- [50]
 		{
 			["message"] = "Interface\\AddOns\\Pawn\\Pawn.lua:1124: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 1,
@@ -609,7 +441,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 12:24:43",
 			["context"] = "Global",
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:1124: in function `PawnRecalculateScaleTotal'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:468: in function `PawnInitialize'\n[string \"@Interface\\AddOns\\Pawn\\Pawn.lua\"]:139: in function `PawnOnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [71]
+		}, -- [51]
 		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 10,
@@ -617,7 +449,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 12:40:56",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [72]
+		}, -- [52]
 		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 1,
@@ -625,7 +457,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 19:32:19",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [73]
+		}, -- [53]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:ClearAllPoints()) during combat lockdown.",
 			["count"] = 1,
@@ -633,7 +465,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 20:36:50",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `ClearAllPoints'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:40: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [74]
+		}, -- [54]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:SetWidth()) during combat lockdown.",
 			["count"] = 1,
@@ -641,7 +473,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 20:36:50",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `SetWidth'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:63: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [75]
+		}, -- [55]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:SetHeight()) during combat lockdown.",
 			["count"] = 1,
@@ -649,7 +481,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 20:36:50",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `SetHeight'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:64: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [76]
+		}, -- [56]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:Show()) during combat lockdown.",
 			["count"] = 1,
@@ -657,7 +489,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 20:36:50",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:65: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [77]
+		}, -- [57]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:SetPoint()) during combat lockdown.",
 			["count"] = 1,
@@ -665,7 +497,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 20:36:50",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:74: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [78]
+		}, -- [58]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_TrackedQuests:ClearAllPoints()) during combat lockdown.",
 			["count"] = 1,
@@ -673,7 +505,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 20:36:50",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `ClearAllPoints'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:385: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:929: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [79]
+		}, -- [59]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_TrackedQuests:SetPoint()) during combat lockdown.",
 			["count"] = 1,
@@ -681,7 +513,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 20:36:50",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:369: in function <...ce\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua:357>\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:386: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:929: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [80]
+		}, -- [60]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_BaseFrame:SetHeight()) during combat lockdown.",
 			["count"] = 1,
@@ -689,7 +521,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 20:36:50",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `SetHeight'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:1230: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [81]
+		}, -- [61]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_BaseFrame:SetWidth()) during combat lockdown.",
 			["count"] = 1,
@@ -697,7 +529,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 20:36:50",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `SetWidth'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:1235: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [82]
+		}, -- [62]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_TrackedQuests:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -705,7 +537,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 20:36:50",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:1238: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [83]
+		}, -- [63]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_BaseFrame:Show()) during combat lockdown.",
 			["count"] = 1,
@@ -713,7 +545,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 20:36:50",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:1327: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [84]
+		}, -- [64]
 		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 9,
@@ -721,7 +553,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-03 23:21:04",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [85]
+		}, -- [65]
 		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 4,
@@ -729,7 +561,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 00:54:59",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [86]
+		}, -- [66]
 		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 4,
@@ -737,7 +569,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 11:45:44",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [87]
+		}, -- [67]
 		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 34,
@@ -745,7 +577,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 13:45:31",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [88]
+		}, -- [68]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:ClearAllPoints()) during combat lockdown.",
 			["count"] = 1,
@@ -753,7 +585,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 16:48:43",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `ClearAllPoints'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:40: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [89]
+		}, -- [69]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:SetWidth()) during combat lockdown.",
 			["count"] = 1,
@@ -761,7 +593,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 16:48:43",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `SetWidth'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:63: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [90]
+		}, -- [70]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:SetHeight()) during combat lockdown.",
 			["count"] = 1,
@@ -769,7 +601,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 16:48:43",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `SetHeight'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:64: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [91]
+		}, -- [71]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:Show()) during combat lockdown.",
 			["count"] = 1,
@@ -777,7 +609,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 16:48:43",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:65: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [92]
+		}, -- [72]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:SetPoint()) during combat lockdown.",
 			["count"] = 1,
@@ -785,7 +617,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 16:48:43",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:74: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [93]
+		}, -- [73]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_TrackedQuests:ClearAllPoints()) during combat lockdown.",
 			["count"] = 1,
@@ -793,7 +625,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 16:48:43",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `ClearAllPoints'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:385: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:929: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [94]
+		}, -- [74]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_TrackedQuests:SetPoint()) during combat lockdown.",
 			["count"] = 1,
@@ -801,7 +633,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 16:48:43",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:369: in function <...ce\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua:357>\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:386: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:929: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [95]
+		}, -- [75]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_BaseFrame:SetHeight()) during combat lockdown.",
 			["count"] = 1,
@@ -809,7 +641,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 16:48:43",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `SetHeight'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:1230: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [96]
+		}, -- [76]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_BaseFrame:SetWidth()) during combat lockdown.",
 			["count"] = 1,
@@ -817,7 +649,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 16:48:43",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `SetWidth'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:1235: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [97]
+		}, -- [77]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_TrackedQuests:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -825,7 +657,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 16:48:43",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:1238: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [98]
+		}, -- [78]
 		{
 			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_BaseFrame:Show()) during combat lockdown.",
 			["count"] = 1,
@@ -833,7 +665,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 16:48:43",
 			["context"] = "AddOn: Questie",
 			["stack"] = "[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:1327: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
-		}, -- [99]
+		}, -- [79]
 		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 4,
@@ -841,7 +673,7 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 16:51:28",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [100]
+		}, -- [80]
 		{
 			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
 			["count"] = 1,
@@ -849,7 +681,159 @@ SwatterData = {
 			["timestamp"] = "2022-09-04 17:30:16",
 			["context"] = "Global",
 			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [101]
+		}, -- [81]
+		{
+			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
+			["count"] = 12,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMPartyBC, v\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5dd)\n",
+			["timestamp"] = "2022-09-04 19:29:32",
+			["context"] = "Global",
+			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
+		}, -- [82]
+		{
+			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:ClearAllPoints()) during combat lockdown.",
+			["count"] = 1,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMPartyBC, v\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5dd)\n",
+			["timestamp"] = "2022-09-04 20:11:54",
+			["context"] = "AddOn: Questie",
+			["stack"] = "[string \"=[C]\"]: in function `ClearAllPoints'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:40: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
+		}, -- [83]
+		{
+			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:SetWidth()) during combat lockdown.",
+			["count"] = 59,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMPartyBC, v\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5dd)\n",
+			["timestamp"] = "2022-09-04 20:11:54",
+			["context"] = "AddOn: Questie",
+			["stack"] = "[string \"=[C]\"]: in function `SetWidth'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:63: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
+		}, -- [84]
+		{
+			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:SetHeight()) during combat lockdown.",
+			["count"] = 68,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMPartyBC, v\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5dd)\n",
+			["timestamp"] = "2022-09-04 20:11:54",
+			["context"] = "AddOn: Questie",
+			["stack"] = "[string \"=[C]\"]: in function `SetHeight'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:64: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
+		}, -- [85]
+		{
+			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:Show()) during combat lockdown.",
+			["count"] = 30,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMPartyBC, v\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5dd)\n",
+			["timestamp"] = "2022-09-04 20:11:54",
+			["context"] = "AddOn: Questie",
+			["stack"] = "[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:65: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
+		}, -- [86]
+		{
+			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:SetPoint()) during combat lockdown.",
+			["count"] = 1,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMPartyBC, v\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5dd)\n",
+			["timestamp"] = "2022-09-04 20:11:54",
+			["context"] = "AddOn: Questie",
+			["stack"] = "[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\ActiveQuestsHeader.lua\"]:74: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:928: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
+		}, -- [87]
+		{
+			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_TrackedQuests:ClearAllPoints()) during combat lockdown.",
+			["count"] = 1,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMPartyBC, v\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5dd)\n",
+			["timestamp"] = "2022-09-04 20:11:54",
+			["context"] = "AddOn: Questie",
+			["stack"] = "[string \"=[C]\"]: in function `ClearAllPoints'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:385: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:929: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
+		}, -- [88]
+		{
+			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_TrackedQuests:SetPoint()) during combat lockdown.",
+			["count"] = 1,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMPartyBC, v\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5dd)\n",
+			["timestamp"] = "2022-09-04 20:11:54",
+			["context"] = "AddOn: Questie",
+			["stack"] = "[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:369: in function <...ce\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua:357>\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:386: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:929: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
+		}, -- [89]
+		{
+			["message"] = "Note: AddOn Questie attempted to call a protected function (<unnamed>:Hide()) during combat lockdown.",
+			["count"] = 1,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMPartyBC, v\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5dd)\n",
+			["timestamp"] = "2022-09-04 20:11:54",
+			["context"] = "AddOn: Questie",
+			["stack"] = "[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\LinePool.lua\"]:262: in function `HideUnusedLines'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:1206: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
+		}, -- [90]
+		{
+			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_BaseFrame:SetWidth()) during combat lockdown.",
+			["count"] = 1,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMPartyBC, v\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5dd)\n",
+			["timestamp"] = "2022-09-04 20:11:54",
+			["context"] = "AddOn: Questie",
+			["stack"] = "[string \"=[C]\"]: in function `SetWidth'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:1253: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
+		}, -- [91]
+		{
+			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_BaseFrame:SetHeight()) during combat lockdown.",
+			["count"] = 1,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMPartyBC, v\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5dd)\n",
+			["timestamp"] = "2022-09-04 20:11:54",
+			["context"] = "AddOn: Questie",
+			["stack"] = "[string \"=[C]\"]: in function `SetHeight'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:1278: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
+		}, -- [92]
+		{
+			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_TrackedQuests:Show()) during combat lockdown.",
+			["count"] = 1,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMPartyBC, v\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5dd)\n",
+			["timestamp"] = "2022-09-04 20:11:54",
+			["context"] = "AddOn: Questie",
+			["stack"] = "[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:1284: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
+		}, -- [93]
+		{
+			["message"] = "Note: AddOn Questie attempted to call a protected function (Questie_BaseFrame:Show()) during combat lockdown.",
+			["count"] = 1,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMPartyBC, v\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5dd)\n",
+			["timestamp"] = "2022-09-04 20:11:54",
+			["context"] = "AddOn: Questie",
+			["stack"] = "[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:1327: in function `Update'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:356: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>\n",
+		}, -- [94]
+		{
+			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
+			["count"] = 21,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.03\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.3\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5cd)\n",
+			["timestamp"] = "2022-09-04 22:31:34",
+			["context"] = "Global",
+			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
+		}, -- [95]
+		{
+			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
+			["count"] = 16,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.04\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.4\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5cd)\n",
+			["timestamp"] = "2022-09-05 11:09:49",
+			["context"] = "Global",
+			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
+		}, -- [96]
+		{
+			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
+			["count"] = 10,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  BagnonConfig, v\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  GuildRosterManager, v1.92991\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.04\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.4\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5fe)\n",
+			["timestamp"] = "2022-09-05 12:27:56",
+			["context"] = "Global",
+			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
+		}, -- [97]
+		{
+			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
+			["count"] = 6,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  GuildRosterManager, v1.92991\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.04\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.4\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5ec)\n",
+			["timestamp"] = "2022-09-05 14:43:59",
+			["context"] = "Global",
+			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
+		}, -- [98]
+		{
+			["message"] = "Interface\\AddOns\\Dailies\\Dailies.lua:2063: attempt to index field 'Factions' (a nil value)",
+			["count"] = 8,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  GuildRosterManager, v1.92991\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.04\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.4\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5ec)\n",
+			["timestamp"] = "2022-09-05 19:55:40",
+			["context"] = "Global",
+			["stack"] = "[string \"@Interface\\AddOns\\Dailies\\Dailies.lua\"]:2063: in function `?'\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua\"]:264: in function <...rface\\AddOns\\Attune\\Libs\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
+		}, -- [99]
+		{
+			["message"] = "Note: AddOn ZygorGuidesViewerClassicTBC attempted to call a protected function (ZygorGuidesViewer_ActionBar:Hide()) during combat lockdown.",
+			["count"] = 2,
+			["addons"] = "  Swatter, v2.5.6773 (SwimmingSeadragon)\n  AtlasLootClassic, vv2.4.4-bcc\n  AtlasLootClassicData, vv2.4.4-bcc\n  AtlasLootClassicDungeonsAndRaids, vv2.4.4-bcc\n  Attune, v305\n  Auctionator, v9.2.35\n  BagBrother, v\n  Bagnon, v9.2.2\n  BagnonConfig, v\n  Bartender4, v4.11.5\n  BeanCounter, v2.5.6767 (SwimmingSeadragon)\n  Dailies, v025\n  DBMCore, vd87d644\n  DBMStatusBarTimers, vd87d644\n  DBMVPVEM, v6746e8a\n  Details, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  Enchantrix, v2.5.6768 (SwimmingSeadragon)\n  EnchantrixBarker, v2.5.6769 (SwimmingSeadragon)\n  FishingBuddy, v0.7.9\n  GatherMate2, v1.46.3-classic\n  GuildRosterManager, v1.92991\n  Informant, v2.5.6770 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v3.0.04\n  NovaWorldBuffs, v2.31\n  OmniCC, v9.2.1\n  PallyPower, vv1.4.9-classic\n  Pawn, v2.6.4\n  Plater, vPlater-v534-Wrath\n  Questie, v7.0.1\n  SlideBar, v2.5.6771 (SwimmingSeadragon)\n  Stubby, v2.5.6772 (SwimmingSeadragon)\n  TitanClassic, v1.5.3.30400\n  TitanClassicAmmo, v1.5.3.30400\n  TitanClassicBag, v1.5.3.30400\n  TitanClassicClock, v1.5.3.30400\n  TitanClassicGold, v1.5.3.30400\n  TitanClassicLocation, v1.5.3.30400\n  TitanClassicLootType, v1.5.3.30400\n  TitanClassicPerformance, v1.5.3.30400\n  TitanClassicRegen, v1.5.3.30400\n  TitanClassicRepair, v1.5.3.30400\n  TitanClassicVolume, v1.5.3.30400\n  TitanClassicXP, v1.5.3.30400\n  VendorPrice, v1.5.0\n  WeakAuras, v4.1.2\n  ZygorGuidesViewerClassicTBC, v2.1\n  BlizRuntimeLib_enUS v3.4.0.30400 <none>\n  (ck=5fe)\n",
+			["timestamp"] = "2022-09-06 08:34:28",
+			["context"] = "AddOn: ZygorGuidesViewerClassicTBC",
+			["stack"] = "[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\Skins\\Default\\ViewerFrame.lua\"]:1756: in function `ShowSpecialState'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\ZygorGuidesViewer.lua\"]:2586: in function <...ns\\ZygorGuidesViewerClassicTBC\\ZygorGuidesViewer.lua:2437>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\ZygorGuidesViewer.lua\"]:3450: in function `SetStepFocus'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\ZygorGuidesViewer.lua\"]:1664: in function `FocusStep'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\ZygorGuidesViewer.lua\"]:1479: in function `SetGuide'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu.lua\"]:639: in function `ActivateGuide'\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua\"]:634: in function <...ddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua:631>\n[string \"@Interface\\AddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua\"]:658: in function <...ddOns\\ZygorGuidesViewerClassicTBC\\GuideMenu-View.lua:658>\n",
+		}, -- [100]
 	},
 	["autoshow"] = true,
 }

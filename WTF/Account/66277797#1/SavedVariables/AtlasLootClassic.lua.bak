@@ -302,7 +302,7 @@ AtlasLootClassicDB = {
 		},
 		["Tiffpollard - Mankrik"] = {
 			["minimap"] = {
-				["minimapPos"] = 225.8709977661674,
+				["minimapPos"] = 227.9304955145303,
 			},
 			["GUI"] = {
 				["selected"] = {
@@ -313,6 +313,9 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Leelaturanga - Mankrik"] = {
+			["minimap"] = {
+				["minimapPos"] = 5.513951141781368,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -328,9 +331,6 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 5.513951141781368,
 			},
 		},
 	},

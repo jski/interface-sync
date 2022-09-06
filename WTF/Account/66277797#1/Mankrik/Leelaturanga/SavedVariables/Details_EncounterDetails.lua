@@ -1,196 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			{
-				31.12399999999616, -- [1]
-				"Got me some new tricks... like me brudda bear....", -- [2]
-				"Zul'jin", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				32.6990000000078, -- [1]
-				"%s absorbs the essence of the bear spirit!", -- [2]
-				"Zul'jin", -- [3]
-				3, -- [4]
-			}, -- [2]
-			{
-				58.49300000000221, -- [1]
-				"Dere be no hidin' from da eagle!", -- [2]
-				"Zul'jin", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				58.49300000000221, -- [1]
-				"%s absorbs the essence of the eagle spirit!", -- [2]
-				"Zul'jin", -- [3]
-				3, -- [4]
-			}, -- [4]
-			{
-				82.83999999999651, -- [1]
-				"Let me introduce you to me new bruddas: fang and claw!", -- [2]
-				"Zul'jin", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				82.83999999999651, -- [1]
-				"%s absorbs the essence of the lynx spirit!", -- [2]
-				"Zul'jin", -- [3]
-				3, -- [4]
-			}, -- [6]
-			{
-				108.7430000000022, -- [1]
-				"Ya don' have to look to da sky to see da dragonhawk!", -- [2]
-				"Zul'jin", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				110.3360000000102, -- [1]
-				"%s absorbs the essence of the dragonhawk spirit!", -- [2]
-				"Zul'jin", -- [3]
-				3, -- [4]
-			}, -- [8]
-			{
-				115.3329999999987, -- [1]
-				"Lotta more gonna fall like you.", -- [2]
-				"Zul'jin", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				134.593000000008, -- [1]
-				"Fire kill you just as quick!", -- [2]
-				"Zul'jin", -- [3]
-				7, -- [4]
-			}, -- [10]
-			{
-				134.593000000008, -- [1]
-				"Da Amani di chuka!", -- [2]
-				"Zul'jin", -- [3]
-				7, -- [4]
-			}, -- [11]
-			["boss"] = "Zul'jin",
-		}, -- [1]
-		{
-			{
-				11.19000000000233, -- [1]
-				"You gonna die worse dan him.", -- [2]
-				"Hex Lord Malacrass", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				21.90899999999965, -- [1]
-				"Dat no bodda me.", -- [2]
-				"Hex Lord Malacrass", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				23.17299999999523, -- [1]
-				"You gonna die worse dan him.", -- [2]
-				"Hex Lord Malacrass", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				28.71600000000035, -- [1]
-				"Your soul gonna bleed!", -- [2]
-				"Hex Lord Malacrass", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				40.17600000000675, -- [1]
-				"Your will belong ta me now!", -- [2]
-				"Hex Lord Malacrass", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				41.78800000000047, -- [1]
-				"Darkness comin' for you....", -- [2]
-				"Hex Lord Malacrass", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				50.44599999999628, -- [1]
-				"You gonna die worse dan him.", -- [2]
-				"Hex Lord Malacrass", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				69.38099999999395, -- [1]
-				"Your soul gonna bleed!", -- [2]
-				"Hex Lord Malacrass", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				80.67399999999907, -- [1]
-				"Your will belong ta me now!", -- [2]
-				"Hex Lord Malacrass", -- [3]
-				7, -- [4]
-			}, -- [9]
-			["boss"] = "Hex Lord Malacrass",
-		}, -- [2]
-		{
-			{
-				8.118000000002212, -- [1]
-				"You gonna leave in pieces!", -- [2]
-				"Halazzi", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				14.76300000000629, -- [1]
-				"I fight wit' untamed spirit....", -- [2]
-				"Halazzi", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				32.65700000000652, -- [1]
-				"Spirit, come back to me!", -- [2]
-				"Halazzi", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				40.69000000000233, -- [1]
-				"You gonna leave in pieces!", -- [2]
-				"Halazzi", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				43.92900000000373, -- [1]
-				"I fight wit' untamed spirit....", -- [2]
-				"Halazzi", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				60.43500000001222, -- [1]
-				"Spirit, come back to me!", -- [2]
-				"Halazzi", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				69.8350000000064, -- [1]
-				"You gonna leave in pieces!", -- [2]
-				"Halazzi", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				71.45000000001164, -- [1]
-				"I fight wit' untamed spirit....", -- [2]
-				"Halazzi", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				87.62400000001071, -- [1]
-				"Spirit, come back to me!", -- [2]
-				"Halazzi", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				97.34800000001269, -- [1]
-				"Me gonna carve ya now!", -- [2]
-				"Halazzi", -- [3]
-				7, -- [4]
-			}, -- [10]
-			["boss"] = "Halazzi",
-		}, -- [3]
-	},
 	["encounter_spells"] = {
 		[28168] = {
 			["school"] = 1,
@@ -1407,8 +1216,8 @@ EncounterDetailsDB = {
 		[34342] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_HEAL"] = true,
 			},
@@ -1577,13 +1386,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Netherstrand Longbow",
 		},
-		[44090] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[26985] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Zul'jin",
+			["source"] = "Gandalgrumm",
 		},
 		[34471] = {
 			["school"] = 1,
@@ -1601,21 +1411,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fathom-Guard Caribdis",
 		},
-		[43150] = {
+		[36822] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kael'thas Sunstrider",
+		},
+		[51714] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Zul'jin",
-		},
-		[43121] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Feather Vortex",
+			["source"] = "Ffxivshb",
 		},
 		[43137] = {
 			["school"] = 8,
@@ -1624,38 +1433,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Feather Vortex",
 		},
-		[43983] = {
+		[39329] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "High Astromancer Solarian",
+		},
+		[19801] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Melka",
+		},
+		[26968] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Zul'jin",
+			["source"] = "Morde",
 		},
-		[43112] = {
+		[43547] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Zul'jin",
-		},
-		[43095] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Zul'jin",
-		},
-		[15576] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Zul'jin",
+			["source"] = "Hex Lord Malacrass",
 		},
 		[43302] = {
 			["school"] = 8,
@@ -1707,14 +1515,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hex Lord Malacrass",
 		},
-		[26968] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[75] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Morde",
+			["source"] = "Melka",
 		},
 		[38304] = {
 			["school"] = 8,
@@ -1723,23 +1529,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fathom-Guard Tidalvess",
 		},
-		[30531] = {
-			["school"] = 1,
+		[33736] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Hellfire Channeler",
+			["source"] = "Nottelbunn",
 		},
-		[43547] = {
+		[50475] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Hex Lord Malacrass",
+			["source"] = "Ffxivshb",
 		},
 		[36819] = {
 			["school"] = 4,
@@ -1761,38 +1565,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fathom-Guard Sharkkis",
 		},
-		[75] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Melka",
-		},
-		[33131] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Olm the Summoner",
-		},
-		[43740] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Gandalgrumm",
-		},
-		[33390] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Alyson Antille",
-		},
 		[43246] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1803,12 +1575,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Amani'shi Guardian",
 		},
-		[38433] = {
+		[35941] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Fathom-Guard Sharkkis",
+			["source"] = "Kael'thas Sunstrider",
+		},
+		[37433] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "The Lurker Below",
+		},
+		[38692] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Zhelorna",
+		},
+		[2893] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mmilkthesee",
+		},
+		[38215] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Hydross the Unstable",
 		},
 		[43590] = {
 			["school"] = 32,
@@ -1820,13 +1625,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Darkheart",
 		},
-		[35941] = {
-			["school"] = 1,
+		[43095] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Kael'thas Sunstrider",
+			["source"] = "Zul'jin",
 		},
 		[36979] = {
 			["school"] = 64,
@@ -1837,23 +1643,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Netherstrand Longbow",
 		},
-		[38449] = {
-			["school"] = 16,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Fathom-Guard Caribdis",
-		},
-		[44008] = {
+		[61299] = {
 			["school"] = 8,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Akil'zon",
+			["source"] = "Nottelbunn",
+		},
+		[55359] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Zhelorna",
 		},
 		[37027] = {
 			["school"] = 64,
@@ -1871,23 +1673,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nottelbunn",
 		},
-		[37282] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[38335] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Novice Astromancer",
-		},
-		[43584] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Gazakroth",
+			["source"] = "Fathom-Guard Caribdis",
+		},
+		[38253] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Tainted Elemental",
 		},
 		[27009] = {
 			["school"] = 8,
@@ -1898,14 +1702,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mmilkthesee",
 		},
-		[38215] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[30512] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hydross the Unstable",
+			["source"] = "Burning Abyssal",
 		},
 		[38145] = {
 			["school"] = 8,
@@ -1925,15 +1727,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Krosh Firehand",
 		},
-		[36991] = {
+		[38310] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Warp Slicer",
+			["source"] = "Lady Vashj",
 		},
 		[43303] = {
 			["school"] = 4,
@@ -1957,31 +1758,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Al'ar",
 		},
-		[30166] = {
+		[36981] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Devastation",
+		},
+		[33131] = {
 			["school"] = 32,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Hellfire Raid Trigger",
-		},
-		[37730] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Morogrim Tidewalker",
+			["source"] = "Olm the Summoner",
 		},
-		[45438] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[55361] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Zhelorna",
 		},
@@ -1994,23 +1791,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hex Lord Malacrass",
 		},
-		[43243] = {
+		[43150] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Spirit of the Lynx",
-		},
-		[38330] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Fathom-Guard Caribdis",
+			["source"] = "Zul'jin",
 		},
 		[38024] = {
 			["school"] = 16,
@@ -2019,6 +1807,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Morogrim Tidewalker",
+		},
+		[57984] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Greater Fire Elemental",
 		},
 		[56222] = {
 			["school"] = 1,
@@ -2029,21 +1824,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ffxivshb",
 		},
-		[38697] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Nevadda",
-		},
-		[43249] = {
-			["school"] = 1,
+		[53248] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Amani'shi Guardian",
+			["source"] = "Mmilkthesee",
+		},
+		[33009] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "High Astromancer Solarian",
 		},
 		[37363] = {
 			["school"] = 1,
@@ -2052,38 +1849,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Lurker Below",
 		},
-		[39261] = {
+		[38516] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Cyclone (Karathress)",
 		},
-		[37159] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Phoenix-Hawk",
-		},
-		[44054] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Halazzi",
-		},
-		[35383] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[38373] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Fathom-Guard Sharkkis",
+		},
+		[38433] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fathom-Guard Sharkkis",
+		},
+		[38449] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Fathom-Guard Caribdis",
 		},
 		[43575] = {
 			["school"] = 2,
@@ -2092,32 +1890,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Alyson Antille",
 		},
-		[43299] = {
-			["school"] = 4,
+		[33390] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Amani Dragonhawk Hatchling",
-		},
-		[34123] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Mmilkthesee",
+			["source"] = "Alyson Antille",
 		},
-		[36980] = {
+		[30757] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Blaze",
+		},
+		[43112] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Netherstrand Longbow",
+			["source"] = "Zul'jin",
 		},
 		[24907] = {
 			["school"] = 8,
@@ -2127,12 +1921,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gandalgrumm",
 		},
-		[16496] = {
+		[20477] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Master Engineer Telonicus",
+			["source"] = "Thaladred the Darkener",
 		},
 		[43140] = {
 			["school"] = 4,
@@ -2145,21 +1939,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Jan'alai",
 		},
-		[16508] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[34172] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "High King Maulgar",
+			["source"] = "Void Reaver",
 		},
-		[36721] = {
+		[38236] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Phoenix",
+			["source"] = "Fathom-Guard Tidalvess",
 		},
 		[43208] = {
 			["school"] = 4,
@@ -2194,15 +1986,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Melka",
 		},
-		[42395] = {
+		[34299] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Nalorakk",
+			["source"] = "Sneep",
 		},
 		[37156] = {
 			["school"] = 1,
@@ -2210,6 +1999,22 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Phoenix-Hawk",
+		},
+		[43661] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Akil'zon",
+		},
+		[42384] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Nalorakk",
 		},
 		[42389] = {
 			["school"] = 1,
@@ -2220,28 +2025,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nalorakk",
 		},
-		[42384] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Nalorakk",
-		},
-		[43661] = {
+		[43983] = {
 			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Akil'zon",
-		},
-		[34299] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Sneep",
+			["source"] = "Zul'jin",
 		},
 		[38258] = {
 			["school"] = 32,
@@ -2251,19 +2042,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Coilfang Strider",
 		},
-		[38236] = {
+		[36721] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fathom-Guard Tidalvess",
+			["source"] = "Phoenix",
 		},
-		[34172] = {
-			["school"] = 64,
+		[16508] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Void Reaver",
+			["source"] = "High King Maulgar",
 		},
 		[38306] = {
 			["school"] = 8,
@@ -2272,12 +2065,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fathom-Guard Tidalvess",
 		},
-		[20477] = {
+		[16496] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Thaladred the Darkener",
+			["source"] = "Master Engineer Telonicus",
 		},
 		[36805] = {
 			["school"] = 4,
@@ -2288,12 +2081,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kael'thas Sunstrider",
 		},
-		[30757] = {
-			["school"] = 4,
+		[36980] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Blaze",
+			["source"] = "Netherstrand Longbow",
 		},
 		[45524] = {
 			["school"] = 16,
@@ -2304,48 +2099,64 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ffxivshb",
 		},
-		[38373] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[43299] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Fathom-Guard Sharkkis",
+			["source"] = "Amani Dragonhawk Hatchling",
 		},
-		[38516] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[35383] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[44054] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Halazzi",
+		},
+		[37159] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Phoenix-Hawk",
+		},
+		[39261] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Cyclone (Karathress)",
 		},
-		[33009] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "High Astromancer Solarian",
-		},
-		[53248] = {
-			["school"] = 8,
+		[43249] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Mmilkthesee",
+			["source"] = "Amani'shi Guardian",
 		},
-		[57984] = {
-			["school"] = 4,
+		[38697] = {
+			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Greater Fire Elemental",
+			["source"] = "Nevadda",
 		},
 		[36965] = {
 			["school"] = 1,
@@ -2357,78 +2168,70 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thaladred the Darkener",
 		},
-		[379] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Nottelbunn",
-		},
-		[55361] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Zhelorna",
-		},
-		[36981] = {
+		[30531] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Devastation",
+			["source"] = "Hellfire Channeler",
 		},
-		[38310] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Lady Vashj",
-		},
-		[30512] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Burning Abyssal",
-		},
-		[38253] = {
+		[38330] = {
 			["school"] = 8,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Tainted Elemental",
-		},
-		[38335] = {
-			["school"] = 16,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Fathom-Guard Caribdis",
 		},
-		[55359] = {
-			["school"] = 4,
+		[43243] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Spirit of the Lynx",
+		},
+		[45438] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Zhelorna",
 		},
-		[61299] = {
-			["school"] = 8,
+		[37730] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nottelbunn",
+			["source"] = "Morogrim Tidewalker",
+		},
+		[30166] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Hellfire Raid Trigger",
+		},
+		[36991] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Warp Slicer",
 		},
 		[27010] = {
 			["school"] = 8,
@@ -2439,28 +2242,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mmilkthesee",
 		},
-		[2893] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Mmilkthesee",
-		},
-		[38692] = {
+		[43584] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Zhelorna",
-		},
-		[37433] = {
-			["school"] = 16,
-			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "The Lurker Below",
+			["source"] = "Gazakroth",
+		},
+		[37282] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Novice Astromancer",
+		},
+		[44008] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Akil'zon",
 		},
 		[30619] = {
 			["school"] = 1,
@@ -2478,21 +2285,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Halazzi",
 		},
-		[50475] = {
+		[34123] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ffxivshb",
+			["source"] = "Mmilkthesee",
 		},
-		[33736] = {
+		[43740] = {
 			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Nottelbunn",
+			["source"] = "Gandalgrumm",
 		},
 		[27074] = {
 			["school"] = 4,
@@ -2518,19 +2325,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mmilkthesee",
 		},
-		[19801] = {
-			["school"] = 8,
+		[15576] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Melka",
+			["source"] = "Zul'jin",
 		},
-		[39329] = {
-			["school"] = 32,
+		[42395] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "High Astromancer Solarian",
+			["source"] = "Nalorakk",
 		},
 		[43433] = {
 			["school"] = 1,
@@ -2541,20 +2352,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hex Lord Malacrass",
 		},
-		[51714] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Ffxivshb",
-		},
-		[36822] = {
-			["school"] = 1,
+		[43121] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kael'thas Sunstrider",
+			["source"] = "Feather Vortex",
+		},
+		[379] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Nottelbunn",
 		},
 		[27138] = {
 			["school"] = 2,
@@ -2565,14 +2375,204 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pallyrevzz",
 		},
-		[26985] = {
-			["school"] = 8,
+		[44090] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Gandalgrumm",
+			["source"] = "Zul'jin",
 		},
+	},
+	["emotes"] = {
+		{
+			{
+				31.12399999999616, -- [1]
+				"Got me some new tricks... like me brudda bear....", -- [2]
+				"Zul'jin", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				32.6990000000078, -- [1]
+				"%s absorbs the essence of the bear spirit!", -- [2]
+				"Zul'jin", -- [3]
+				3, -- [4]
+			}, -- [2]
+			{
+				58.49300000000221, -- [1]
+				"Dere be no hidin' from da eagle!", -- [2]
+				"Zul'jin", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				58.49300000000221, -- [1]
+				"%s absorbs the essence of the eagle spirit!", -- [2]
+				"Zul'jin", -- [3]
+				3, -- [4]
+			}, -- [4]
+			{
+				82.83999999999651, -- [1]
+				"Let me introduce you to me new bruddas: fang and claw!", -- [2]
+				"Zul'jin", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				82.83999999999651, -- [1]
+				"%s absorbs the essence of the lynx spirit!", -- [2]
+				"Zul'jin", -- [3]
+				3, -- [4]
+			}, -- [6]
+			{
+				108.7430000000022, -- [1]
+				"Ya don' have to look to da sky to see da dragonhawk!", -- [2]
+				"Zul'jin", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				110.3360000000102, -- [1]
+				"%s absorbs the essence of the dragonhawk spirit!", -- [2]
+				"Zul'jin", -- [3]
+				3, -- [4]
+			}, -- [8]
+			{
+				115.3329999999987, -- [1]
+				"Lotta more gonna fall like you.", -- [2]
+				"Zul'jin", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				134.593000000008, -- [1]
+				"Fire kill you just as quick!", -- [2]
+				"Zul'jin", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				134.593000000008, -- [1]
+				"Da Amani di chuka!", -- [2]
+				"Zul'jin", -- [3]
+				7, -- [4]
+			}, -- [11]
+			["boss"] = "Zul'jin",
+		}, -- [1]
+		{
+			{
+				11.19000000000233, -- [1]
+				"You gonna die worse dan him.", -- [2]
+				"Hex Lord Malacrass", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				21.90899999999965, -- [1]
+				"Dat no bodda me.", -- [2]
+				"Hex Lord Malacrass", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				23.17299999999523, -- [1]
+				"You gonna die worse dan him.", -- [2]
+				"Hex Lord Malacrass", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				28.71600000000035, -- [1]
+				"Your soul gonna bleed!", -- [2]
+				"Hex Lord Malacrass", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				40.17600000000675, -- [1]
+				"Your will belong ta me now!", -- [2]
+				"Hex Lord Malacrass", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				41.78800000000047, -- [1]
+				"Darkness comin' for you....", -- [2]
+				"Hex Lord Malacrass", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				50.44599999999628, -- [1]
+				"You gonna die worse dan him.", -- [2]
+				"Hex Lord Malacrass", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				69.38099999999395, -- [1]
+				"Your soul gonna bleed!", -- [2]
+				"Hex Lord Malacrass", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				80.67399999999907, -- [1]
+				"Your will belong ta me now!", -- [2]
+				"Hex Lord Malacrass", -- [3]
+				7, -- [4]
+			}, -- [9]
+			["boss"] = "Hex Lord Malacrass",
+		}, -- [2]
+		{
+			{
+				8.118000000002212, -- [1]
+				"You gonna leave in pieces!", -- [2]
+				"Halazzi", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				14.76300000000629, -- [1]
+				"I fight wit' untamed spirit....", -- [2]
+				"Halazzi", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				32.65700000000652, -- [1]
+				"Spirit, come back to me!", -- [2]
+				"Halazzi", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				40.69000000000233, -- [1]
+				"You gonna leave in pieces!", -- [2]
+				"Halazzi", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				43.92900000000373, -- [1]
+				"I fight wit' untamed spirit....", -- [2]
+				"Halazzi", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				60.43500000001222, -- [1]
+				"Spirit, come back to me!", -- [2]
+				"Halazzi", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				69.8350000000064, -- [1]
+				"You gonna leave in pieces!", -- [2]
+				"Halazzi", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				71.45000000001164, -- [1]
+				"I fight wit' untamed spirit....", -- [2]
+				"Halazzi", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				87.62400000001071, -- [1]
+				"Spirit, come back to me!", -- [2]
+				"Halazzi", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				97.34800000001269, -- [1]
+				"Me gonna carve ya now!", -- [2]
+				"Halazzi", -- [3]
+				7, -- [4]
+			}, -- [10]
+			["boss"] = "Halazzi",
+		}, -- [3]
 	},
 }

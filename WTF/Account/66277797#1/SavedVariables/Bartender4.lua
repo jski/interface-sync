@@ -135,6 +135,13 @@ Bartender4DB = {
 							},
 						}, -- [7]
 						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.9999885559082,
+								["x"] = 277.5372314453125,
+								["point"] = "BOTTOM",
+							},
 						}, -- [8]
 						nil, -- [9]
 						{
@@ -162,8 +169,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -172,8 +179,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -265,13 +272,13 @@ Bartender4DB = {
 		["BlizzardArt"] = {
 			["profiles"] = {
 				["Leelaturanga - Mankrik"] = {
-					["artLayout"] = "ONEBAR",
-					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -256,
 						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
+					["artLayout"] = "ONEBAR",
 				},
 				["Tiffpollard - Mankrik"] = {
 					["artLayout"] = "ONEBAR",
@@ -429,11 +436,10 @@ Bartender4DB = {
 			["outofrange"] = "hotkey",
 		},
 		["Tiffpollard - Mankrik"] = {
-			["focuscastmodifier"] = false,
-			["buttonlock"] = true,
 			["minimapIcon"] = {
 				["minimapPos"] = 151.8007663552151,
 			},
+			["focuscastmodifier"] = false,
 			["outofrange"] = "hotkey",
 		},
 		["Leelaturanga - Mankrik"] = {

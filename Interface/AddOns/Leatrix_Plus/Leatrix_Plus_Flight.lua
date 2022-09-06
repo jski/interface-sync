@@ -3408,7 +3408,7 @@
 					["0.44:0.67:0.55:0.77"] = 75, -- Shattrath, Allerian Stronghold (r-beauvais@hotmail.com reported 38)
 					["0.44:0.67:0.55:0.77:0.69:0.85"] = 153, -- Shattrath, Allerian Stronghold, Wildhammer Stronghold
 					["0.44:0.67:0.65:0.58:0.79:0.55"] = 172, -- Shattrath, Honor Hold, Hellfire Peninsula
-					["0.44:0.67:0.65:0.58"] = 111, -- Shattrath, Honor Hold
+					["0.44:0.67:0.65:0.58"] = 111, -- Shattrath, Honor Hold (Juniardo reported 157)
 					["0.44:0.67:0.38:0.50:0.52:0.51"] = 165, -- Shattrath, Telredor, Temple of Telhamat
 					["0.44:0.67:0.38:0.50"] = 84, -- Shattrath, Telredor
 					["0.44:0.67:0.38:0.50:0.27:0.44"] = 146, -- Shattrath, Telredor, Orebor Harborage

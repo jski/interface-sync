@@ -5,7 +5,7 @@ FishingBuddy_Player = {
 		["hide"] = false,
 	},
 	["Settings"] = {
-		["TotalTimeFishing"] = 1,
+		["TotalTimeFishing"] = 512.1999999999534,
 		["WatchCurrentZone"] = true,
 		["WatchElapsedTime"] = true,
 		["WatchHideTrash"] = true,
@@ -20,29 +20,29 @@ FishingBuddy_Player = {
 	},
 	["WatcherLocation"] = {
 		["grp_point"] = "CENTER",
-		["solo_y"] = -1.52587890625e-05,
-		["solo_x"] = -3.0517578125e-05,
-		["solo_point"] = "CENTER",
+		["solo_y"] = -40.2100830078125,
+		["solo_x"] = 7.5062255859375,
+		["solo_point"] = "TOP",
 		["grp_x"] = -3.0517578125e-05,
 		["solo_scale"] = 1,
 		["raid_point"] = "CENTER",
-		["raid_x"] = -3.0517578125e-05,
+		["raid_scale"] = 1,
 		["grp_scale"] = 1,
 		["grp_y"] = -1.52587890625e-05,
 		["raid_y"] = -1.52587890625e-05,
-		["raid_scale"] = 1,
+		["raid_x"] = -3.0517578125e-05,
 	},
 	["Version"] = 19500,
 }
 FBODF_PlayerInfo = {
 	["Outfit"] = {
 		["MainHandSlot"] = {
+			["color"] = "ffffffff",
+			["name"] = "Big Iron Fishing Pole",
+			["link"] = "|cffffffff|Hitem:6367::::::::70:::::::::|h[Big Iron Fishing Pole]|h|r",
 			["used"] = true,
-			["name"] = "Seth's Graphite Fishing Pole",
-			["link"] = "|cff1eff00|Hitem:25978::::::::66:::::::::|h[Seth's Graphite Fishing Pole]|h|r",
-			["color"] = "ff1eff00",
+			["item"] = "6367:0",
 			["slotid"] = 16,
-			["item"] = "25978:0",
 			["texture"] = 132931,
 		},
 		["SecondaryHandSlot"] = {

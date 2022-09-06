@@ -93,6 +93,7 @@ AtlasLootClassicDB = {
 			[34576] = "honorA:3990",
 			[35103] = "honorA:19000",
 			[35135] = "honorA:5700",
+			[34129] = "honorA:16650",
 			[33682] = "honorA:6840",
 			[44429] = "honorA:5700",
 			[24554] = "honorA:3800",
@@ -195,6 +196,7 @@ AtlasLootClassicDB = {
 			[28358] = "honorA:4750",
 			[33689] = "honorA:8550",
 			[33705] = "honorA:8550",
+			[29472] = "honorA:16650",
 			[33737] = "honorA:8550",
 			[31983] = "honorA:6650",
 			[28925] = "honorA:3800",
@@ -202,6 +204,9 @@ AtlasLootClassicDB = {
 			[33801] = "honorA:8550",
 			[32795] = "honorA:5320",
 			[32811] = "honorA:3990",
+			[29470] = "honorA:16650",
+			[33669] = "honorA:8550",
+			[29466] = "honorA:16650",
 			[32055] = "honorA:13300",
 			[33913] = "honorA:5130",
 			[30343] = "honorA:2280",
@@ -262,7 +267,7 @@ AtlasLootClassicDB = {
 			[35320] = "honorA:5130",
 			[33065] = "honorA:3990",
 			[30201] = "honorA:4750",
-			[33669] = "honorA:8550",
+			[29469] = "honorA:16650",
 			[31973] = "honorA:5320",
 			[32961] = "honorA:3325",
 			[33883] = "honorA:5130",
@@ -302,7 +307,7 @@ AtlasLootClassicDB = {
 		},
 		["Tiffpollard - Mankrik"] = {
 			["minimap"] = {
-				["minimapPos"] = 225.8709977661674,
+				["minimapPos"] = 227.9304955145303,
 			},
 			["GUI"] = {
 				["selected"] = {
@@ -313,9 +318,6 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Leelaturanga - Mankrik"] = {
-			["minimap"] = {
-				["minimapPos"] = 5.513951141781368,
-			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -331,6 +333,9 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 5.513951141781368,
 			},
 		},
 	},

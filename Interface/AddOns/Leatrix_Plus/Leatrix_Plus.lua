@@ -1,5 +1,5 @@
 ﻿----------------------------------------------------------------------
--- 	Leatrix Plus 3.0.03 (4th September 2022)
+-- 	Leatrix Plus 3.0.04 (4th September 2022)
 ----------------------------------------------------------------------
 
 --	01:Functns, 02:Locks, 03:Restart, 20:Live, 30:Isolated, 40:Player
@@ -19,7 +19,7 @@
 	local void
 
 	-- Version
-	LeaPlusLC["AddonVer"] = "3.0.03"
+	LeaPlusLC["AddonVer"] = "3.0.04"
 
 	-- Get locale table
 	local void, Leatrix_Plus = ...
@@ -1783,6 +1783,66 @@
 					elseif title == L["More Sunfury Signets"] then
 						-- Requires 10 Sunfury Signets
 						if GetItemCount(30810) >= 10 then return true end
+
+					-- Darkmoon Faire (Rinling)
+					elseif title == L["Copper Modulator"] then
+						if GetItemCount(4363) >= 5 then return true end
+					elseif title == L["Whirring Bronze Gizmo"] then
+						if GetItemCount(4375) >= 7 then return true end
+					elseif title == L["Green Fireworks"] then
+						if GetItemCount(9313) >= 36 then return true end
+					elseif title == L["Mechanical Repair Kits"] then
+						if GetItemCount(11590) >= 6 then return true end
+					elseif title == L["Thorium Widget"] then
+						if GetItemCount(15994) >= 6 then return true end
+					elseif title == L["More Thorium Widgets"] then
+						if GetItemCount(15994) >= 6 then return true end
+
+					-- Darkmoon Faire (Yebb Neblegear)
+					elseif title == L["Small Furry Paws"] then
+						if GetItemCount(5134) >= 5 then return true end
+					elseif title == L["Evil Bat Eyes"] then
+						if GetItemCount(11404) >= 10 then return true end
+					elseif title == L["Glowing Scorpid Blood"] then
+						if GetItemCount(19933) >= 10 then return true end
+					elseif title == L["More Bat Eyes"] then
+						if GetItemCount(11404) >= 10 then return true end
+					elseif title == L["More Glowing Scorpid Blood"] then
+						if GetItemCount(19933) >= 10 then return true end
+					elseif title == L["Soft Bushy Tails"] then
+						if GetItemCount(4582) >= 5 then return true end
+					elseif title == L["Torn Bear Pelts"] then
+						if GetItemCount(11407) >= 5 then return true end
+					elseif title == L["Vibrant Plumes"] then
+						if GetItemCount(5117) >= 5 then return true end
+
+					-- Darkmoon Faire (Chronos)
+					elseif title == L["Armor Kits"] then
+						if GetItemCount(15564) >= 8 then return true end
+					elseif title == L["Carnival Boots"] then
+						if GetItemCount(2309) >= 3 then return true end
+					elseif title == L["Carnival Jerkins"] then
+						if GetItemCount(2314) >= 3 then return true end
+					elseif title == L["Crocolisk Boy and the Bearded Murloc"] then
+						if GetItemCount(8185) >= 1 then return true end
+					elseif title == L["More Armor Kits"] then
+						if GetItemCount(15564) >= 8 then return true end
+					elseif title == L["The World's Largest Gnome!"] then
+						if GetItemCount(5739) >= 3 then return true end
+
+					-- Darkmoon Faire (Kerri Hicks)
+					elseif title == L["Big Black Mace"] then
+						if GetItemCount(7945) >= 1 then return true end
+					elseif title == L["Coarse Weightstone"] then
+						if GetItemCount(3240) >= 10 then return true end
+					elseif title == L["Green Iron Bracers"] then
+						if GetItemCount(3835) >= 3 then return true end
+					elseif title == L["Heavy Grinding Stone"] then
+						if GetItemCount(3486) >= 7 then return true end
+					elseif title == L["More Dense Grinding Stones"] then
+						if GetItemCount(12644) >= 8 then return true end
+					elseif title == L["Rituals of Strength"] then
+						if GetItemCount(12644) >= 8 then return true end
 
 					else return true
 					end
@@ -3634,7 +3694,7 @@
 				-- Mail button
 				MiniMapMailFrame:SetScale(0.75)
 				miniFrame.ClearAllPoints(MiniMapMailFrame)
-				MiniMapMailFrame:SetPoint("TOPLEFT", Minimap, "TOPLEFT", -19, -53)
+				MiniMapMailFrame:SetPoint("TOPLEFT", Minimap, "TOPLEFT", -19, -75)
 
 				-- Battleground queue button
 				MiniMapBattlefieldFrame:SetScale(0.75)
@@ -12921,7 +12981,7 @@
 		PageF.v:SetPoint('TOPLEFT', PageF.mt, 'BOTTOMLEFT', 0, -8);
 		PageF.v:SetPoint('RIGHT', PageF, -32, 0)
 		PageF.v:SetJustifyH('LEFT'); PageF.v:SetJustifyV('TOP');
-		PageF.v:SetNonSpaceWrap(true); PageF.v:SetText(L["BCC"] .. " " .. LeaPlusLC["AddonVer"])
+		PageF.v:SetNonSpaceWrap(true); PageF.v:SetText(L["WC"] .. " " .. LeaPlusLC["AddonVer"])
 
 		-- Add reload UI Button
 		local reloadb = LeaPlusLC:CreateButton("ReloadUIButton", PageF, "Reload", "BOTTOMRIGHT", -16, 10, 0, 25, true, "Your UI needs to be reloaded for some of the changes to take effect.|n|nYou don't have to click the reload button immediately but you do need to click it when you are done making changes and you want the changes to take effect.")

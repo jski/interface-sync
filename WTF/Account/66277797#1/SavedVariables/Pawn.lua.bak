@@ -488,7 +488,7 @@ PawnCommon = {
 			["SpecID"] = 2,
 		},
 	},
-	["LastVersion"] = 2.0602,
+	["LastVersion"] = 2.0604,
 	["ButtonPosition"] = 2,
 	["ShowLootUpgradeAdvisor"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,

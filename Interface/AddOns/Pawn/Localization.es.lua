@@ -294,6 +294,8 @@ Para más información sobre como personalizar Pawn, por favor lee el archivo (R
 		["Armor"] = "^%+?# p%. de armadura$",
 		["Armor2"] = "^UNUSED$",
 		["ArmorPenetration"] = "^Equipar: Tus ataques ignoran # p%. de la armadura de tu oponente%.$",
+		["ArmorPenetrationRating"] = "^Equipar: Aumenta el índice de penetración de armadura # p%.$",
+		["ArmorPenetrationShort"] = "^%+?# índice de penetración de armadura$",
 		["Avoidance"] = "^%+# eludir$",
 		["Axe"] = "^Hacha$",
 		["BagSlots"] = "^%d+ casillas .+$",
@@ -344,6 +346,7 @@ Para más información sobre como personalizar Pawn, por favor lee el archivo (R
 		["EnchantmentTitaniumWeaponChain"] = "^Cadena de Titanio$",
 		["Equip"] = "Equipar:",
 		["ExpertiseRating"] = "^Equipar: Aumenta tu índice de pericia [ue]n # ?p?%.$",
+		["ExpertiseRatingShort"] = "^%+?# índice de pericia$",
 		["FeralAp"] = "^Equipar: %+# p%. de poder de ataque solo en las formas felina, de oso y de oso temible%.$",
 		["FeralApMoonkin"] = "^Equipar: Aumenta e?n? ?# p%. el poder de ataque bajo formas felinas, de oso, de oso temible y de lechúcico lunar%.$",
 		["FeralApWrath"] = "^Aumenta e?n? ?# p%. el poder de ataque bajo formas felinas, de oso, de oso temible y de lechúcico lunar%.$",
@@ -705,6 +708,7 @@ This ¡el comando no se puede deshacer!]=],
 		["ScaleRename"] = "Renombrar",
 		["ScaleRenameTooltip"] = "Renombra ésta escala.",
 		["ScaleSelectorHeader"] = "Selecciona una escala:",
+		["ScaleSelectorNoneWarning"] = "Seleccione al menos uno.",
 		["ScaleSelectorShowingSuggestionsFor"] = "Mostrando sugerencias para",
 		["ScaleSelectorShowScale"] = "Muestra ésta escala en tooltips",
 		["ScaleSelectorShowScaleTooltip"] = [=[Cuando esta opción está activada, los valores de ésta escala se mostrarán en los tooltips de objetos de éste personaje.  Cada escala se puede mostrar para uno de tus personajes, varios personajes, o ningún personaje. 
@@ -916,7 +920,6 @@ if GetLocale() == "esES" then
 
 		local TooltipParsing_BurningCrusade =
 		{
-			["Ap2"] = "^Equipar: Aumenta el poder de ataque en # p%.$",
 			["SpellDamage2"] = "^Equipar: Aumenta el daño y la sanación de los hechizos mágicos y los efectos hasta en # p%.$",
 			["ArcaneSpellDamage"] = "^%+?# daño con hechizos Arcano$",
 			["FireSpellDamage"] = "^%+?# daño con hechizos de Fuego$",
